@@ -1,0 +1,11 @@
+server_name: health-server
+env: dev
+gin:
+  port: 9090
+db_config:
+  user: health
+  password: health123
+  addr: localhost:3306
+  dbname: health
+  max_open_conns: 128
+  max_idle_conns: 16
