@@ -2,37 +2,52 @@ package api
 
 import (
 	"github.com/gin-gonic/gin"
+	"go.uber.org/zap"
+	"health-server/internal/controller"
+	"health-server/internal/controller/api/additive"
+	"health-server/internal/controller/api/user"
+	"health-server/internal/kit"
+	"health-server/internal/logger"
 	"net/http"
 )
 
-func AuthMiddleware(requiredRole string) gin.HandlerFunc {
+func AuthMiddleware() gin.HandlerFunc {
 	return func(c *gin.Context) {
-		userRole := c.GetHeader("X-User-Role") // 假设用户角色通过请求头传递
-		if userRole != requiredRole {
-			c.JSON(http.StatusForbidden, gin.H{"error": "forbidden"})
+		ctx := controller.GetContext(c)
+		tokenString := c.GetHeader("Authorization")
+		if tokenString == "" {
+			logger.Logger.Error("token is required")
+			ctx.AuthError()
 			c.Abort()
 			return
 		}
+
+		payload, err := kit.ParseUserToken(tokenString)
+		if err != nil {
+			logger.Logger.Error("parse token failed", zap.Error(err), zap.String("token", tokenString))
+			ctx.AuthError()
+			c.Abort()
+			return
+		}
+		c.Set(controller.TokenKey, payload)
 		c.Next()
 	}
 }
 
 func Routes(engine *gin.Engine) {
-	// 无权限控制的路由
 	engine.GET("/", func(c *gin.Context) {
 		c.String(http.StatusOK, "Hello!")
 	})
 
-	// 定义用户路由组
-	userGroup := engine.Group("/user")
-	userGroup.Use(AuthMiddleware("user"))
+	userGroup := engine.Group("/app/user")
 	{
-		userGroup.GET("/profile", func(c *gin.Context) {
-			c.JSON(http.StatusOK, gin.H{"message": "User Profile"})
-		})
+		userGroup.GET("/login", user.Login)
+	}
 
-		userGroup.GET("/settings", func(c *gin.Context) {
-			c.JSON(http.StatusOK, gin.H{"message": "User Settings"})
-		})
+	itemGroup := engine.Group("/app/item")
+	itemGroup.Use(AuthMiddleware())
+	{
+		itemGroup.GET("/additive/get", additive.GetAdditive)
+		itemGroup.GET("/additive_category/get", additive.GetAdditiveCategory)
 	}
 }

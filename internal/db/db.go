@@ -12,7 +12,7 @@ var sqlDB *sql.DB // 原生 SQL DB 实例
 
 // InitDB 初始化数据库连接
 func InitDB(dbconfig config.DbConfig) error {
-	dsn := dbconfig.User + ":" + dbconfig.Password + "@tcp(" + dbconfig.Addr + ")/" + dbconfig.Dbname + "?charset=utf8"
+	dsn := dbconfig.User + ":" + dbconfig.Password + "@tcp(" + dbconfig.Addr + ")/" + dbconfig.Dbname + "?charset=utf8&parseTime=true"
 
 	var err error
 	DB, err = gorm.Open(mysql.Open(dsn), &gorm.Config{})

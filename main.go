@@ -9,6 +9,7 @@ import (
 	"health-server/internal/http"
 	"health-server/internal/kit"
 	"health-server/internal/logger"
+	"health-server/internal/mgr"
 	"log"
 	"os"
 	"os/signal"
@@ -47,6 +48,7 @@ func main() {
 	runner := kit.NewRunnerSlice()
 
 	// 其他运行项
+	runner.WithRunner(mgr.GetAdditiveMgr())
 	runner.WithRunner(http.NewHttpServer(http.ServerConfig{Port: config.Get().Gin.Port, Env: config.Get().Env}, api.Routes))
 
 	runner.Start(runnerCtx)
