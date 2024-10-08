@@ -28,7 +28,8 @@ func GenerateUserToken(payload *UserTokenPayload, exp int64) (string, error) {
 	return token.SignedString([]byte(secretKey))
 }
 
-func ParseUserToken(tokenString string) (*UserTokenPayload, error) {
+func ParseUserToken(tokenString string) (*UserTokenPayload, bool, error) {
+	expired := false
 	token, err := jwt.Parse(tokenString, func(token *jwt.Token) (interface{}, error) {
 		if _, ok := token.Method.(*jwt.SigningMethodHMAC); !ok {
 			return nil, fmt.Errorf("unexpected signing method: %v", token.Header["alg"])
@@ -37,13 +38,13 @@ func ParseUserToken(tokenString string) (*UserTokenPayload, error) {
 	})
 
 	if err != nil {
-		return nil, err
+		return nil, false, err
 	}
 
 	if claims, ok := token.Claims.(jwt.MapClaims); ok && token.Valid {
 		if exp, ok := claims["exp"].(float64); ok {
 			if int64(exp) < time.Now().Unix() {
-				return nil, fmt.Errorf("token has expired")
+				expired = true
 			}
 		}
 
@@ -52,10 +53,10 @@ func ParseUserToken(tokenString string) (*UserTokenPayload, error) {
 		var payload UserTokenPayload
 		err := json.Unmarshal([]byte(payloadJSON), &payload)
 		if err != nil {
-			return nil, err
+			return nil, false, err
 		}
-		return &payload, nil
+		return &payload, expired, nil
 	}
 
-	return nil, fmt.Errorf("invalid token")
+	return nil, false, fmt.Errorf("invalid token")
 }

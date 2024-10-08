@@ -1,6 +1,7 @@
 package mgr
 
 import (
+	"encoding/json"
 	"go.uber.org/zap"
 	"health-server/internal/kit"
 	"health-server/internal/logger"
@@ -12,7 +13,7 @@ import (
 type AdditiveMgr struct {
 	sync.RWMutex
 	cancelTick    chan struct{}
-	additivesMap  map[uint64]*model.Additive
+	additivesMap  map[uint64]*Additive
 	categoriesMap map[uint64]*model.AdditiveCategory
 }
 
@@ -23,11 +24,24 @@ func GetAdditiveMgr() *AdditiveMgr {
 	additiveMgrOnce.Do(func() {
 		additiveMgrInstance = &AdditiveMgr{
 			cancelTick:    make(chan struct{}),
-			additivesMap:  make(map[uint64]*model.Additive),
+			additivesMap:  make(map[uint64]*Additive),
 			categoriesMap: make(map[uint64]*model.AdditiveCategory),
 		}
 	})
 	return additiveMgrInstance
+}
+
+type Additive struct {
+	ID        uint64 `json:"id"`
+	Name      string `json:"name"`
+	Desc      string `json:"desc"`
+	GB        string `json:"gb"`
+	Status    string `json:"status"`
+	Category  []int  `json:"category"`
+	Tags      []int  `json:"tags"`
+	ImageURL  string `json:"image_url"`
+	CreatedAt string `json:"created_at"`
+	UpdatedAt string `json:"updated_at"`
 }
 
 func (a *AdditiveMgr) Start(ctx *kit.RunnerContext) {
@@ -62,9 +76,33 @@ func (a *AdditiveMgr) Load() error {
 	if err != nil {
 		return err
 	}
-	additivesMap := make(map[uint64]*model.Additive)
+	additivesMap := make(map[uint64]*Additive)
 	for _, additive := range additives {
-		additivesMap[additive.ID] = additive
+		category := make([]int, 0)
+		if additive.Category != nil {
+			err := json.Unmarshal(additive.Category, &category)
+			if err != nil {
+				return err
+			}
+		}
+		tags := make([]int, 0)
+		if additive.Tags != nil {
+			err := json.Unmarshal(additive.Tags, &tags)
+			if err != nil {
+				return err
+			}
+		}
+		additivesMap[additive.ID] = &Additive{
+			ID:        additive.ID,
+			Name:      additive.Name,
+			Desc:      additive.Desc,
+			GB:        additive.GB,
+			Category:  category,
+			Tags:      tags,
+			ImageURL:  additive.ImageURL,
+			CreatedAt: additive.CreatedAt.String(),
+			UpdatedAt: additive.UpdatedAt.String(),
+		}
 	}
 	a.additivesMap = additivesMap
 
@@ -88,7 +126,7 @@ func (a *AdditiveMgr) Stop(ctx *kit.RunnerContext) {
 	close(a.cancelTick)
 }
 
-func (a *AdditiveMgr) GetAdditives() map[uint64]*model.Additive {
+func (a *AdditiveMgr) GetAdditives() map[uint64]*Additive {
 	a.RLock()
 	defer a.RUnlock()
 	return a.additivesMap

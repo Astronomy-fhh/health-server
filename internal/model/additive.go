@@ -6,16 +6,15 @@ import (
 )
 
 type Additive struct {
-	ID        uint64    `gorm:"primaryKey;autoIncrement"` // 自增ID
-	Name      string    `gorm:"size:100;unique;not null"` // 唯一名称
-	Desc      []byte    `gorm:"type:blob"`                // 描述，使用 BLOB
-	GB        string    `gorm:"size:50"`                  // GB 标准号
-	Status    []byte    `gorm:"type:blob"`                // 状态，使用 BLOB
-	Category  []byte    `gorm:"type:blob"`                // 分类，使用 BLOB
-	Tags      []byte    `gorm:"type:blob"`                // 标签，使用 BLOB
-	ImageURL  string    `gorm:"size:255"`                 // 图片 URL
-	CreatedAt time.Time `gorm:"autoCreateTime"`           // 创建时间
-	UpdatedAt time.Time `gorm:"autoUpdateTime"`           // 更新时间
+	ID        uint64    `gorm:"primaryKey;autoIncrement" json:"id"`   // 自增ID
+	Name      string    `gorm:"size:100;unique;not null" json:"name"` // 唯一名称
+	Desc      string    `gorm:"size:511" json:"desc"`                 // 描述，使用 BLOB
+	GB        string    `gorm:"size:50" json:"gb"`                    // GB 标准号
+	Category  []byte    `gorm:"type:blob" json:"category"`            // 分类，使用 BLOB
+	Tags      []byte    `gorm:"type:blob" json:"tags"`                // 标签，使用 BLOB
+	ImageURL  string    `gorm:"size:255" json:"image_url"`            // 图片 URL
+	CreatedAt time.Time `gorm:"autoCreateTime" json:"created_at"`     // 创建时间
+	UpdatedAt time.Time `gorm:"autoUpdateTime" json:"updated_at"`     // 更新时间
 }
 
 func (Additive) TableName() string {

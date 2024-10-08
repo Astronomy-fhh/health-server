@@ -1,13 +1,12 @@
-CREATE TABLE additive
+CREATE TABLE health.additive
 (
     id         BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
     name       VARCHAR(100) NOT NULL UNIQUE,
-    `desc`     BLOB,
-    gb         VARCHAR(50),
-    status     BLOB,
-    category   BLOB,
-    tags       BLOB,
-    image_url  VARCHAR(255),
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
-) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+    `desc`       VARCHAR(511) DEFAULT '',
+    gb         VARCHAR(50)  DEFAULT '',
+    category   BLOB         DEFAULT NULL,
+    tags       BLOB         DEFAULT NULL,
+    image_url  VARCHAR(255) DEFAULT '',
+    created_at TIMESTAMP    DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP    DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);

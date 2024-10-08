@@ -22,12 +22,15 @@ func AuthMiddleware() gin.HandlerFunc {
 			return
 		}
 
-		payload, err := kit.ParseUserToken(tokenString)
+		payload, expired, err := kit.ParseUserToken(tokenString)
 		if err != nil {
 			logger.Logger.Error("parse token failed", zap.Error(err), zap.String("token", tokenString))
 			ctx.AuthError()
 			c.Abort()
 			return
+		}
+		if expired {
+			logger.Logger.Warn("token expired", zap.String("token", tokenString))
 		}
 		c.Set(controller.TokenKey, payload)
 		c.Next()
@@ -41,7 +44,7 @@ func Routes(engine *gin.Engine) {
 
 	userGroup := engine.Group("/app/user")
 	{
-		userGroup.GET("/login", user.Login)
+		userGroup.POST("/login", user.Login)
 	}
 
 	itemGroup := engine.Group("/app/item")
