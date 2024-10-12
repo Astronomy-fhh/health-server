@@ -2,10 +2,15 @@ server_name: health-server
 env: dev
 gin:
   port: 9090
-db_config:
+db:
   user: health
   password: health123
   addr: localhost:3306
   dbname: health
   max_open_conns: 128
   max_idle_conns: 16
+s3:
+  endpoint: http://192.168.1.18:9000
+  access_key: VYIpMxUIhutPXM0fKYA6
+  secret_key: bUVYie61ikq55McJVGnuWxtglyPvQwmeKRn3bdf9
+  region: us-east-1

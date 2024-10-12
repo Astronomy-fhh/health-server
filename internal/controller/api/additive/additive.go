@@ -8,22 +8,12 @@ import (
 
 func GetAdditive(c *gin.Context) {
 	ctx := controller.GetContext(c)
-	token := ctx.GetToken()
-	if token == nil {
-		ctx.AuthError()
-		return
-	}
 	additives := mgr.GetAdditiveMgr().GetAdditives()
 	ctx.Success(additives)
 }
 
 func GetAdditiveCategory(c *gin.Context) {
 	ctx := controller.GetContext(c)
-	token := ctx.GetToken()
-	if token == nil {
-		ctx.AuthError()
-		return
-	}
 	categories := mgr.GetAdditiveMgr().GetCategories()
 	ctx.Success(categories)
 }

@@ -10,6 +10,7 @@ import (
 	"health-server/internal/kit"
 	"health-server/internal/logger"
 	"health-server/internal/mgr"
+	"health-server/internal/s3"
 	"log"
 	"os"
 	"os/signal"
@@ -35,7 +36,7 @@ func main() {
 	logger.Logger.Info("InitConfig", zap.Any("config", config.Get()))
 
 	// 初始化DB
-	err = db.InitDB(config.Get().DbConfig)
+	err = db.InitDB(config.Get().Db)
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -49,6 +50,7 @@ func main() {
 
 	// 其他运行项
 	runner.WithRunner(mgr.GetAdditiveMgr())
+	runner.WithRunner(s3.InitInstance(config.Get().S3))
 	runner.WithRunner(http.NewHttpServer(http.ServerConfig{Port: config.Get().Gin.Port, Env: config.Get().Env}, api.Routes))
 
 	runner.Start(runnerCtx)

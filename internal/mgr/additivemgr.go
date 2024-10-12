@@ -37,7 +37,7 @@ type Additive struct {
 	Desc      string `json:"desc"`
 	GB        string `json:"gb"`
 	Status    string `json:"status"`
-	Category  []int  `json:"category"`
+	Category  string `json:"category"`
 	Tags      []int  `json:"tags"`
 	ImageURL  string `json:"image_url"`
 	CreatedAt string `json:"created_at"`
@@ -49,6 +49,7 @@ func (a *AdditiveMgr) Start(ctx *kit.RunnerContext) {
 	if err != nil {
 		logger.Logger.Error("start load additives failed", zap.Error(err))
 		ctx.Error(err)
+		return
 	}
 	go a.TickLoad()
 }
@@ -78,17 +79,11 @@ func (a *AdditiveMgr) Load() error {
 	}
 	additivesMap := make(map[uint64]*Additive)
 	for _, additive := range additives {
-		category := make([]int, 0)
-		if additive.Category != nil {
-			err := json.Unmarshal(additive.Category, &category)
-			if err != nil {
-				return err
-			}
-		}
 		tags := make([]int, 0)
 		if additive.Tags != nil {
 			err := json.Unmarshal(additive.Tags, &tags)
 			if err != nil {
+				logger.Logger.Error("unmarshal tags failed", zap.Error(err))
 				return err
 			}
 		}
@@ -97,7 +92,7 @@ func (a *AdditiveMgr) Load() error {
 			Name:      additive.Name,
 			Desc:      additive.Desc,
 			GB:        additive.GB,
-			Category:  category,
+			Category:  string(additive.Category),
 			Tags:      tags,
 			ImageURL:  additive.ImageURL,
 			CreatedAt: additive.CreatedAt.String(),

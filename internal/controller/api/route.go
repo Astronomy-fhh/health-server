@@ -5,6 +5,7 @@ import (
 	"go.uber.org/zap"
 	"health-server/internal/controller"
 	"health-server/internal/controller/api/additive"
+	"health-server/internal/controller/api/product"
 	"health-server/internal/controller/api/user"
 	"health-server/internal/kit"
 	"health-server/internal/logger"
@@ -52,5 +53,6 @@ func Routes(engine *gin.Engine) {
 	{
 		itemGroup.GET("/additive/get", additive.GetAdditive)
 		itemGroup.GET("/additive_category/get", additive.GetAdditiveCategory)
+		itemGroup.GET("/product/img_url/get", product.GetImgUrl)
 	}
 }

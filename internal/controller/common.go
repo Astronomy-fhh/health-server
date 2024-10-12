@@ -55,6 +55,12 @@ func (c *Context) GetToken() *kit.UserTokenPayload {
 	return token
 }
 
+func (c *Context) MustGetToken() *kit.UserTokenPayload {
+	value, _ := c.ginCtx.Get(TokenKey)
+	token, _ := value.(*kit.UserTokenPayload)
+	return token
+}
+
 func (c *Context) GetReq(obj interface{}) error {
 	return c.ginCtx.ShouldBindBodyWithJSON(obj)
 }

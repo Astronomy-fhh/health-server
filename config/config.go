@@ -9,7 +9,8 @@ type ServerConfig struct {
 	ServerName string    `yaml:"server_name"`
 	Env        string    `yaml:"env"`
 	Gin        GinConfig `yaml:"gin"`
-	DbConfig   DbConfig  `yaml:"db_config"`
+	Db         DbConfig  `yaml:"db"`
+	S3         S3Config  `yaml:"s3"`
 }
 
 type DbConfig struct {
@@ -19,6 +20,13 @@ type DbConfig struct {
 	Dbname       string `yaml:"dbname"`
 	MaxOpenConns int    `yaml:"max_open_conns"`
 	MaxIdleConns int    `yaml:"max_idle_conns"`
+}
+
+type S3Config struct {
+	Endpoint  string `yaml:"endpoint"`
+	AccessKey string `yaml:"access_key"`
+	SecretKey string `yaml:"secret_key"`
+	Region    string `yaml:"region"`
 }
 
 type GinConfig struct {

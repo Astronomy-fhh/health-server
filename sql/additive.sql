@@ -4,7 +4,7 @@ CREATE TABLE health.additive
     name       VARCHAR(100) NOT NULL UNIQUE,
     `desc`       VARCHAR(511) DEFAULT '',
     gb         VARCHAR(50)  DEFAULT '',
-    category   BLOB         DEFAULT NULL,
+    category   VARCHAR(100)  DEFAULT '',
     tags       BLOB         DEFAULT NULL,
     image_url  VARCHAR(255) DEFAULT '',
     created_at TIMESTAMP    DEFAULT CURRENT_TIMESTAMP,

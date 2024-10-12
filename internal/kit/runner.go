@@ -11,7 +11,7 @@ type RunnerContext struct {
 
 func NewRunnerContext() *RunnerContext {
 	return &RunnerContext{
-		error: make(chan error),
+		error: make(chan error, 1),
 	}
 }
 
@@ -51,7 +51,7 @@ func (rs *RunnerSlice) Start(ctx *RunnerContext) {
 }
 
 func (rs *RunnerSlice) Stop(ctx *RunnerContext) {
-	for _, r := range rs.runners {
-		r.Stop(ctx)
+	for i := len(rs.runners) - 1; i >= 0; i-- {
+		rs.runners[i].Stop(ctx)
 	}
 }
