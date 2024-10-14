@@ -4,8 +4,8 @@ import (
 	"github.com/gin-gonic/gin"
 	"go.uber.org/zap"
 	"health-server/internal/controller"
-	"health-server/internal/controller/api/additive"
 	"health-server/internal/controller/api/product"
+	"health-server/internal/controller/api/system"
 	"health-server/internal/controller/api/user"
 	"health-server/internal/kit"
 	"health-server/internal/logger"
@@ -43,16 +43,29 @@ func Routes(engine *gin.Engine) {
 		c.String(http.StatusOK, "Hello!")
 	})
 
-	userGroup := engine.Group("/app/user")
+	userGroup := engine.Group("/api/users")
 	{
-		userGroup.POST("/login", user.Login)
+		userGroup.POST("/login", user.Login) // 用户登录接口，不需要权限
 	}
 
-	itemGroup := engine.Group("/app/item")
-	itemGroup.Use(AuthMiddleware())
+	authUserGroup := engine.Group("/api/users")
+	authUserGroup.Use(AuthMiddleware()) // 应用权限中间件
 	{
-		itemGroup.GET("/additive/get", additive.GetAdditive)
-		itemGroup.GET("/additive_category/get", additive.GetAdditiveCategory)
-		itemGroup.GET("/product/img_url/get", product.GetImgUrl)
+		authUserGroup.GET("/info", user.GetInfo) // 获取用户信息
+	}
+
+	systemGroup := engine.Group("/api/system")
+	systemGroup.Use(AuthMiddleware())
+	{
+		systemGroup.GET("/info", system.Info) // 获取系统信息 包含添加剂信息和配置信息
+	}
+
+	// 产品相关路由
+	productGroup := engine.Group("/api/products")
+	productGroup.Use(AuthMiddleware())
+	{
+		productGroup.GET("/imgUrl", product.GetImgUrl) // 获取产品图片上传地址
+		productGroup.POST("/upload", product.Upload)   // 上传商品信息
+		productGroup.GET("/:id", product.Get)          // 获取指定 ID 的产品
 	}
 }

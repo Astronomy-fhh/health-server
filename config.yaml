@@ -14,3 +14,5 @@ s3:
   access_key: VYIpMxUIhutPXM0fKYA6
   secret_key: bUVYie61ikq55McJVGnuWxtglyPvQwmeKRn3bdf9
   region: us-east-1
+  product_image_uri: http://192.168.1.18:9000/health-img/
+  user_avatar_uri: http://192.168.1.18:9000/health-avatar/

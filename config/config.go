@@ -23,10 +23,12 @@ type DbConfig struct {
 }
 
 type S3Config struct {
-	Endpoint  string `yaml:"endpoint"`
-	AccessKey string `yaml:"access_key"`
-	SecretKey string `yaml:"secret_key"`
-	Region    string `yaml:"region"`
+	Endpoint        string `yaml:"endpoint"`
+	AccessKey       string `yaml:"access_key"`
+	SecretKey       string `yaml:"secret_key"`
+	Region          string `yaml:"region"`
+	ProductImageUri string `yaml:"product_image_uri"`
+	UserAvatarUri   string `yaml:"user_avatar_uri"`
 }
 
 type GinConfig struct {

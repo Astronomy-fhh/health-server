@@ -7,6 +7,7 @@ import (
 	"health-server/internal/controller"
 	"health-server/internal/kit"
 	"health-server/internal/logger"
+	"health-server/internal/mgr"
 	"health-server/internal/model"
 	"time"
 )
@@ -16,9 +17,8 @@ type LoginReq struct {
 }
 
 type LoginResp struct {
-	UserInfo *LoginUserInfo `json:"userInfo"`
-	Token    string         `json:"token"`
-	Expire   int64          `json:"expire"`
+	Token  string `json:"token"`
+	Expire int64  `json:"expire"`
 }
 
 type LoginUserInfo struct {
@@ -38,6 +38,7 @@ func Login(c *gin.Context) {
 	var user *model.User
 	// 已经注册的用户 找到该账号信息 返回
 	if tokenString != "" {
+		logger.Logger.Info("user login by token", zap.String("token", tokenString))
 		tokenInfo, _, err := kit.ParseUserToken(tokenString)
 		if err != nil {
 			logger.Logger.Error("parse user token failed", zap.Error(err))
@@ -64,6 +65,7 @@ func Login(c *gin.Context) {
 		}
 
 		nowTime := time.Now().UTC()
+
 		user = &model.User{
 			UID:          uid,
 			DID:          "",
@@ -71,6 +73,16 @@ func Login(c *gin.Context) {
 			LastLoginAt:  nowTime,
 		}
 		err := model.CreateUser(user)
+		if err != nil {
+			ctx.Error(err)
+			return
+		}
+
+		// 设置默认的昵称和头像
+		defaultUser := mgr.GetUserDefaultMgr().GetDefaultUser(user.ID)
+		user.Name = defaultUser.Name
+		user.SystemAvatar = defaultUser.Img
+		err = model.UpdateUser(user)
 		if err != nil {
 			ctx.Error(err)
 			return
@@ -87,19 +99,38 @@ func Login(c *gin.Context) {
 	}
 
 	resp := LoginResp{
-		UserInfo: &LoginUserInfo{
-			Uid:          user.UID,
-			Name:         user.Name,
-			Did:          user.DID,
-			SystemAvatar: user.SystemAvatar,
-			CustomAvatar: user.CustomAvatar,
-			BindID:       user.BindID,
-		},
 		Token:  token,
 		Expire: tokenExp,
 	}
+	logger.Logger.Info("user login success", zap.Any("user", user))
+	ctx.Success(resp)
+}
 
-	logger.Logger.Info("user login success", zap.Any("resp.userInfo", resp.UserInfo))
+func GetInfo(c *gin.Context) {
+	ctx := controller.GetContext(c)
+	token := ctx.MustGetToken()
+
+	user, err := model.GetUserByUID(token.Uid)
+	if err != nil {
+		logger.Logger.Error("get user by uid failed", zap.Error(err))
+		ctx.DefaultError()
+		return
+	}
+	if user == nil {
+		ctx.ParamError(errors.New("user not found"))
+		return
+	}
+
+	resp := LoginUserInfo{
+		Uid:          user.UID,
+		Name:         user.Name,
+		Did:          user.DID,
+		SystemAvatar: user.SystemAvatar,
+		CustomAvatar: user.CustomAvatar,
+		BindID:       user.BindID,
+	}
+
+	logger.Logger.Info("get user info success", zap.Any("resp", resp))
 
 	ctx.Success(resp)
 }

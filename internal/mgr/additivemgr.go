@@ -12,9 +12,9 @@ import (
 
 type AdditiveMgr struct {
 	sync.RWMutex
-	cancelTick    chan struct{}
-	additivesMap  map[uint64]*Additive
-	categoriesMap map[uint64]*model.AdditiveCategory
+	cancelTick   chan struct{}
+	additivesMap map[uint64]*Additive
+	tagsMap      map[uint64]*model.AdditiveTag
 }
 
 var additiveMgrInstance *AdditiveMgr
@@ -23,9 +23,9 @@ var additiveMgrOnce sync.Once
 func GetAdditiveMgr() *AdditiveMgr {
 	additiveMgrOnce.Do(func() {
 		additiveMgrInstance = &AdditiveMgr{
-			cancelTick:    make(chan struct{}),
-			additivesMap:  make(map[uint64]*Additive),
-			categoriesMap: make(map[uint64]*model.AdditiveCategory),
+			cancelTick:   make(chan struct{}),
+			additivesMap: make(map[uint64]*Additive),
+			tagsMap:      make(map[uint64]*model.AdditiveTag),
 		}
 	})
 	return additiveMgrInstance
@@ -92,7 +92,7 @@ func (a *AdditiveMgr) Load() error {
 			Name:      additive.Name,
 			Desc:      additive.Desc,
 			GB:        additive.GB,
-			Category:  string(additive.Category),
+			Category:  additive.Category,
 			Tags:      tags,
 			ImageURL:  additive.ImageURL,
 			CreatedAt: additive.CreatedAt.String(),
@@ -101,16 +101,16 @@ func (a *AdditiveMgr) Load() error {
 	}
 	a.additivesMap = additivesMap
 
-	categories, err := model.GetAllAdditiveCategories()
+	tags, err := model.GetAllAdditiveTags()
 	if err != nil {
 		return err
 	}
 
-	categoriesMap := make(map[uint64]*model.AdditiveCategory)
-	for _, category := range categories {
-		categoriesMap[category.ID] = category
+	tagsMap := make(map[uint64]*model.AdditiveTag)
+	for _, category := range tags {
+		tagsMap[category.ID] = category
 	}
-	a.categoriesMap = categoriesMap
+	a.tagsMap = tagsMap
 
 	logger.Logger.Info("load additives success")
 
@@ -127,8 +127,8 @@ func (a *AdditiveMgr) GetAdditives() map[uint64]*Additive {
 	return a.additivesMap
 }
 
-func (a *AdditiveMgr) GetCategories() map[uint64]*model.AdditiveCategory {
+func (a *AdditiveMgr) GetTags() map[uint64]*model.AdditiveTag {
 	a.RLock()
 	defer a.RUnlock()
-	return a.categoriesMap
+	return a.tagsMap
 }

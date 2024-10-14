@@ -63,3 +63,7 @@ func GetUserByDID(uid string) (*User, error) {
 func CreateUser(user *User) error {
 	return db.DB.Create(user).Error
 }
+
+func UpdateUser(user *User) error {
+	return db.DB.Save(user).Error
+}
