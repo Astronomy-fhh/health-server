@@ -89,3 +89,9 @@ func (u *UserDefaultMgr) GetDefaultUser(uid uint64) model.UserDefault {
 	userDefault := u.defaultUsers[uid%uint64(userLen)]
 	return *userDefault
 }
+
+func (u *UserDefaultMgr) GetDefaultUsers() []*model.UserDefault {
+	u.RLock()
+	defer u.RUnlock()
+	return u.defaultUsers
+}

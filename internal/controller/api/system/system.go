@@ -15,6 +15,7 @@ type InfoResp struct {
 	Additives         map[uint64]*mgr.Additive      `json:"additives"`
 	AdditiveTags      map[uint64]*model.AdditiveTag `json:"additive_tags"`
 	ProductImageTypes map[int]string                `json:"product_image_types"`
+	DefaultUsers      []*model.UserDefault          `json:"default_users"`
 }
 
 func Info(c *gin.Context) {
@@ -28,6 +29,7 @@ func Info(c *gin.Context) {
 		Additives:         additives,
 		AdditiveTags:      tags,
 		ProductImageTypes: def.ProductImageTypes,
+		DefaultUsers:      mgr.GetUserDefaultMgr().GetDefaultUsers(),
 	}
 	ctx.Success(reply)
 }

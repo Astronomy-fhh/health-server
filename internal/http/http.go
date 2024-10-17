@@ -7,6 +7,7 @@ import (
 	"go.uber.org/zap"
 	"health-server/internal/kit"
 	"health-server/internal/logger"
+	"io"
 	"net/http"
 	"time"
 )
@@ -58,7 +59,10 @@ func CustomLogger() gin.HandlerFunc {
 		status := c.Writer.Status()
 		method := c.Request.Method
 		path := c.Request.URL.Path
-		logger.Logger.Sugar().Infof("| Http Request | %s | %d | %s | %s | %s", method, status, latency, path, c.ClientIP())
+
+		body, _ := io.ReadAll(c.Request.Body)
+
+		logger.Logger.Sugar().Infof("| Http Request | %s | %d | %s | %s | %s | %s", method, status, latency, path, string(body), c.Request.RemoteAddr)
 	}
 }
 

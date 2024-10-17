@@ -83,7 +83,7 @@ func (a *AdditiveMgr) Load() error {
 		if additive.Tags != nil {
 			err := json.Unmarshal(additive.Tags, &tags)
 			if err != nil {
-				logger.Logger.Error("unmarshal tags failed", zap.Error(err))
+				logger.Logger.Error("unmarshal tags failed", zap.Error(err), zap.String("tags", string(additive.Tags)))
 				return err
 			}
 		}

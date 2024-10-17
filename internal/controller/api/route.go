@@ -51,7 +51,8 @@ func Routes(engine *gin.Engine) {
 	authUserGroup := engine.Group("/api/users")
 	authUserGroup.Use(AuthMiddleware()) // 应用权限中间件
 	{
-		authUserGroup.GET("/info", user.GetInfo) // 获取用户信息
+		authUserGroup.GET("/info", user.GetInfo)               // 获取用户信息
+		authUserGroup.POST("/changeAvatar", user.ChangeAvatar) // 修改系统的头像和名称
 	}
 
 	systemGroup := engine.Group("/api/system")

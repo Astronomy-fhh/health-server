@@ -134,3 +134,51 @@ func GetInfo(c *gin.Context) {
 
 	ctx.Success(resp)
 }
+
+func ChangeAvatar(c *gin.Context) {
+	ctx := controller.GetContext(c)
+	token := ctx.MustGetToken()
+
+	var req struct {
+		Index int `json:"index"`
+	}
+	err := ctx.GetReq(&req)
+	if err != nil {
+		ctx.ParamError(err)
+		return
+	}
+
+	user, err := model.GetUserByUID(token.Uid)
+	if err != nil {
+		logger.Logger.Error("get user by uid failed", zap.Error(err))
+		ctx.DefaultError()
+		return
+	}
+	if user == nil {
+		ctx.ParamError(errors.New("user not found"))
+		return
+	}
+
+	defaultUser := mgr.GetUserDefaultMgr().GetDefaultUser(uint64(req.Index))
+	user.SystemAvatar = defaultUser.Img
+	user.Name = defaultUser.Name
+	err = model.UpdateUser(user)
+	if err != nil {
+		logger.Logger.Error("update user failed", zap.Error(err))
+		ctx.DefaultError()
+		return
+	}
+
+	logger.Logger.Info("change user avatar", zap.String("uid", user.UID), zap.Any("defaultUser", defaultUser))
+
+	resp := LoginUserInfo{
+		Uid:          user.UID,
+		Name:         user.Name,
+		Did:          user.DID,
+		SystemAvatar: user.SystemAvatar,
+		CustomAvatar: user.CustomAvatar,
+		BindID:       user.BindID,
+	}
+
+	ctx.Success(resp)
+}
