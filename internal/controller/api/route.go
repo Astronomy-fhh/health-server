@@ -53,6 +53,7 @@ func Routes(engine *gin.Engine) {
 	{
 		authUserGroup.GET("/info", user.GetInfo)               // 获取用户信息
 		authUserGroup.POST("/changeAvatar", user.ChangeAvatar) // 修改系统的头像和名称
+		authUserGroup.POST("/feedback", user.AddFeedBack)      // 添加反馈
 	}
 
 	systemGroup := engine.Group("/api/system")
@@ -67,6 +68,6 @@ func Routes(engine *gin.Engine) {
 	{
 		productGroup.GET("/imgUrl", product.GetImgUrl) // 获取产品图片上传地址
 		productGroup.POST("/upload", product.Upload)   // 上传商品信息
-		productGroup.GET("/:id", product.Get)          // 获取指定 ID 的产品
+		productGroup.POST("/get", product.Get)         // 获取指定 ID 的产品
 	}
 }

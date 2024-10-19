@@ -90,5 +90,56 @@ func Upload(c *gin.Context) {
 	ctx.Success(nil)
 }
 
+type GetProductReq struct {
+	Barcode string `json:"barcode"`
+}
+
+type GetProductResp struct {
+	ID        uint64         `json:"id"`
+	Name      string         `json:"name"`
+	Barcode   string         `json:"barcode"`
+	Additives []int          `json:"additives"`
+	Images    map[int]string `json:"images"`
+	OtherDesc string         `json:"other_desc"`
+}
+
 func Get(c *gin.Context) {
+	ctx := controller.GetContext(c)
+	var req GetProductReq
+	err := ctx.GetReq(&req)
+	if err != nil {
+		ctx.ParamError(err)
+		return
+	}
+	if req.Barcode == "" {
+		ctx.ParamError(errors.New("barcode is required"))
+		return
+	}
+	product, err := model.GetProductByBarcode(req.Barcode)
+	if err != nil {
+		ctx.Error(err)
+		return
+	}
+	if product == nil {
+		product = &model.Product{
+			ID: 0,
+		}
+	}
+
+	resp := GetProductResp{
+		ID:        product.ID,
+		Name:      product.Name,
+		Barcode:   product.Barcode,
+		Additives: make([]int, 0),
+		Images:    make(map[int]string),
+		OtherDesc: product.OtherDesc,
+	}
+	if product.Additives != nil {
+		_ = json.Unmarshal(product.Additives, &resp.Additives)
+	}
+	if product.Images != nil {
+		_ = json.Unmarshal(product.Images, &resp.Images)
+	}
+
+	ctx.Success(resp)
 }

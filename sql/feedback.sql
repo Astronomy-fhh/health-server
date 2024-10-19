@@ -1,0 +1,9 @@
+CREATE TABLE health.feedback
+(
+    id         BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    `desc`       VARCHAR(100) UNIQUE NOT NULL,
+    stats      INT                 NOT NULL,
+    create_uid VARCHAR(100)        NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);

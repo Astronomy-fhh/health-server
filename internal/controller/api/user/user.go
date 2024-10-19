@@ -182,3 +182,37 @@ func ChangeAvatar(c *gin.Context) {
 
 	ctx.Success(resp)
 }
+
+type AddFeedBackReq struct {
+	Desc string `json:"desc"`
+}
+
+func AddFeedBack(c *gin.Context) {
+	ctx := controller.GetContext(c)
+	token := ctx.MustGetToken()
+
+	var req AddFeedBackReq
+	err := ctx.GetReq(&req)
+	if err != nil {
+		ctx.ParamError(err)
+		return
+	}
+	if req.Desc == "" {
+		ctx.ParamError(errors.New("desc is required"))
+		return
+	}
+	feedback := &model.Feedback{
+		Desc:      req.Desc,
+		Stats:     0,
+		CreateUid: token.Uid,
+	}
+
+	err = model.AddFeedback(feedback)
+	if err != nil {
+		logger.Logger.Error("add feedback failed", zap.Error(err))
+		ctx.DefaultError()
+		return
+	}
+	logger.Logger.Info("add feedback success", zap.Any("feedback", feedback))
+	ctx.Success(nil)
+}

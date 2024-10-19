@@ -51,6 +51,7 @@ func main() {
 	// 其他运行项
 	runner.WithRunner(mgr.GetAdditiveMgr())
 	runner.WithRunner(mgr.GetUserDefaultMgr())
+	runner.WithRunner(mgr.GetAppMessageMgr())
 	runner.WithRunner(s3.InitInstance(config.Get().S3))
 	runner.WithRunner(http.NewHttpServer(http.ServerConfig{Port: config.Get().Gin.Port, Env: config.Get().Env}, api.Routes))
 
