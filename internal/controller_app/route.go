@@ -3,7 +3,6 @@ package controller_app
 import (
 	"github.com/gin-gonic/gin"
 	"go.uber.org/zap"
-	"health-server/internal/kit"
 	"health-server/internal/logger"
 	"net/http"
 )
@@ -19,7 +18,7 @@ func AuthMiddleware() gin.HandlerFunc {
 			return
 		}
 
-		payload, expired, err := kit.ParseUserToken(tokenString)
+		payload, expired, err := ParseUserToken(tokenString)
 		if err != nil {
 			logger.Logger.Error("parse token failed", zap.Error(err), zap.String("token", tokenString))
 			ctx.AuthError()

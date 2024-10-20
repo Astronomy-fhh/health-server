@@ -1,4 +1,4 @@
-CREATE TABLE user
+CREATE TABLE health.user
 (
     id            BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
     uid           VARCHAR(255) UNIQUE                                             NOT NULL,

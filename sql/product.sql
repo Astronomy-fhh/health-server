@@ -1,7 +1,7 @@
 CREATE TABLE product
 (
     id         BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-    barcode    VARCHAR(100) NOT NULL,
+    barcode    VARCHAR(100) NOT NULL UNIQUE,  -- 设置 barcode 为唯一
     name       VARCHAR(100) NOT NULL,
     additives  BLOB,
     images     BLOB,

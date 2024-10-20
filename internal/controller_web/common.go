@@ -3,7 +3,7 @@ package controller_web
 import (
 	"errors"
 	"github.com/gin-gonic/gin"
-	"health-server/internal/kit"
+	"health-server/internal/controller_app"
 	"net/http"
 )
 
@@ -36,28 +36,28 @@ func (r *Resp) errorWithCode(err error, code int) {
 
 type Context struct {
 	ginCtx *gin.Context
-	token  kit.UserTokenPayload
+	token  controller_app.UserTokenPayload
 }
 
 func GetContext(ginCtx *gin.Context) *Context {
 	return &Context{ginCtx: ginCtx}
 }
 
-func (c *Context) GetToken() *kit.UserTokenPayload {
+func (c *Context) GetToken() *controller_app.UserTokenPayload {
 	value, exists := c.ginCtx.Get(TokenKey)
 	if !exists {
 		return nil
 	}
-	token, ok := value.(*kit.UserTokenPayload)
+	token, ok := value.(*controller_app.UserTokenPayload)
 	if !ok {
 		return nil
 	}
 	return token
 }
 
-func (c *Context) MustGetToken() *kit.UserTokenPayload {
+func (c *Context) MustGetToken() *controller_app.UserTokenPayload {
 	value, _ := c.ginCtx.Get(TokenKey)
-	token, _ := value.(*kit.UserTokenPayload)
+	token, _ := value.(*controller_app.UserTokenPayload)
 	return token
 }
 

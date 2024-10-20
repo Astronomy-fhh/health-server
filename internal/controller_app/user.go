@@ -4,7 +4,6 @@ import (
 	"errors"
 	"github.com/gin-gonic/gin"
 	"go.uber.org/zap"
-	"health-server/internal/kit"
 	"health-server/internal/logger"
 	"health-server/internal/mgr"
 	"health-server/internal/model"
@@ -38,7 +37,7 @@ func Login(c *gin.Context) {
 	// 已经注册的用户 找到该账号信息 返回
 	if tokenString != "" {
 		logger.Logger.Info("user login by token", zap.String("token", tokenString))
-		tokenInfo, _, err := kit.ParseUserToken(tokenString)
+		tokenInfo, _, err := ParseUserToken(tokenString)
 		if err != nil {
 			logger.Logger.Error("parse user token failed", zap.Error(err))
 			ctx.ParamError(errors.New("invalid token"))
@@ -52,6 +51,13 @@ func Login(c *gin.Context) {
 		}
 		if user == nil {
 			ctx.ParamError(errors.New("user not found"))
+			return
+		}
+		user.LastLoginAt = time.Now().UTC()
+		err = model.UpdateUser(user)
+		if err != nil {
+			logger.Logger.Error("update user failed", zap.Error(err))
+			ctx.DefaultError()
 			return
 		}
 		logger.Logger.Info("user login by uid", zap.String("uid", user.UID))
@@ -90,7 +96,7 @@ func Login(c *gin.Context) {
 	}
 
 	tokenExp := time.Now().Add(time.Hour * 24 * 30).Unix()
-	token, err := kit.GenerateUserToken(&kit.UserTokenPayload{Uid: user.UID}, tokenExp)
+	token, err := GenerateUserToken(&UserTokenPayload{Uid: user.UID}, tokenExp)
 	if err != nil {
 		logger.Logger.Error("generate user token failed", zap.Error(err))
 		ctx.DefaultError()

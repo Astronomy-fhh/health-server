@@ -22,7 +22,12 @@ func main() {
 	// 参数
 	var configFile *string
 
-	configFile = flag.String("config", "/Users/huhufan/Workspace/dev/health-server/config.yaml", "config file path")
+	configFile = flag.String("config", "", "config file path")
+	flag.Parse()
+
+	if *configFile == "" {
+		log.Fatal("config file is required")
+	}
 
 	// 初始化配置
 	err := config.InitConfig(*configFile)

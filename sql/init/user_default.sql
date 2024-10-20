@@ -1,0 +1,10 @@
+INSERT INTO health.user_default (id, name, img, created_at, updated_at) VALUES (1, '梦幻白球球酱', 'cabbage_avatar.jpeg', '2024-10-14 09:13:06', '2024-10-14 09:18:25');
+INSERT INTO health.user_default (id, name, img, created_at, updated_at) VALUES (2, '红色小妖精果', 'tomato_avatar.jpeg', '2024-10-14 09:13:06', '2024-10-14 09:28:44');
+INSERT INTO health.user_default (id, name, img, created_at, updated_at) VALUES (3, '跳跃的小兔兔胡萝卜', 'carrot_avatar.jpeg', '2024-10-14 09:13:06', '2024-10-14 09:28:44');
+INSERT INTO health.user_default (id, name, img, created_at, updated_at) VALUES (4, '清脆小绿藤蔓', 'cucumber_avatar.jpeg', '2024-10-14 09:13:06', '2024-10-14 09:28:44');
+INSERT INTO health.user_default (id, name, img, created_at, updated_at) VALUES (5, '火焰小小恶魔', 'chili_avatar.jpeg', '2024-10-14 09:13:06', '2024-10-14 09:28:44');
+INSERT INTO health.user_default (id, name, img, created_at, updated_at) VALUES (6, '呆萌红苹果大魔王', 'apple_avatar.jpeg', '2024-10-14 09:13:06', '2024-10-14 09:28:44');
+INSERT INTO health.user_default (id, name, img, created_at, updated_at) VALUES (7, '金色微笑香蕉猫', 'banana_avatar.jpeg', '2024-10-14 09:13:06', '2024-10-14 09:28:44');
+INSERT INTO health.user_default (id, name, img, created_at, updated_at) VALUES (8, '橙色阳光小精灵', 'orange_avatar.jpeg', '2024-10-14 09:13:06', '2024-10-14 09:28:44');
+INSERT INTO health.user_default (id, name, img, created_at, updated_at) VALUES (9, '紫色梦幻宝石团', 'grape_avatar.jpeg', '2024-10-14 09:13:06', '2024-10-14 09:28:44');
+INSERT INTO health.user_default (id, name, img, created_at, updated_at) VALUES (10, '甜美的小红心公主', 'strawberry_avatar.jpeg', '2024-10-14 09:13:06', '2024-10-14 09:28:44');
