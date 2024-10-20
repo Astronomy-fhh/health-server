@@ -1,10 +1,9 @@
-package user
+package controller_app
 
 import (
 	"errors"
 	"github.com/gin-gonic/gin"
 	"go.uber.org/zap"
-	"health-server/internal/controller"
 	"health-server/internal/kit"
 	"health-server/internal/logger"
 	"health-server/internal/mgr"
@@ -31,7 +30,7 @@ type LoginUserInfo struct {
 }
 
 func Login(c *gin.Context) {
-	ctx := controller.GetContext(c)
+	ctx := GetContext(c)
 
 	tokenString := c.GetHeader("Authorization")
 
@@ -107,7 +106,7 @@ func Login(c *gin.Context) {
 }
 
 func GetInfo(c *gin.Context) {
-	ctx := controller.GetContext(c)
+	ctx := GetContext(c)
 	token := ctx.MustGetToken()
 
 	user, err := model.GetUserByUID(token.Uid)
@@ -136,7 +135,7 @@ func GetInfo(c *gin.Context) {
 }
 
 func ChangeAvatar(c *gin.Context) {
-	ctx := controller.GetContext(c)
+	ctx := GetContext(c)
 	token := ctx.MustGetToken()
 
 	var req struct {
@@ -188,7 +187,7 @@ type AddFeedBackReq struct {
 }
 
 func AddFeedBack(c *gin.Context) {
-	ctx := controller.GetContext(c)
+	ctx := GetContext(c)
 	token := ctx.MustGetToken()
 
 	var req AddFeedBackReq

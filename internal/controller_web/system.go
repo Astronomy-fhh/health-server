@@ -1,9 +1,8 @@
-package system
+package controller_web
 
 import (
 	"github.com/gin-gonic/gin"
 	"health-server/config"
-	"health-server/internal/controller"
 	"health-server/internal/def"
 	"health-server/internal/mgr"
 	"health-server/internal/model"
@@ -15,12 +14,11 @@ type InfoResp struct {
 	Additives         map[uint64]*mgr.Additive      `json:"additives"`
 	AdditiveTags      map[uint64]*model.AdditiveTag `json:"additive_tags"`
 	ProductImageTypes map[int]string                `json:"product_image_types"`
-	DefaultUsers      []*model.UserDefault          `json:"default_users"`
 	Messages          map[string]string             `json:"messages"`
 }
 
 func Info(c *gin.Context) {
-	ctx := controller.GetContext(c)
+	ctx := GetContext(c)
 	additives := mgr.GetAdditiveMgr().GetAdditives()
 	tags := mgr.GetAdditiveMgr().GetTags()
 
@@ -30,7 +28,6 @@ func Info(c *gin.Context) {
 		Additives:         additives,
 		AdditiveTags:      tags,
 		ProductImageTypes: def.ProductImageTypes,
-		DefaultUsers:      mgr.GetUserDefaultMgr().GetDefaultUsers(),
 		Messages:          mgr.GetAppMessageMgr().GetMessages(),
 	}
 	ctx.Success(reply)

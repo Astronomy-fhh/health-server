@@ -1,4 +1,4 @@
-package controller
+package controller_web
 
 import (
 	"errors"
@@ -74,13 +74,13 @@ func (c *Context) Success(reply any) {
 func (c *Context) Error(err error) {
 	resp := &Resp{}
 	resp.errorWithCode(err, CodeError)
-	c.Success(resp)
+	c.ginCtx.JSON(http.StatusOK, resp)
 }
 
 func (c *Context) DefaultError() {
 	resp := &Resp{}
 	resp.errorWithCode(errors.New("unnamed error"), CodeError)
-	c.Success(resp)
+	c.ginCtx.JSON(http.StatusOK, resp)
 }
 
 func (c *Context) AuthError() {

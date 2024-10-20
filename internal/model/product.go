@@ -31,3 +31,11 @@ func GetProductByBarcode(barcode string) (*Product, error) {
 	}
 	return &product, err
 }
+
+func CreateProduct(product *Product) error {
+	return db.DB.Create(product).Error
+}
+
+func UpdateProduct(product *Product) error {
+	return db.DB.Save(product).Error
+}

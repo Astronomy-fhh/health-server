@@ -1,12 +1,8 @@
-package api
+package controller_app
 
 import (
 	"github.com/gin-gonic/gin"
 	"go.uber.org/zap"
-	"health-server/internal/controller"
-	"health-server/internal/controller/api/product"
-	"health-server/internal/controller/api/system"
-	"health-server/internal/controller/api/user"
 	"health-server/internal/kit"
 	"health-server/internal/logger"
 	"net/http"
@@ -14,7 +10,7 @@ import (
 
 func AuthMiddleware() gin.HandlerFunc {
 	return func(c *gin.Context) {
-		ctx := controller.GetContext(c)
+		ctx := GetContext(c)
 		tokenString := c.GetHeader("Authorization")
 		if tokenString == "" {
 			logger.Logger.Error("token is required")
@@ -33,7 +29,7 @@ func AuthMiddleware() gin.HandlerFunc {
 		if expired {
 			logger.Logger.Warn("token expired", zap.String("token", tokenString))
 		}
-		c.Set(controller.TokenKey, payload)
+		c.Set(TokenKey, payload)
 		c.Next()
 	}
 }
@@ -45,29 +41,29 @@ func Routes(engine *gin.Engine) {
 
 	userGroup := engine.Group("/api/users")
 	{
-		userGroup.POST("/login", user.Login) // 用户登录接口，不需要权限
+		userGroup.POST("/login", Login) // 用户登录接口，不需要权限
 	}
 
 	authUserGroup := engine.Group("/api/users")
 	authUserGroup.Use(AuthMiddleware()) // 应用权限中间件
 	{
-		authUserGroup.GET("/info", user.GetInfo)               // 获取用户信息
-		authUserGroup.POST("/changeAvatar", user.ChangeAvatar) // 修改系统的头像和名称
-		authUserGroup.POST("/feedback", user.AddFeedBack)      // 添加反馈
+		authUserGroup.GET("/info", GetInfo)               // 获取用户信息
+		authUserGroup.POST("/changeAvatar", ChangeAvatar) // 修改系统的头像和名称
+		authUserGroup.POST("/feedback", AddFeedBack)      // 添加反馈
 	}
 
 	systemGroup := engine.Group("/api/system")
 	systemGroup.Use(AuthMiddleware())
 	{
-		systemGroup.GET("/info", system.Info) // 获取系统信息 包含添加剂信息和配置信息
+		systemGroup.GET("/info", Info) // 获取系统信息 包含添加剂信息和配置信息
 	}
 
 	// 产品相关路由
 	productGroup := engine.Group("/api/products")
 	productGroup.Use(AuthMiddleware())
 	{
-		productGroup.GET("/imgUrl", product.GetImgUrl) // 获取产品图片上传地址
-		productGroup.POST("/upload", product.Upload)   // 上传商品信息
-		productGroup.POST("/get", product.Get)         // 获取指定 ID 的产品
+		productGroup.GET("/imgUrl", GetImgUrl) // 获取产品图片上传地址
+		productGroup.POST("/upload", Upload)   // 上传商品信息
+		productGroup.POST("/get", Get)         // 获取指定 ID 的产品
 	}
 }

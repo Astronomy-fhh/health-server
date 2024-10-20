@@ -1,7 +1,7 @@
 server_name: health-server
 env: dev
-gin:
-  port: 9090
+app_api_port: 9090
+web_api_port: 9091
 db:
   user: health
   password: health123

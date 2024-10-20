@@ -6,11 +6,12 @@ import (
 )
 
 type ServerConfig struct {
-	ServerName string    `yaml:"server_name"`
-	Env        string    `yaml:"env"`
-	Gin        GinConfig `yaml:"gin"`
-	Db         DbConfig  `yaml:"db"`
-	S3         S3Config  `yaml:"s3"`
+	ServerName string   `yaml:"server_name"`
+	Env        string   `yaml:"env"`
+	AppApiPort string   `yaml:"app_api_port"`
+	WebApiPort string   `yaml:"web_api_port"`
+	Db         DbConfig `yaml:"db"`
+	S3         S3Config `yaml:"s3"`
 }
 
 type DbConfig struct {

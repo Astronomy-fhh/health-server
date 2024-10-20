@@ -4,7 +4,8 @@ import (
 	"flag"
 	"go.uber.org/zap"
 	"health-server/config"
-	"health-server/internal/controller/api"
+	"health-server/internal/controller_app"
+	"health-server/internal/controller_web"
 	"health-server/internal/db"
 	"health-server/internal/http"
 	"health-server/internal/kit"
@@ -53,7 +54,8 @@ func main() {
 	runner.WithRunner(mgr.GetUserDefaultMgr())
 	runner.WithRunner(mgr.GetAppMessageMgr())
 	runner.WithRunner(s3.InitInstance(config.Get().S3))
-	runner.WithRunner(http.NewHttpServer(http.ServerConfig{Port: config.Get().Gin.Port, Env: config.Get().Env}, api.Routes))
+	runner.WithRunner(http.NewHttpServer(http.ServerConfig{Port: config.Get().AppApiPort, Env: config.Get().Env}, controller_app.Routes))
+	runner.WithRunner(http.NewHttpServer(http.ServerConfig{Port: config.Get().WebApiPort, Env: config.Get().Env}, controller_web.Routes))
 
 	runner.Start(runnerCtx)
 	logger.Logger.Info("server start")

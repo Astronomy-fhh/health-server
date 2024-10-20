@@ -1,11 +1,10 @@
-package product
+package controller_app
 
 import (
 	"encoding/json"
 	"errors"
 	"github.com/gin-gonic/gin"
 	"github.com/google/uuid"
-	"health-server/internal/controller"
 	"health-server/internal/logger"
 	"health-server/internal/model"
 	"health-server/internal/s3"
@@ -18,7 +17,7 @@ type Image struct {
 }
 
 func GetImgUrl(c *gin.Context) {
-	ctx := controller.GetContext(c)
+	ctx := GetContext(c)
 	fileName := uuid.New().String() + ".jpg"
 	url, err := s3.GetInstance().GeneratePresignURL(s3.BucketImg, fileName, 3*time.Minute)
 	if err != nil {
@@ -41,7 +40,7 @@ type UploadProductReq struct {
 }
 
 func Upload(c *gin.Context) {
-	ctx := controller.GetContext(c)
+	ctx := GetContext(c)
 	token := ctx.MustGetToken()
 	var req UploadProductReq
 	err := ctx.GetReq(&req)
@@ -104,7 +103,7 @@ type GetProductResp struct {
 }
 
 func Get(c *gin.Context) {
-	ctx := controller.GetContext(c)
+	ctx := GetContext(c)
 	var req GetProductReq
 	err := ctx.GetReq(&req)
 	if err != nil {
