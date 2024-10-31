@@ -9832,144 +9832,2622 @@ INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, cr
 - **监管机构评估**：在多个国家和地区，相应的食品安全监管机构评估其安全性，确认其在一定限度和条件下的安全使用。
 
 总体而言，4-羟基-2,5-二甲基-3(2H)呋喃酮作为食品香料的应用相对广泛且通常安全，但使用时仍应注意控制适宜的添加量。在具体使用前，消费者和生产者应查阅最新的食品安全指南和标准。', 'GB28365-2012', '食品用香料', 0x5B325D, '', '2024-10-10 12:48:58', '2024-10-16 14:12:13');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (501, '2-乙基-4-羟基-5-甲基-3(2H)-呋喃酮', '具有特殊香气，常用于调味品。', 'GB28366-2012', '食品用香料', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (502, '4-羟基-5-甲基-3(2H)呋喃酮', '具有特殊香气，适合于饮料和甜点。', 'GB28367-2012', '食品用香料', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (503, '2,3-戊二酮', '具有特殊香气，适用于多种食品。', 'GB28368-2012', '食品用香料', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (504, '磷脂', '具有乳化作用，广泛用于调味品和食品加工。', 'GB1886.358-2022', '乳化剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (505, '普鲁兰多糖', '可增加食品的黏稠度，适用于多种食品。', 'GB28402-2012', '增稠剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (506, '瓜尔胶', '增加食品黏稠度，适合于多种食品。', 'GB28403-2012', '增稠剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (507, '氨水及液氨', '在食品加工中起特定作用。', 'GB29201-2020', '加工助剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (508, '氮气', '在食品加工中有特殊用途，常用于包装和保存。', 'GB29202-2012', '其他', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (509, '碘化钾', '补充碘元素，预防缺碘病。', 'GB29203-2012', '营养强化剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (510, '硅胶', '可吸附食品中的杂质，延长保质期。', 'GB29204-2012', '吸附剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (511, '硫酸', '用于食品加工，需遵循相关标准。', 'GB29205-2012', '加工助剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (512, '硫酸铵', '补充氮元素，适合于食品加工。', 'GB29206-2012', '营养强化剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (513, '硫酸镁', '补充镁元素，促进新陈代谢。', 'GB29207-2012', '营养强化剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (514, '硫酸锰', '补充锰元素，支持骨骼健康。', 'GB29208-2012', '营养强化剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (515, '硫酸钠', '在食品加工中起作用，需谨慎使用。', 'GB29209-2012', '加工助剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (516, '硫酸铜', '补充铜元素，促进红血球生成。', 'GB29210-2012', '营养强化剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (517, '硫酸亚铁', '补充铁元素，预防贫血。', 'GB29211-2012', '营养强化剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (518, '羰基铁粉', '有特定用途，主要用于食品加工。', 'GB29212-2012', '其他', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (519, '硝酸钾', '可用于食品的护色和防腐。', 'GB29213-2012', '护色剂、防腐剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (520, '亚铁氰化钠', '防止食品结块，保持粉末流动性。', 'GB29214-2012', '抗结剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (521, '植物活性炭（木质活性炭）', '吸附食品中的杂质，改善口感。', 'GB29215-2012', '吸附剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (522, '丙二醇', '在食品中有多种用途，常用于食品添加剂。', 'GB29216-2012', '溶剂、保湿剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (523, '环己基氨基磺酸钙', '具有甜度，适合于低热量食品。', 'GB29217-2012', '甜味剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (524, '甲醇', '在特定情况下用于食品加工，需谨慎使用。', 'GB29218-2012', '加工助剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (525, '山梨醇酐三硬脂酸酯（司盘65）', '具有乳化作用，改善食品质地。', 'GB29220-2012', '乳化剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (526, '聚氧乙烯（20）山梨醇酐单月桂酸酯（吐温20）', '可改善食品的乳化状态，适用于多种食品。', 'GB29221-2012', '乳化剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (527, '聚氧乙烯（20）山梨醇酐单棕榈酸酯（吐温40）', '具有乳化作用，适合于调味品。', 'GB29222-2012', '乳化剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (528, '脱氢乙酸', '防止食品腐败变质，适合于多种食品。', 'GB29223-2012', '防腐剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (529, '凹凸棒粘土', '可吸附食品中的杂质，改善口感。', 'GB29225-2012', '吸附剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (530, '天门冬氨酸钙', '补充钙元素，促进骨骼健康。', 'GB29226-2012', '营养强化剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (531, '丙酮', '在食品加工中有特定用途，需谨慎使用。', 'GB29227-2012', '加工助剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (532, '醋酸酯淀粉', '可增加食品的黏稠度，适合于多种食品。', 'GB29925-2013', '增稠剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (533, '磷酸酯双淀粉', '具有良好的增稠性能，可改善食品质地。', 'GB29926-2013', '增稠剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (534, '氧化淀粉', '在食品中可增加黏稠度，适合于调味品。', 'GB29927-2013', '增稠剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (535, '酸处理淀粉', '可使食品具有一定的黏稠度，适用于多种食品。', 'GB29928-2013', '增稠剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (536, '乙酰化二淀粉磷酸酯', '能增加食品的黏稠度和稳定性，适合于多种食品。', 'GB29929-2013', '增稠剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (537, '羟丙基淀粉', '可改善食品的黏稠度和口感，适合于多种食品。', 'GB29930-2013', '增稠剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (538, '羟丙基二淀粉磷酸酯', '具有良好的增稠作用和稳定性，适用于多种食品。', 'GB29931-2013', '增稠剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (539, '乙酰化双淀粉己二酸酯', '可增加食品的黏稠度和韧性，适合于多种食品。', 'GB29932-2013', '增稠剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (540, '氧化羟丙基淀粉', '在食品中起到增稠的效果，适合于调味品。', 'GB29933-2013', '增稠剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (541, '辛烯基琥珀酸铝淀粉', '用于乳化和增稠食品，改善产品质感与稳定性。', 'GB29934-2013', '乳化剂、增稠剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (542, '磷酸化二淀粉磷酸酯', '能够显著提高食品的黏稠度，适用于多种食品应用。', 'GB29935-2013', '增稠剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (543, '淀粉磷酸酯钠', '赋予食品适度的黏稠度，增强口感体验。', 'GB29936-2013', '增稠剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (544, '羧甲基淀粉钠', '提升食品的黏稠度，常用于调味品和饮料中。', 'GB29937-2013', '增稠剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (545, '琥珀酸二钠', '用于增强食品风味，提升整体口感。', 'GB29939-2013', '调味剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (546, '柠檬酸亚锡二钠', '有效防止食品氧化变质，延长保质期。', 'GB29940-2013', '抗氧化剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (547, '脱乙酰甲壳素（壳聚糖）', '增加食品黏稠度并具保鲜功能，延缓食品劣变。', 'GB29941-2013', '增稠剂、保鲜剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (548, '维生素E（dl-α-生育酚）', '具有良好的抗氧化作用，保护食品营养成分。', 'GB29942-2013', '抗氧化剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (549, '棕榈酸视黄酯（棕榈酸维生素A）', '补充食品中的维生素A，促进身体健康。', 'GB29943-2013', '营养强化剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (550, 'N-[N-(3,3-二甲基丁基)]-L-α-天门冬氨-L-苯丙氨酸1-甲酯（纽甜）', '具有高甜度且低热量，适合低卡食品使用。', 'GB29944-2013', '甜味剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (551, '槐豆胶（刺槐豆胶）', '显著增加食品的黏稠度，适用于酱料和饮品。', 'GB29945-2013', '增稠剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (552, '纤维素', '用于增稠食品并提供膳食纤维，促进消化健康。', 'GB1886.374-2024', '增稠剂、膳食纤维来源', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (553, '聚丙烯酸钠', '具良好的增稠性能，广泛用于乳制品和调味料。', 'GB29948-2013', '增稠剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (554, '阿拉伯胶', '用于增加食品的黏稠度，常见于糖果和饮料中。', 'GB29949-2013', '增稠剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (555, '甘油', '保持食品水分，提升质感并作为有效溶剂。', 'GB29950-2013', '保湿剂、溶剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (556, '柠檬酸脂肪酸甘油酯', '用于乳化多种食品，提升产品稳定性。', 'GB29951-2013', '乳化剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (557, 'γ-辛内酯', '具有独特的香气，常用于糕点和饮料调味。', 'GB29952-2013', '食品用香料', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (558, 'δ-辛内酯', '散发独特香味，增添食品的风味层次。', 'GB29953-2013', '食品用香料', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (559, 'δ-壬内酯', '提供独特香气，提升多种食品的香味。', 'GB29954-2013', '食品用香料', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (560, 'δ-十一内酯', '具有特殊的香味，广泛应用于饮料中。', 'GB29955-2013', '食品用香料', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (561, 'δ-突厥酮', '提供特殊的气味，增强食品的吸引力。', 'GB29956-2013', '食品用香料', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (562, '二氢-β-紫罗兰酮', '散发独特香气，提升糕点的香味。', 'GB29957-2013', '食品用香料', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (563, 'l-薄荷醇丙二醇碳酸酯', '具有清新的薄荷香气，增添食品清凉感。', 'GB29958-2013', '食品用香料', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (564, 'd,l-薄荷酮甘油缩酮', '散发浓郁的薄荷味，适合糖果和饮料使用。', 'GB29959-2013', '食品用香料', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (565, '二烯丙基硫醚', '具有特殊气味，适合多种调味食品。', 'GB29960-2013', '食品用香料', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (566, '4,5-二氢-3(2H)噻吩酮(四氢噻吩-3-酮)', '提供独特香气，常见于调味品中。', 'GB29961-2013', '食品用香料', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (567, '2-巯基-3-丁醇', '散发独特香味，增添食品风味。', 'GB29962-2013', '食品用香料', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (568, '3-巯基-2-丁酮(3-巯基-丁-2-酮)', '具有特殊气味，提升食品吸引力。', 'GB29963-2013', '食品用香料', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (569, '二甲基二硫醚', '散发独特的味道，适合调味品使用。', 'GB29964-2013', '食品用香料', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (570, '二丙基二硫醚', '提供特殊香气，常见于调味品中。', 'GB29965-2013', '食品用香料', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (571, '烯丙基二硫醚', '具有特殊气味，增添食品的风味。', 'GB29966-2013', '食品用香料', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (572, '柠檬酸三乙酯', '散发独特香味，常用于糕点和饮品中。', 'GB29967-2013', '食品用香料', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (573, '肉桂酸苄酯', '具有浓郁的肉桂香气，适合多种甜品。', 'GB29968-2013', '食品用香料', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (574, '肉桂酸肉桂酯', '提供肉桂味，增添食品香气。', 'GB29969-2013', '食品用香料', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (575, '2,5-二甲基吡嗪', '散发独特香气，提升产品风味。', 'GB29970-2013', '食品用香料', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (576, '苯甲醛丙二醇缩醛', '具有芳香气味，增添食品吸引力。', 'GB29971-2013', '食品用香料', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (577, '乙醛二乙缩醛', '散发独特香气，适合多种调味品。', 'GB29972-2013', '食品用香料', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (578, '2-异丙基-4-甲基噻唑', '具有特殊气味，增强食品风味。', 'GB29973-2013', '食品用香料', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (579, '糠基硫醇(咖啡醛)', '散发特殊香味，适合甜品和饮料使用。', 'GB29974-2013', '食品用香料', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (580, '二糠基二硫醚', '具有特殊气味，提升多种食品的香味。', 'GB29975-2013', '食品用香料', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (581, '1-辛烯-3-醇', '具有独特的果香，常用于调味和香料配方。', 'GB29976-2013', '食品用香料', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (582, '2-乙酰基吡咯', '散发独特的坚果和香草气息，提升食品的风味。', 'GB29977-2013', '食品用香料', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (583, '2-己烯醛(叶醛)', '具有鲜明的植物香气，常用于调味料和饮料中。', 'GB29978-2013', '食品用香料', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (584, '氧化芳樟醇', '呈现出温暖的花香，常用于甜品和饮料中。', 'GB29979-2013', '食品用香料', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (585, '异硫氰酸烯丙酯', '具有强烈的辛辣气味，常用于调味和香料中。', 'GB29980-2013', '食品用香料', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (586, 'N-乙基-2-异丙基-5-甲基-环己烷甲酰胺', '具有清新的香气，用于多种食品的风味增强。', 'GB29981-2013', '食品用香料', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (587, 'δ-己内酯', '散发出甜美的奶香，常用于乳制品和烘焙食品中。', 'GB29982-2013', '食品用香料', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (588, 'δ-十四内酯', '具有独特的果香气息，常用于饮料和甜点中。', 'GB29983-2013', '食品用香料', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (589, '四氢芳樟醇', '展现出温和的香气，常用于调味和香水配方中。', 'GB29984-2013', '食品用香料', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (590, '叶醇(顺式-3-己烯-1-醇)', '具有清新的草本香气，适用于多种食品香味增强。', 'GB29985-2013', '食品用香料', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (591, '6-甲基-5-庚烯-2-酮', '散发出浓郁的香气，常用于糕点和甜品中。', 'GB29986-2013', '食品用香料', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (592, '胶基及其配料', '用于胶基糖果的生产，提供结构和口感。', 'GB1886.359-2022', '胶基糖果中基础剂物质', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (593, '海藻酸钾（褐藻酸钾）', '具有良好的增稠特性，常用于乳制品和调味品。', 'GB29988-2013', '增稠剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (594, '对羟基苯甲酸甲酯钠', '有效防止食品腐败和变质，延长保质期。', 'GB30601-2014', '防腐剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (595, '对羟基苯甲酸乙酯钠', '具有广泛的防腐效果，适用于多种食品。', 'GB30602-2014', '防腐剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (596, '乙酸钠', '用于调节食品酸度，改善风味。', 'GB30603-2014', '酸度调节剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (597, '甘氨酸钙', '为食品提供钙元素，增强营养价值。', 'GB30605-2014', '营养强化剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (598, '甘氨酸亚铁', '补充铁元素，有助于预防贫血。', 'GB30606-2014', '营养强化剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (599, '酶解大豆磷脂', '改善食品的乳化特性，提升口感和稳定性。', 'GB30607-2014', '乳化剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (600, 'DL-苹果酸钠', '用于调节食品酸度，增强风味和稳定性。', 'GB30608-2014', '酸度调节剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (601, '聚氧乙烯聚氧丙烯季戊四醇醚', '有效乳化食品，改善质地和外观。', 'GB30609-2014', '乳化剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (602, '乙醇', '可用于溶解其他成分，增强香味。', 'GB30610-2014', '溶剂、食品用香料', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (603, '异丙醇', '在食品加工中作为溶剂和助剂。', 'GB30611-2014', '加工助剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (604, '聚二甲基硅氧烷及其乳液', '有效消除食品中的泡沫，提高加工效率。', 'GB30612-2014', '消泡剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (605, '氧化钙', '用于提高食品加工过程中的效率。', 'GB30614-2014', '加工助剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (606, '竹叶抗氧化物', '防止食品氧化，保持食品新鲜。', 'GB30615-2014', '抗氧化剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (607, '决明胶', '增加食品黏稠度，改善口感。', 'GB31619-2014', '增稠剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (608, 'β-阿朴-8´-胡萝卜素醛', '用于提供食品的黄色着色，改善外观。', 'GB31620-2014', '着色剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (609, '杨梅红', '用于食品着色，提供鲜艳的红色。', 'GB31622-2014', '着色剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (610, '硬脂酸钾', '用于改善食品质地和稳定性。', 'GB31623-2014', '乳化剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (611, '天然胡萝卜素', '提供天然的橙色或黄色着色，改善外观。', 'GB31624-2014', '着色剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (612, '二氢茉莉酮酸甲酯', '具有浓郁的茉莉香气，常用于调味品和香水。', 'GB31625-2014', '食品用香料', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (613, '水杨酸苄酯（柳酸苄酯）', '具有独特的香气，用于多种食品的香味增强。', 'GB31626-2014', '食品用香料', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (614, '香芹酚', '具有强烈的香气，常用于调味料中。', 'GB31627-2014', '食品用香料', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (615, '高岭土', '用于改善食品质地和外观，增加产品稳定性。', 'GB31628-2014', '填充剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (616, '聚丙烯酰胺', '用于提高食品的粘稠度和口感。', 'GB31629-2014', '增稠剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (617, '聚乙烯醇', '用于提高食品的结构和口感。', 'GB31630-2014', '食品用助剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (618, '氯化铵', '用于调节食品的风味，提升口感。', 'GB31631-2014', '调味剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (619, '镍', '用于特定食品加工，提升营养成分。', 'GB31632-2014', '食品添加剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (620, '氢气', '用于食品的加工和保存。', 'GB31633-2014', '加工助剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (621, '珍珠岩', '用于改善食品的质地和口感。', 'GB31634-2014', '填充剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (622, '聚苯乙烯', '用于食品包装和容器制造。', 'GB31635-2014', '食品用塑料', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (623, 'γ-环状糊精', '用于提高食品的溶解性和稳定性。', 'GB1886.353-2021', '食品添加剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (624, '3-[(4-氨基-2,2-二氧-1H-2,1,3-苯并噻二嗪-5-基)氧]-2,2-二甲基-N-丙基丙酰胺', '用于改善食品的风味和口感。', 'GB1886.354-2021', '食品添加剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (625, 'β-环状糊精', '用于增强食品的风味和提高稳定性。', 'GB1886.352-2021', '食品添加剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (626, 'α-环状糊精', '用于提升食品的溶解性和风味。', 'GB1886.351-2021', '食品添加剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (627, '五碳双缩醛（又名戊二醛）', '用于特定食品的风味增强。', 'GB1886.349-2021', '食品添加剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (628, '氧化亚氮', '用于改善食品的质感和口感。', 'GB1886.350-2021', '食品添加剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (629, '5-甲基-2-呋喃甲硫醇', '具有特殊的香气，常用于调味料。', 'GB1886.365-2023', '食品香料', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (630, '6-甲基辛醛', '具有浓烈的香气，广泛应用于食品中。', 'GB1886.367-2023', '食品香料', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (631, '(2S,5R)-N-[4-(2-氨基-2-氧代乙基)苯基]-5-甲基-2-(丙基-2-)环己烷甲酰胺', '用于改善食品的风味和质量。', 'GB1886.368-2023', '食品添加剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (632, '蓝锭果红', '用于提供食品的鲜艳红色。', 'GB1886.369-2023', '着色剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (633, 'ε-聚赖氨酸盐酸盐', '用于防止食品变质，延长保质期。', 'GB1886.371-2023', '防腐剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (634, 'L-蛋氨酰基甘氨酸盐酸盐', '提供重要氨基酸，增强营养价值。', 'GB1886.372-2023', '营养强化剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (635, '甲醇钠', '用于特定食品的加工和保鲜。', 'GB1886.373-2023', '食品添加剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (636, '花生四烯酸油脂（发酵法）', '提高食品的营养价值。', 'GB1903.65-2024', '营养强化剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (637, '二十二碳六烯酸油脂（发酵法）', '提供重要的脂肪酸，增强营养。', 'GB1903.66-2024', '营养强化剂', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (638, '生产通用卫生规范', '确保食品生产过程的卫生和安全。', 'GB31647-2018', '食品安全标准', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (639, '中重金属限量试验', '用于检测食品中的重金属含量。', 'GB5009.74-2014', '检测标准', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (640, '中铅的测定', '用于评估食品中的铅含量，确保安全。', 'GB5009.75-2014', '检测标准', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
-INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (641, '中砷的测定', '用于监测食品中砷的含量，确保安全。', 'GB5009.76-2014', '检测标准', null, '', '2024-10-10 12:48:58', '2024-10-10 12:48:58');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (501, '2-乙基-4-羟基-5-甲基-3(2H)-呋喃酮', '### 2-乙基-4-羟基-5-甲基-3(2H)-呋喃酮
+
+#### 介绍
+- 该化合物是一种有机化学成分，属于呋喃酮类。
+- 在食品工业中可以作为风味增强剂使用。
+- 由其分子结构特性，可在合成工艺中通过特定的有机合成步骤制备。
+
+#### 用途
+- **食品香精添加剂**：用于改善或增强食品的香味。
+- **饮料加工**：在某些饮料中添加以增加复杂的味道层次。
+- **烘焙食品**：提升糕点和面包等烘焙食物的香气。
+
+#### 安全性说明
+- **食品级标准**：需符合各国规定的食品安全标凘，如FDA(美国食品药品监督管理局)、EFSA（欧洲食品安全局）的要求。
+- **摄入量控制**：使用时需控制在安全摄入量范围之内，避免过量。
+- **毒理测试**：应进行充分的毒理学测试，以确保对人体的安全性。
+- **过敏性测试**：对敏感群体进行必要的过敏测试，确保不引起严重过敏反应。', 'GB28366-2012', '食品用香料', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (502, '4-羟基-5-甲基-3(2H)呋喃酮', '### 4-羟基-5-甲基-3(2H)呋喃酮作为食品添加剂
+
+#### 介绍
+- **化学性质**: 4-羟基-5-甲基-3(2H)呋喃酮是一种含氧杂环有机化合物，具有独特的化学结构和性质。
+- **来源**: 该化合物可以通过合成或从自然来源中提取得到。
+- **常见形态**: 常见为白色或淡黄色固体粉末，易溶于水和多数有机溶剂。
+
+#### 用途
+- **食品香精**: 主要用于增强食品的香味，尤其是在烘焙食品、糖果、饮料和其他调味品中。
+- **调味剂**: 在食品制造过程中，用于模拟焦糖、坚果、水果等多种不同的味道。
+- **食品加工**: 可用于食品保质和改进食品的口感与外观。
+
+#### 安全性说明
+- **监管批准**: 在多数国家，包括美国食品药品监督管理局(FDA)和欧盟(EU), 4-羟基-5-甲基-3(2H)呋喃酮作为食品添加剂已经过严格审核并批准使用。
+- **剂量限制**: 作为添加剂使用时，通常有严格的剂量限制，以确保消费者安全。
+- **安全性研究**: 目前的科学研究表明，适量使用该化合物作为食品添加剂是安全的。然而，仍建议按照现有的食品安全标准和规定进行使用。
+
+以上信息是基于当前可获得的数据，应该在专业人士的指导下使用这类化合物，以确保其安全性和有效性。如需进一步的安全数据或使用建议，请参考具体国家或地区的相关食品安全监管机构发布的指南。', 'GB28367-2012', '食品用香料', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (503, '2,3-戊二酮', '### 2,3-戊二酮
+
+                                                                                                                  #### 介绍
+- **化学性质**：2,3-戊二酮（C5H8O2），也称作二乙酰基，是一种有机化合物，属于酮类。
+- **来源**：可通过有机合成获得，也可在部分发酵过程中自然生成。
+
+#### 用途
+- **食品香精**：用作食品添加剂，增加或改善食品的香味。
+- **香料制造**：在制造某些类型的香料中作为重要原料。
+- **研究用途**：在食品科学和化学研究中，作为分析或合成的标准物质之一。
+
+#### 安全性说明
+- **监管审批**：在不同国家和地区，2,3-戊二酮的使用受到食品药品监督管理机构的监管。
+- **毒性评估**：低剂量下通常被认为是安全的，但高剂量可能会对健康造成影响。
+- **使用建议**：在使用时需遵循相关食品安全法规，控制在安全用量范围内。
+- **过敏性**：虽然罕见，但部分敏感人群可能对此类化合物产生过敏反应。', 'GB28368-2012', '食品用香料', 0x5B325D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (504, '磷脂', '### 磷脂（食品添加剂）
+
+磷脂是广泛应用于食品工业的一种重要添加剂，由于其良好的乳化和抗氧化特性，它在很多食品加工过程中发挥着重要作用。
+
+#### 介绍
+- **来源**: 磷脂主要从植物油（如大豆油、菜籽油）和动物脂肪中提取。
+- **成分**: 主要成分包括甘油、脂肪酸、磷酸和胆碱或其他氨基醇。
+- **属性**: 磷脂具有良好的乳化性和稳定性，可以在水和油之间形成稳定的界面。
+
+#### 用途
+- **食品乳化剂**: 在冰淇淋、酱料、和面包中添加以防止分离，改善口感和延长保质期。
+- **抗氧化剂**: 在油脂类食品中添加磷脂可以阻断氧气和脂肪的接触，延缓氧化过程。
+- **营养补充剂**: 磷脂含有胆碱和其他营养素，对维持细胞膜结构、脂肪代谢和神经传导等生物过程有益。
+
+#### 安全性说明
+- **安全认证**: 大多数国家的食品安全机构如美国FDA和欧盟EFSA都已批准磷脂作为食品添加剂。
+- **剂量控制**: 按照制造商和相关法规推荐的剂量使用是安全的。过量摄入可能导致消化不良等问题。
+- **过敏反应**: 磷脂来源于大豆或其他植物，极少数情况下可能引发特定食物过敏反应。
+
+使用磷脂作为食品添加剂可以有效地提高食品的质感、稳定性和保质期，同时确保其安全性和营养价值。不过，像任何食品添加剂一样，适度使用和监控其来源和质量是非常重要的。', 'GB1886.358-2022', '乳化剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (505, '普鲁兰多糖', '### 普鲁兰多糖
+
+普鲁兰多糖，也称为普鲁兰，是一种由某些菌种如放线菌亚门的链霉菌属所产生的多糖。它是由α-D-葡萄糖单元通过α-1,6-糖苷键链接而成的多糖，具有独特的物理和化学性质，因此在食品工业中有着广泛的应用。
+
+#### 介绍
+- 普鲁兰多糖是一种天然产生的多糖，主要由α-1,6-葡萄糖单元构成。
+- 它能够被人体内的普鲁兰酶快速分解，不会在体内积累。
+- 在食品制造过程中，普鲁兰可以通过发酵工艺从特定的微生物中生产出来。
+
+#### 用途
+- **食品工业**: 作为食品添加剂，常用于改善食品的质感和稳定性。例如，在冰淜蛋糕中用作保湿剂和结构强化剂。
+- **低卡路里替代品**: 普鲁兰由于其易于消化的特点，可以用作低热量的食品填充剂。
+- **健康产品**: 由于普鲁兰不易被人体吸收，经常被添加到健康食品中以促进良好的消化和预防便秘。
+
+#### 安全性说明
+- **批准使用**: 普鲁兰已被多个国家的食品安全机构认可和批准使用，包括美国食品药物管理局（FDA）和欧盟。
+- **代谢**: 在人体消化系统中能够被普鲁兰酶快速分解，因此不会对体内造成负担。
+- **过敏反应**: 普鲁兰多糖并不容易引起过敏反应，适合大多数人群使用。
+
+普鲁兰多糖作为一种功能性食品添加剂，不仅能增强食品的口感和质量，还能带来一定的健康益处，使其在食品工业中的应用非常广泛。', 'GB28402-2012', '增稠剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (506, '瓜尔胶', '### 瓜尔胶
+
+瓜尔胶，也称为瓜儿豆胶，是一种广泛使用的天然增稠剂和稳定剂，来源于瓜尔豆（克拉拉豆）的种子。在食品工业中，它被用作食品添加剂，特别是在乳制品和烘焙食品中。
+
+#### 介绍
+
+- **来源**: 瓜尔胶是从瓜尔豆的种子中提取的天然多糖。
+- **组成**: 主要成分为长链多糖，主要是半乳糖和甘露糖。
+- **外观**: 通常以粉末形式存在，无色至淡黄色。
+
+#### 用途
+
+- **食品增稠剂**: 增加食品如冰淇淋、酸奶等的黏性和稠度。
+- **稳定剂**: 防止产品分层，在饮料、沙拉酱中保持均匀性。
+- **改善口感**: 在烘焙食品中提升质地与保湿性，改善面包和其他烘焙产品的口感。
+- **乳化剂**: 有助于混合不易混合的物质如油和水，常用于奶油和调味品。
+
+#### 安全性说明
+
+- **广泛认可**: 瓜尔胶作为食品添加剂在多数国家已被广泛认可和批准使用。
+- **副作用少**: 常规食用量通常安全，极少数情况下可能导致消化不良或过敏反应。
+- **摄入建议**: 正常食用按照食品标签指示或食品制造商的建议量进行使用。
+- **敏感人群**: 对瓜尔胶敏感的人群应避免摄入，特别是有特殊疾病或健康问题的人士。
+
+瓜尔胶以其优异的功能性在食品添加剂领域中占据重要位置，同时其天然来源也使其成为健康食品选择的一个加分项。', 'GB28403-2012', '增稠剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (507, '氨水及液氨', '### 氨水及液氨作为食品添加剂
+
+#### 介绍
+- **氨水（阿摩尼亚水）**和**液氨**均是氨的水溶液形式，其中氨水通常是浓度较低的溶液，液氨则是纯净的氨在高压下液化的形态。
+- 在工业和食品加工中，氨水用作pH调节剂，以及其他用途。
+- 通常与氢氧化钠和其他基性化学品一样用于中和食品中的酸性物质。
+
+#### 用途
+- **pH调节剂**: 用于调整和稳定食品的pH值，帮助改善食品的口感和保质期。
+- **抗结剂**: 在烘焙过程中，氨水可以帮助防止粉末状物质如面粉和糖发生结块。
+- **发酵助剂**: 在面包和其他发酵产品的生产中，加入少量氨水可以促进酵母的活性，通过调节面团pH值来改善发酵效果。
+
+#### 安全性说明
+- **食品级别**: 使用于食品中的氨水和液氨必须符合食品安全标准，是经过认证的食品级。
+- **使用限量**: 在食品加工中使用氨水和液氨时，必须严格控制使用量，过量可能会对健康造成影响。
+- **潜在风险**: 氨水和液氨具有一定的腐蚀性，不当接触可能会刺激皮肤和呼吸系统。因此，在食品加工中应确保在安全的条件下使用。
+- **监管要求**: 在许多国家和地区，使用氨水和液氨作为食品添加剂是受到严格监管的，必需遵守相关的食品安全法规和标准。
+
+通过以上列表形式，可以更清楚和具体地了解氨水及液氨作为食品添加剂的相关知识。在使用时，确保遵循相关安全和法规标准非常重要。', 'GB29201-2020', '加工助剂', 0x5B322C365D, '', '2024-10-10 12:48:58', '2024-10-21 13:04:25');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (508, '氮气', '### 氮气作为食品添加剂
+
+#### 介绍
+- **化学性质**：氮气是一种无色、无味且无臭的气体，化学式为N₂。
+- **制取过程**：工业上通常通过分馏液化空气来获得纯净的氮气。
+- **状态**：在常温常压下为气态，需以高压或液态形式储存和运输。
+
+#### 用途
+- **食品保鲜**：氮气用来置换食品包装中的氧气，延缓食品的氧化和腐败过程。
+- **饮料充填**：在碳酸饮料和啤酒的生产过程中，用于充填罐装和瓶装饮料，以减少氧气接触，确保饮料品质。
+- **冷冻速冻**：液态氮气因其极低的温度被广泛用于快速冷冻食品，保持食品的新鲜度和营养。
+
+#### 安全性说明
+- **无毒性**：氮气本身是安全的，对人体无害且在大气中含量丰富。
+- **窒息风险**：尽管氮气无毒，但在高浓度下可导致氧气稀释，造成窒息风险。确保使用时的通风条件良好。
+- **高压气体安全**：以高压气体形式存储和使用时，需注意气瓶的安全管理，避免气瓶损坏或误操作导致安全事故。
+- **无特殊生物性危害**：氮气不支持细菌生长，因此不会引入或增加食品的微生物风险。', 'GB29202-2012', '其他', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (509, '碘化钾', '### 碘化钾作为食品添加剂
+
+#### 介绍
+- 碘化钾（化学式：KI）是一种无色或白色晶体或粉末。
+- 在食品工业中，它主要用作营养强化剂，特别是添加到盐中以预防碘缺乏病。
+- 碘是人体必需的微量元素，对于维持正常的甲状腺功能至关重要。
+
+#### 用途
+- **碘盐生产**: 最常见的用途是在食用盐中添加微量的碘化钾，形成碘化盐，帮助预防碘缺乏引起的疾病。
+- **食品加工**: 在一些国家，碘化钾也用于其他食品的加工过程中，如面粉和水产品，以增强食品的碘含量。
+
+#### 安全性说明
+- **一般认为安全**：在适量使用时，碘化钾被广泛认为是安全的。它已被多个国家的食品安全机构批准用作食品添加剂。
+- **过量风险**：尽管碘化钾对大多数人群是安全的，但过量摄入碘可能导致甲状腺功能异常，如甲状腺抑制或甲亢。
+- **敏感人群注意**：对于特定敏感人群，例如患有特定甲状腺疾病的人，应在医生指导下摄入含碘化钾的产品。
+- **监管标准**：不同国家和地区对食品中碘化钾的添加量有严格的监管标凘，以确保公众的健康安全。
+
+通过以上简介、用途和安全性说明，消费者可以更好地了解作为食品添加剂的碘化钾的重要性和使用时的注意事项。', 'GB29203-2012', '营养强化剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (510, '硅胶', '### 硅胶作为食品添加剂
+
+硅胶通常以二氧化硅（SiO2）的形式出现，在食品添加剂中用作抗结剂和载体等。它主要是无机的硅酸盐，通常呈无味、无臭的白色粉末。在食品工业中，硅胶用于防止产品因吸湿而结块，提高产品的流动性和储存稳定性。
+
+#### 介绍
+
+- **成分**: 硅胶作为食品添加剂主要是由二氧化硅（SiO2）组成。
+- **形态**: 一般为无色透明或白色的粉末状态。
+- **来源**: 天然来源自石英砂，经过工业加工和精炼而成。
+
+#### 用途
+
+- **防结剂**: 防止食品成分如粉末型产品出现结块。
+- **储存稳定性**: 增强食品在长时间储存过程中的稳定性，避免受潮气影响。
+- **载体**: 在食品添加剂中，用于加工时作为流动性辅助材料，帮助其他成分均匀分布。
+- **触感改善**: 在某些产品如口香糖中，提升口感和离型性。
+
+#### 安全性说明
+
+- **食品级**: 硅胶作为食品添加剂需符合特定的化学纯度和安全标准。
+- **官方认证**: 通过如FDA（美国食品药品监督管理局）和EFSA（欧洲食品安全局）等权威机构的安全认证。
+- **剂量控制**: 食用中硅胶的使用量需遵循“量少即安全”的原则。
+- **多国认可**: 许多国家承认硅胶作为食品添加剂的安全性，但使用必须遵循各国的标准和规定。
+
+这些是关于硅胶作为食品添加剂的基本信息，希望能帮助您更好地理解其用途和安全性。在使用任何食品添加剂时，遵循正确的用量和国家的具体规定是非常重要的。', 'GB29204-2012', '吸附剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (511, '硫酸', '### 硫酸作为食品添加剂
+
+硫酸（Sulfuric acid）在食品工业中的使用较为有限，并且主要用于加工过程中的一些特定功能，而不是作为直接添加剂。下面是对硫酸作为食品添加剂的介绍、用途以及安全性的说明。
+
+#### 介绍
+- **化学性质**: 硫酸是一种高度腐蚀性的强矿物酸，具有强烈的氧化性和脱水性能。
+- **CAS号**: 7664-93-9
+- **分子式**: H₂SO₄
+- **一般使用**: 在食品工业中，硫酸不常见作为直接添加剂，但可能在某些工艺流程中用于调节酸度或作为清洁剂。
+
+#### 用途
+- **糖料生产**: 在糖料生产中，硫酸用于帮助提取糖分。
+- **酸性调节**: 在工业加工中可作为pH调节剂使用，帮助破坏食品中的微生物，保持食品安全。
+- **清洁和消毒**: 在食品加工设备的清洁过程中，硫酸有时被用作强效的清洁剂，帮助去除顽固的矿物质积累和消毒。
+
+#### 安全性说明
+- **高度腐蚀性**: 硫酸对金属和有机材质都有强烈的腐蚀作用，需严格按照相关规定使用和储存。
+- **操作注意**: 使用时需穿戴适当的防护装备，如穿戴耐酸的手套、护目镜和防护服。
+- **应急措施**: 必须配备紧急清洗设备如眼洗站和淋浴设备，确保在接触皮肤或眼睛后能立即进行冲洗。
+- **存储指导**: 应储存于通风良好、温度恒定、远离光照的环境中，避免与易燃物质、有机物或还原剂接触。
+
+通过合适的使用和严格的安全措施，硫酸可以在食品加工中发挥重要作用，但必须小心谨慎地处理以确保安全。', 'GB29205-2012', '加工助剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:01:50');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (512, '硫酸铵', '### 硫酸铵作为食品添加剂
+
+#### 介绍
+- **化学式**：\\( NH_4 \\) \\( SO_4 \\)
+- **性质**：无色至白色的粉末或颗粒，无臭，具有咸味。
+- **获得方式**：通常通过氨和硫酸的中和反应产生。
+
+#### 用途
+- **面粉改良剂**：作为面粉处理剂，可以改善面团的发酵质量，增强面包的体积和质地。
+- **酵母营养源**：在发酵过程中用作营养添加剂，供酵母使用，促进酵母生长。
+- **控制pH值**：调整和维持食品的酸碱平衡。
+
+#### 安全性说明
+- **食品级确定**：在许多国家被认可为食品添加剂，在使用时需遵循规定的用量。
+- **健康影响**：适量使用通常被认为是安全的，但过量摄入可能对健康造成不利影响。
+- **避免敏感**：对硫或氨特别敏感的人应注意可能的过敏反应。
+- **监管认证**：在添加到食品中前需通过相关食品安全机构的认证。
+
+以上信息可为消费者提供关于作为食品添加剂时硫酸铵的基础知识和使用安全指南。', 'GB29206-2012', '营养强化剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (513, '硫酸镁', '### 硫酸镁作为食品添加剂
+
+#### 介绍
+- **化学性质**：硫酸镁是一种无机盐，化学式为MgSO₄。
+- **形态**：通常为白色或无色的结晶、颗粒或粉末。
+- **溶解性**：易溶于水，其水溶液呈中性。
+
+#### 用途
+- **食品工业**：用作营养强化剂，添加到食品中可以补充镁元素。
+- **豆制品制作**：作为凝固剂，用于豆腐等豆制品的生产过程中。
+- **饮料**：在某些低钠食品和饮料中，用作稳定剂和营养添加剂。
+- **面粉**：加入到面粉中来改善烘焙食品的质量。
+- **保健产品**：在一些营养补充品中，作为镁的补充来源。
+
+#### 安全性说明
+- **摄入限制**：虽然硫酸镁是一种安全的食品添加剂，但过量消费可能会引起腹泻和其他消化不良的症状。
+- **建议用量**：在使用时应严格遵守食品安全标准和调味剂的添加剂限制。
+- **监管批准**：被世界卫生组织(WHO)和食品及农产品组织(FAO)认可为食品添加剂。
+- **敏感性注意**：个别人士可能对硫酸镁敏感，应注意观察是否有过敏反应。
+
+以上内容可以帮助了解硫酸镁作为食品添加剂的基本信息和安全性指南。在使用任何添加剂时，正确的标注和按照标准的用量是非常重要的。', 'GB29207-2012', '营养强化剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (514, '硫酸锰', '### 硫酸锰
+
+硫酸锰是一种无机化合物，化学式为MnSO₄，常见形式为硫酸锰(II)。
+
+#### 介绍
+- **化学性质**：硫酸锰是一种淡粉色至白色的固体，易溶于水，不溶于乙醇。
+- **生产方式**：通常通过锰矿石与硫酸反应制得。
+- **纯度**：食品级硫酸锰应符合特定的纯度标准，以确保其安全用于食品添加。
+
+#### 用途
+- **营养强化剂**：作为微量元素补充剂，添加到多种食品和饮料中，以提供人体所需的锰元素。
+- **食品处理**：在食品工业中，可用作pH调节剂和配料。
+- **饲料添加剂**：在动物饲料中添加，用以改善动物的营养摄入和整体健康。
+
+#### 安全性说明
+- **摄入安全量**：应控制每日摄入量，避免超过健康标准的摄入量。
+- **欧盟标准**：在欧盟，硫酸锰作为食品添加剂的使用受到严格的法规限制。
+- **美国FDA规定**：根据美国食品药品监督管理局（FDA）的规定，硫酸锰的使用量和使用方式需严格控制，确保食品安全。
+- **长期风险**：长期或过量摄入硫酸锰可能导致身体积累过多的锰，可能对健康产生不良影响。
+
+硫酸锰作为食品添加剂使用时，需要仔细遵守各种健康和安全指南，确保消费者的健康不受影响。', 'GB29208-2012', '营养强化剂', 0x5B385D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (515, '硫酸钠', '### 硫酸钠作为食品添加剂
+
+#### 介绍
+- **化学式**：Na2SO4
+- **外观**：白色粉末或晶体
+- **溶解性**：易溶于水，不溶于乙醇
+- **来源**：自然存在于矿物形式中，如天然盐矿；也可通过工业合成得到
+
+#### 用途
+- **稳定剂**：防止食品中成分分离，提升产品稳定性
+- **增稠剂**：在一些粉末食品中使用，以改善口感
+- **载体或分散剂**：帮助均匀分布食品中的各种添加剂
+- **调节剂**：用以调节食品中的酸碱平衡
+
+#### 安全性说明
+- **FDA认可**：在美国由食品药品监督管理局（FDA）认为是安全的食品添加剂
+- **用量限制**：应根据具体产品使用指南合理使用，避免过量
+- **少数人群敏感**：极少数情况下可能引起敏感性反应，尤其是对于特定体质的人
+- **长期摄入安全性**：在规定的用量范围内一般被认为是安全的，但过量可能导致消化系统不适
+
+硫酸钠是在食品工业中非常常见的添加剂，主要因其稳定和安全的性质被广泛应用。但如同任何食品添加剂，合理的使用按照规定的安全标准是非常重要的。', 'GB29209-2012', '加工助剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (516, '硫酸铜', '### 硫酸铜作为食品添加剂
+
+#### 介绍
+- **化学名称**：硫酸铜又称铜矾，化学式为CuSO₄。
+- **形态**：一般以五水合硫酸铜的形式存在，呈蓝色晶体或粉末。
+- **制备**：硫酸铜可以通过铜与硫酸的反应或铜矿石的湿法提取来制备。
+
+#### 用途
+- **微量营养素补充**：作为铜的来源，增加食品中微量元素铜的含量，铜是人体必需的微量矿物质，用于血液生成、心脏活动和免疫系统功能等方面。
+- **防腐剂**：在某些食品中用作防腐剂，有助于延长食品的保质期。
+- **颜色固定剂**：在加工食品中用于保持或增强食品的颜色。
+
+#### 安全性说明
+- **限量使用**：硫酸铜作为食品添加剂时，必须严格控制使用量，过量可能导致中毒现象。
+- **健康影响**：适量的铜对人体是必要的，但摄入过多可导致胃肠道刺激、肝脏损伤等健康问题。
+- **监管要求**：在不同的国家和地区，对食品中硫酸铜含量有严格的监管标准和要求，需要遵守相应的法规。
+- **标签说明**：食品包装上必须明确标出含有硫酸铜及其具体用途和含量，以供消费者知悉。
+
+总体而言，硫酸铜作为食品添加剂在使用时需要严格控制其用量和使用条件，以确保食品的安全性和营养价值的平衡。', 'GB29210-2012', '营养强化剂', 0x5B322C385D, '', '2024-10-10 12:48:58', '2024-10-21 13:04:25');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (517, '硫酸亚铁', '### 硫酸亚铁
+
+硫酸亚铁是一种无机化合物，化学式为FeSO₄。在食品工业中，它主要被用作营养补充剂和着色剂，提供铁元素补充。
+
+#### 介绍
+- 硫酸亚铁是铁的硫酸盐之一，通常以无水或含有不同水合水的形式出现。
+- 在食品中添加硫酸亚铁是为了防治铁缺乏性贫血。
+- 它容易溶解于水，适合于各种液体和颗粒型食品的强化。
+
+#### 用途
+- **营养强化剂**：添加到面粉、婴儿配方粉等食品中，增加铁的摄入量。
+- **食品着色剂**：用于肉类和果蔬制品的着色，使颜色更加鲜亮。
+- **食品加工助剂**：在食品加工过程中作为催化剂或其他功能性添加剂使用。
+
+#### 安全性说明
+- 根据国际食品法典委员会（Codex Alimentarius）和多个国家的规定，硫酸亚铁是被认可的食品添加剂。
+- 常用量下，硫酸亚铁通常是安全的，但过量可能导致消化不良或铁过载。
+- 对于铁吸收量控制较差的人群（如血色病患者），长期大量摄入可能带来健康风险。
+- 在使用前应咨询专业人士，确保按照适宜的剂量添加。', 'GB29211-2012', '营养强化剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (518, '羰基铁粉', '### 羰基铁粉
+
+#### 介绍
+- 羰基铁粉是一种由纯铁和碳一氧化物在高温、高压的环境下反应而成的粉末。
+- 它具有高纯度和非常细小的粒度，使得其在多个领域中具有广泛的应用。
+
+#### 用途
+- **食品添加剂**: 主要用于食品工业中作为营养强化剂，添加到婴儿配方粉、谷物和面粉中，以补充铁元素。
+- **色泽改善**: 在一些肉制品中加入羰基铁粉，可以改善产品的外观色泽。
+
+#### 安全性说明
+- **世界卫生组织认可**: 羰基铁粉作为食品添加剂的使用已被世界卫生组织（WHO）和联合国粮食及农业组织（FAO）的共同食品添加剂专家委员会（JECFA）认可。
+- **无毒性**: 研究表明，羰基铁粉作为食品添加剂时具有低毒性甚至无毒性，对人体是安全的。
+- **消化吸收**: 羰基铁粉容易被人体消化吸收，增加食品的营养价值，特别是对于铁缺乏症的预防和治疗具有重要作用。
+
+通过这些信息，可以帮助公众更好地理解羰基铁粉作为食品添加剂的作用和安全性。', 'GB29212-2012', '其他', 0x5B322C355D, '', '2024-10-10 12:48:58', '2024-10-21 13:04:25');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (519, '硝酸钾', '### 硝酸钾（食品添加剂）
+
+#### 介绍
+- 硝酸钾，化学式为KNO₃，是一种常见的无机盐。
+- 在食品工业中，主要以食品添加剂的形式存在，尤其用于肉制品的加工。
+- 该化合物有助于保持肉类的红色和提高口感。
+
+#### 用途
+- **肉制品防腐剂**：硝酸钾在肉制品中添加作为防腐剂，可以抑制微生物的生长，延长保存期限。
+- **色泽改善剂**：在加工肉类时，硝酸钾可以转化为亚硝酸盐，帮助肉产品保持良好的红色外观。
+- **风味增强剂**：通过改善肉类的色泽和质感，间接增强食品的风味。
+
+#### 安全性说明
+- **使用限量**：硝酸钾的使用需要严格按照食品安全标准来进行，过量可能对健康产生不良影响。
+- **潜在风险**：硝酸钾在体内可以转化为亚硝酸盐，过量摄入亚硝酸盐可能与某些健康问题相关，包括致癌风险。
+- **监管评估**：多个国家和地区的食品安全机构（如FDA、EFSA）已对其安全性进行评估，并设定了使用标准和限制。
+- **妥善标签**：食品包装上必须清晰地标记含有硝酸钾，并指出其用途，以便消费者做出明智的选择。
+
+在使用硝酸钾作为食品添加剂时，遵守适当的使用和标记准则至关重要，确保食品的安全与卫生。', 'GB29213-2012', '护色剂、防腐剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (520, '亚铁氰化钠', '### 亚铁氰化钠作为食品添加剂
+
+#### 介绍
+- **化学式**: Na₄Fe(CN)₆
+- **别名**: 黄血盐
+- **性质**: 亚铁氰化钠为无色或白色结晶粉末，易溶于水，几乎不溶于乙醇。
+- **生产方法**: 通过碳酸钠与氰化铁和氰化钠在水中反应生成。
+
+#### 用途
+- **防止结晶**: 在盐类和糖的加工过程中添加，减少结晶，保持产品的流动性。
+- **着色剂**: 在食品工业中作为着色剂使用，可以提供稳定的颜色。
+- **分析试剂**: 在食品安全分析中用作定量分析的试剂。
+
+#### 安全性说明
+- **审批情况**: 在多个国家和地区被批准为食品添加剂。
+- **摄入限制**: 一般情况下，亚铁氰化钠的使用量应遵守相关食品安全标准和限制。
+- **毒理学数据**: 在正常的使用浓度下，不显示对人体有害影响。
+- **注意事项**: 长时间或大量摄入未通过食品安全测试的产品可能对健康有害。需确保从可靠来源购买符合食品级标准的产品。', 'GB29214-2012', '抗结剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:01:50');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (521, '植物活性炭（木质活性炭）', '### 植物活性炭（木质活性炭）
+
+#### 介绍
+- **来源**: 植物活性炭主要由木材、竹子等植物材料经高温炭化和蒸汽激活制成。
+- **特性**: 该活性炭具有高度的孔隙结构，使其具有很高的吸附能力。
+- **类型**: 在食品加工中常用的类型包括椰壳活性炭、木质活性炭等。
+
+#### 用途
+- **脱色**: 常用于糖、植物油和其他食品的脱色处理。
+- **除味**: 用于去除食品中的异味，例如在鱼罐头生产中去除鱼腥味。
+- **净化**: 改善食品的清洁度和纯净度，去除有害物质和污染物。
+- **健康补充**: 作为食品级产品，也用于直接消费的健康补充品，例如用于治疗腹泻、胃酸过多等症状。
+
+#### 安全性说明
+- **批准使用**: 植物活性炭作为食品添加剂在多数国家和地区（如欧盟、美国）已被食品药品管理机构批准使用。
+- **剂量控制**: 食用时应控制在安全剂量内，过量摄入可能会影响营养吸收。
+- **禁忌和警告**: 孕妇和儿童使用前应咨询医生，避免与其他药物同时使用，因为它可能会干扰药物的吸收。
+- **长期安全性**: 目前的科学研究表明，适量使用植物活性炭是安全的，但长期大量使用的安全性尚需进一步研究。
+
+这些信息可帮助公众了解植物活性炭在食品添加剂中的应用以及相关的安全性问题。', 'GB29215-2012', '吸附剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (522, '丙二醇', '### 丙二醇
+
+丙二醇（Propylene Glycol）是一种广泛在多个工业领域和食品加工中使用的化学品。在食品工业中，它主要被用作食品添加剂，具有湿润剂、抗结剂和溶剂的作用。
+
+#### 介绍
+- **化学名称**：1,2-丙二醇
+                                                                                                                  - **分子式**：C3H8O2
+- **外观**：无色液体，无臭或微有甜味
+- **溶解性**：与水、醇类、多数有机溶剂均可混溶
+- **生产方式**：主要通过石化原料的加工制得
+
+#### 用途
+- **作为湿润剂**：增加食品的水分，防止食品过于干硬。
+- **作为溶剂**：有助于其他食品添加剂或食品成分的均匀分布。
+- **作为抗结剂**：防止食品成分间的粘连，特别是在粉末型食品中。
+- **调整口感与稳定色泽**：在冷冻食品中防止结晶，改善口感，及保持食品颜色稳定。
+
+#### 安全性说明
+- **FDA 認可**：美国食品药品监督管理局(FDA)将丙二醇列为一般公认为安全的物质（GRAS），可用于食品中。
+- **欧盟规定**：欧盟食品安全局（EFSA）也批准其作为食品添加剂。
+- **剂量控制**：尽管被认为是低毒的，长期大量摄入仍可能引致健康不良反应，因此使用时需控制在安全剂量范围内。
+- **敏感性提示**：极少数人可能对丙二醇敏感，出现轻微的过敏反应。
+- **广泛应用的安全历史**：丙二醇已经在食品和药品行业中使用多年，具有相当的安全记录。
+
+以上信息可以作为健康和安全科普教育的一部分，帮助消费者更加了解他们食用的产品成分。', 'GB29216-2012', '溶剂、保湿剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (523, '环己基氨基磺酸钙', '### 环己基氨基磺酸钙
+
+环己基氨基磺酸钙，也称为钙环己磺酸，是一种被广泛应用于食品工业的添加剂。
+
+#### 介绍
+- **化学式**: C6H11NO4S·Ca
+- **性状**: 通常呈现为白色粉末状。
+- **溶解性**: 在水中的溶解性良好。
+- **制备方法**: 环己基氨基磺酸与钙盐反应得到。
+
+#### 用途
+- **pH调节剂**: 用于调节食品的酸碱度。
+- **营养强化剂**: 作为钙的来源，增加食品的营养价值。
+- **抗结剂**: 防止食品成分在存储过程中结块。
+- **保湿剂**: 帮助食品保持水分，延长保质期。
+
+#### 安全性说明
+- **食品安全认证**: 多数国家批准其作为食品添加剂使用。
+- **摄入限制**: 应按照各国食品安全标准进行适量使用，避免过量摄入。
+- **过敏信息**: 通常认为环己基氨基磺酸钙不具备明显的过敏性。
+- **毒理学信息**: 长期和大量摄入的安全性数据仍需进一步研究和评估。
+
+该信息可以用来科普环己基氨基磺酸钙作为食品添加剂的基本知识，帮助公众了解其使用的背景和安全性。', 'GB29217-2012', '甜味剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (524, '甲醇', '### 甲醇作为食品添加剂
+
+#### 介绍
+- **化学性质**：甲醇，也称为木醇或木醇精，化学式为CH₃OH，是一种简单的最轻的醇类。
+- **来源**：在工业中，甲醇主要通过合成气（一种包含一氧化碳和氢气的混合物）的催化转化而成。
+
+#### 用途
+- **实际应用**：甲醇自身通常不作为食品添加剂使用，而是用作溶剂、防冻剂或燃料等其他工业用途。
+- **误解说明**：有时人们会误将甲醇认为是可以食用的酒精，这是错误的。因为甲醇极其有毒，即使是少量摄入也可能导致严重的健康问题。
+
+#### 安全性说明
+- **毒性**：甲醇对人体是极度有毒的，摄入后可以通过代谢途径转化为甲醛和甲酸，这两种物质都有很强的毒性，可以导致盲目、器官损害甚至死亡。
+- **误用警告**：绝对不可将甲醇用作食品或饮料的成分。在食品安全中，确保甲醇的使用限于非食品应用是非常重要的。
+- **处理指南**：在工业应用中需要保证适当的安全措施，避免甲醇的蒸气或液体与食品接触，使用过程中需要穿戴适当的防护装备，比如防化手套、护目镜和防护服。', 'GB29218-2012', '加工助剂', 0x5B322C372C31332C31345D, '', '2024-10-10 12:48:58', '2024-10-21 13:04:26');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (525, '山梨醇酐三硬脂酸酯（司盘65）', '### 山梨醇酐三硬脂酸酯（司盘65）
+
+#### 介绍
+- **化学名称**：山梨醇酐三硬脂酸酯，通常称为司盘65。
+- **外观**：常见为白色或淡黄色的粉末或颗粒。
+- **来源**：通过山梨糖醇（一种多元醇）与硬脂酸反应制得。
+- **特性**：具有很好的热稳定性和化学稳定性。
+- **CAS号**：共有26266-57-9，表示其在化学物质中的唯一标识。
+
+#### 用途
+- **食品保鲜**：常用于制作糕点、面包等，作为防霉剂延长食品保存时间。
+- **质地改善剂**：作为乳化剂和稳定剂，增加食品如奶油和面包的质感和体积。
+- **抗结剂**：防止食品成分例如糖和奶粉出现结块现象。
+- **释放剂**：用于制作糖果时，防止糖果粘附在模具上。
+- **食品包装材料**：用于塑料包装材料中以增强食品安全性和延长保质期。
+
+#### 安全性说明
+- **食品安全认证**：这种添加剂在多个国家和地区已经通过了食品安全认证，可以安全用于食品中。
+- **用量指导**：国际食品法典委员会（Codex Alimentarius）等机构对其使用量有明确指导，需按照推荐用量使用。
+- **无重大副作用**：长期研究显示，按照规定使用量，对人体无重大副作用。
+- **敏感性**：敏感人群，如有特定食物过敏症状的人群使用时需谨慎。
+
+此科普资料提供了关于山梨醇酐三硬脂酸酯的基本信息、主要用途以及其作为食品添加剂的安全性指导，方便公众更好地了解和使用这种食品添加剂。', 'GB29220-2012', '乳化剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (526, '聚氧乙烯（20）山梨醇酐单月桂酸酯（吐温20）', '### 聚氧乙烯（20）山梨醇酐单月桂酸酯（吐温20）
+
+#### 介绍
+- **化学性质**: 聚氧乙烯（20）山梨醇酐单月桂酸酯是一种非离子表面活性剂，常见名称为吐温20。
+- **物理形态**: 常温下为黏稠的液体或固体，颜色可能从浅黄色至棕黄色不等。
+- **可溶性**: 在水中具有良好的溶解性，也可以溶解于许多有机溶剂中。
+
+#### 用途
+- **食品工业**: 用作乳化剂、稳定剂，可以帮助混合油和水，增加产品的稳定性和延长保质期。
+- **改善口感**: 用于冰淇淋和奶油中，以提升质地和口感。
+- **分散剂**: 在食品色素和香料的应用中，作为有效的分散剂，确保色彩和味道的均匀分布。
+
+#### 安全性说明
+- **FDA评估**: 在美国，聚氧乙烯（20）山梨酯单月桂酸酯已被食品与药物管理局（FDA）认定为一般公认为安全（GRAS）的物质。
+- **欧盟立法**: 在欧盟，根据EFSA的评估也被认为是安全的食品添加剂。
+- **注意事项**: 尽管普遍被认为安全，过敏体质的消费者应注意可能的过敏反应，尤其是对多种化学物质敏感的人群。', 'GB29221-2012', '乳化剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (527, '聚氧乙烯（20）山梨醇酐单棕榈酸酯（吐温40）', '### 聚氧乙烯（20）山梨醇酐单棕榈酸酯（吐温40）
+
+#### 介绍
+- **化学名称**：聚氧乙烯（20）山梨醇酐单棕榈酸酯也被称为吐温40。
+- **性质**：这是一种非离子型表面活性剂，呈黏稠液态，溶于水，常温下为黄色到棕色的液体。
+- **来源**：通过山梨醇的酐与聚氧乙烯和棕榈酸反应合成。
+
+#### 用途
+- **乳化剂**：在食品制造中用来稳定油水混合物，帮助两者均匀混合，并提高食品的口感和质地。
+- **增溶剂**：增加食品中难溶成分的溶解度，如香精和维生素等。
+- **抗结剂**：在粉末食品中应用，防止成分结块。
+- **改进剂**：改善食品的整体稳定性和延长保存期限。
+
+#### 安全性说明
+- **FDA评估**：美国食品药品监督管理局（FDA）认可其作为食品添加剂的安全性。
+- **限量使用**：在使用时需遵守特定的添加限量，以确保消费者摄入安全。
+- **过敏性**：对于极少数人群，可能引发过敏反应，使用前应检查成分是否适用于特定消费者。
+- **国际食品法典标准（Codex Alimentarius）**：国际标准也已经评估并批准其在食品中的使用安全。
+
+通过上述信息的科普，消费者可以对聚氧乙烯（20）山梨醇酐单棕榈酸酯（吐温40）有一个基本的认识，理解其在食品中的作用及安全性。', 'GB29222-2012', '乳化剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (528, '脱氢乙酸', '### 脱氢乙酸
+
+#### 介绍
+脱氢乙酸，也称为乙烯酮（英文名: Dehydroacetic acid，缩写为 DHA），化学式为 C8H8O4。这种有机化合物主要被用作防腐剂以及食品添加剂，尤其在预防微生物生长方面表现出良好效果。
+
+- **化学特性**：脱氢乙酸是一种无色至微黄色的结晶性固体。
+- **溶解性**：易溶于水和多数有机溶剂。
+- **有效性**：对多种微生物，包括霉菌和细菌都有很好的抑制效果。
+
+#### 用途
+作为一种食品添加剂，脱氢乙酸的应用范围广泛，主要用于防止食品变质和延长保质期。
+
+- **防腐剂**：在食品工业中，用于制作果酱、糕点和饮料等，以防微生物生长和延长食品的保质期。
+- **化妆品行业**：在化妆品及个人护理产品中，作为防腐剂使用。
+- **药品**：某些药品制剂中也可能含有脱氢乙酸，用以抑制细菌和霉菌的生长。
+
+#### 安全性说明
+虽然脱氢乙酸以其防腐特性被广泛应用，但其安全性也须谨慎评估。国际食品法典委员会(Codex)和其他食品安全机构对其在食品中的使用有明确的限制和指引。
+
+- **使用量限制**：根据食品类别，使用脱氢乙酸的最大允许量不同。
+- **过敏反应**：少数人可能对脱氢乙酸存在过敏反应，使用时应仔细查看食品成分标签。
+- **EU和FDA规定**：在欧盟和美国，对脱氢乙酸的使用有严格的规定和指导，确保其在安全范围内使用。
+- **长期摄取对健康的影响**：长期过量摄取脱氢乙酸可能对健康造成不利影响，应谨慎使用。
+
+通过遵循相关食品安全标准和法规，可以有效利用脱氢乙酸的防腐属性，同时确保消费者安全。', 'GB29223-2012', '防腐剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (529, '凹凸棒粘土', '### 凹凸棒粘土
+
+凹凸棒粘土（Attagel），也称为膨润土或者膨润土粘土，是一种天然粘土矿物，主要成分是蒙脱石。它在众多领域有着广泛的应用，包括作为食品添加剂。
+
+#### 介绍
+- **来源与成分**: 凹凸棒粘土主要由蒙脱石组成，这是一种由火山灰在水中蚀变而成的铝硅酸盐矿物。
+- **物理特性**: 具有良好的吸水性和膨胀性，能在吸水后体积显著增加。
+
+#### 用途
+- **增稠剂**: 在食品制造中，凹凸棒粘土可作为增稠剂，提高食品的质感和稳定性。
+- **稳定剂**: 帮助食品成分如油和水均匀混合，防止成分分离。
+- **吸附剂**: 可吸附食品中的杂质，如油脂，使产品更清爽。
+
+#### 安全性说明
+- **FDA认证**: 在美国，凹凸棒粘土作为食品添加剂的使用已被美国食品药品监督管理局（FDA）批准。
+- **限制使用量**: 虽然被认为是安全的，但仍推荐在食品中按照FDA规定的比例使用，避免过量。
+- **过敏性与毒性**: 正常使用条件下，凹凸棒粘土没有报告过敏性或毒性反应。
+
+总体来说，凹凸棒粘土作为食品添加剂在严格遵守相关规定和标准的前提下，是安全的。但仍建议消费者了解其在食品中的具体应用以及任何可能的健康影响。', 'GB29225-2012', '吸附剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (530, '天门冬氨酸钙', '### 天门冬氨酸钙
+
+#### 介绍
+- 天门冬氨酸钙是一种由天门冬氨酸和钙离子结合形成的化合物。
+- 这种化合物通常被用作食品添加剂，具有增加保质期和提高食品营养价值的作用。
+- 它作为食品添加剂时常用来作为钙的补充来源，特别适用于不能直接摄取乳制品的消费者。
+
+#### 用途
+- **增强食品营养**：作为一种钙的来源，用于强化食品和饮料，如豆奶、果汁和谷物。
+- **调节酸碱性**：在加工过程中用于调节食品的酸碱平衡。
+- **改善口感**：改善食品和饮料的口感和质感。
+- **防腐保鲜**：帮助延长食品的保质期，防止微生物生长。
+
+#### 安全性说明
+- **通常情况下安全**：天门冬氨酸钙在适量使用时通常被认为是安全的。
+- **已通过多个食品安全机构验证**：如美国食品药品监督管理局(FDA)和世界卫生组织(WHO)均认可其作为食品添加剂的安全性。
+- **可能的过敏反应**：极少数情况下，某些人可能会对天门冬氨酸钙出现敏感反应，使用时需要注意。
+- **建议遵循标准用量**：过量使用可能会引起不良健康影响，因此建议按照食品安全标准使用。
+
+使用天门冬氨酸钙作为食品添加剂时，可以提高食品营养价值并改善质感，但应注意按照规定的用量安全使用。', 'GB29226-2012', '营养强化剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (531, '丙酮', '### 丙酮作为食品添加剂
+
+#### 介绍
+- **化学性质**：丙酮是一种无色易挥发的液体，具有特殊的甜味气味。
+- **获取途径**：可以通过发酵过程生产，也可在石化过程中合成。
+
+#### 用途
+- **溶剂使用**：在食品工业中，丙酮主要被用作溶剂，特别是在食品接触的材料的加工中。
+- **萃取剂**：用于提取和净化食品中的某些成分。
+- **香精成分**：偶尔用作食品香精的成分之一，用于增强食品的香味。
+
+#### 安全性说明
+- **毒理作用**：丙酮被认为是低毒的，但吸入高浓度的丙酮蒸汽可能引起头痛、眩晕或昏迷。
+- **限制使用**：虽然用途广泛，但在食品添加剂中使用时，要严格按照食品安全标准和比例进行。
+- **消散性**：丙酮在环境中容易挥发，从而减少了长期环境影响。
+- **监管审批**：在作为食品添加剂使用前，需通过相关食品安全监管机构的评估和批准。', 'GB29227-2012', '加工助剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (532, '醋酸酯淀粉', '### 醋酸酯淀粉
+
+#### 介绍
+- 醋酸酯淀粉是通过将淀粉与醋酸酯化反应后得到的一种改性淀粉。
+- 它被广泛用于食品工业作为稳定剂、增稠剂或乳化剂。
+- 通过改性，醋酸酯淀粉具有比普通淀粉更优越的热稳定性、冷水溶解性和透明度。
+
+#### 用途
+- **食品加工**：在制造糕点、面包、糖果等食品中提供更好的质构和延长保质期。
+- **乳制品**：用于冰淇淋和奶昔中增加稠度和改善口感。
+- **便利食品**：在即食汤和酱料中作为增稠剂，提供良好的口感和稳定性。
+- **低脂食品**：在低脂食品中替代部分脂肪，同时保持产品的质感和口味。
+
+#### 安全性说明
+- **食品级材料**：醋酸酯淀粉作为食品添加剂，通常是从食用淀粉中制备的，安全性较高。
+- **法规认证**：在多个国家和地区，醋酸酯淀粉已被认证为食品安全添加剂，可放心使用。
+- **耐受性与过敏性**：通常情况下，醋酸酯淀粉不易引起过敏反应，但建议对于特定物质敏感的消费者首先小范围试用。
+- **建议摄取量**：虽然被认为是安全的，控制在法规允许的添加剂使用范围内，仍建议按照产品标签或专业指导进行摄取。', 'GB29925-2013', '增稠剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (533, '磷酸酯双淀粉', '### 磷酸酯双淀粉
+
+#### 介绍
+- 磷酸酯双淀粉是一种经过化学改性的淀粉，其中淀粉分子的一个或多个羟基被磷酸基团所取代。
+- 这种改性增强了淀粉的功能性，比如提高了抗淀粉老化和耐酸性。
+- 在食品工业中，磷酸酯双淀粉主要用作增稠剂、稳定剂、乳化剂等。
+
+#### 用途
+- **增稠剂**：在酱料、汤品、冷冻食品中增加食物的稠度。
+- **稳定剂**：防止冷冻食品在解冻过程中水分分离。
+- **乳化剂**：帮助油水混合物稳定，用于沙拉酱和奶昔等产品。
+- **改善质感**：增加食品的口感。
+
+
+
+
+
+#### 安全性说明
+- **合法性**：磷酸酯双淀粉在多个国家和地区（如美国、欧盟）均被批准为食品添加剂。
+- **耐受性**：磷酸酯双淀粉被认为具有较高的安全性，适合大多数人群食用。
+- **过敏反应**：目前没有广泛报告关于因摄入磷酸酯双淀粉而引发的过敏反应。
+- **摄入限制**：虽然被认为安全，还是推荐按照食品标签或专业建议的量进行摄入。', 'GB29926-2013', '增稠剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (534, '氧化淀粉', '### 氧化淀粉
+
+氧化淀粉是一种经过化学处理的淀粉，使用氧化剂如次氯酸钠或过氧化氢来改变其结构和性质。
+
+#### 介绍
+- **原料**: 通常由天然淀粉（如玉米淀粉、小麦淀粉或马铃薯淀粉）经过氧化处理制得。
+- **制作过程**: 淀粉在氧化剂的作用下，其分子结构中的醇基被氧化成羧酸或醛基。
+- **特性**: 氧化淀粉比普通淀粉具有更低的粘度，更好的稳定性和流变性。
+
+#### 用途
+- **食品工业**: 作为增稠剂、稳定剂和凝胶剂使用，常见于糖果、果酱、冰淇淋等加工食品。
+- **纸张与纺织**: 提供纸张加工时的粘合性和纺织品的抗静电、抗皱性能。
+- **医疗和化妆品**: 用作药品的辅料和化妆品的控制释放成分的载体。
+
+#### 安全性说明
+- **认证与评估**: 氧化淀粉被多个国家的食品安全机构（如FDA和欧盟食品安全局）认可为安全的食品添加剂。
+- **过敏性**: 与普通淀粉相比，氧化处理可能降低了引起过敏的可能性。
+- **摄入限制**: 通常认为在正常的食用水平上是安全的，但应遵守各国对食品添加剂使用的具体规定和建议摄入量限制。
+
+通过这些详细的科普信息，也希望消费者能更理性地看待氧化淀粉这一食品添加剂，正确理解其用途和安全性。', 'GB29927-2013', '增稠剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (535, '酸处理淀粉', '### 酸处理淀粉
+
+#### 介绍
+- **原料来源**：酸处理淀粉是通过将原始淀粉（通常来源于玉米、马铃薯、小麦或大米）用食品级酸处理改性而成。
+- **生产过程**：在制造过程中，淀粉与特定浓度的食品级酸（如盐酸或硫酸）在控温条件下反应，经过一段时间后中和、洗涤，最后干燥和筛分得到酸处理淀粉。
+- **功能特点**：酸处理可以改变淀粉的结构，从而改善其糊化、稳定性、耐酸性和贮存性能。
+
+#### 用途
+- **食品工业**：用于乳制品、糕点和面包中，作为稳定剂和增稠剂，改善食品的质感和保持水分。
+- **调味品**：作为沙拉酱、调味酱的增稠剂，使口感更加丰富。
+- **冷冻食品**：在冻饭、冷冻调理食品中使用，避免结晶，改善口感。
+- **饮品**：在果汁、饮料中增加浑浊度和口感，提高稳定性。
+
+#### 安全性说明
+- **国际认可**：酸处理淀粉作为食品添加剂，在全球多个国家和地区被认为是安全的，已被包括美国FDA和欧洲食品安全局（EFSA）在内的机构所批准使用。
+- **过敏风险**：对于绝大多数人来说，酸处理淀粉是安全的，但个别对原料如玉米等敏感的消费者应注意可能的过敏反应。
+- **长期安全性研究**：多年的应用和研究表明，适量使用酸处理淀粉没有明显健康风险。然而，所有食品添加剂都应按照食品法规或厂家推荐的使用量进行使用，以确保食品安全和健康。
+- **环境影响**：在生产过程中的废水和废料需要经过适当处理，确保对环境的影响最小。
+
+以上信息可以帮助公众更好地了解酸处理淀粉作为食品添加剂的基本信息和安全性问题。', 'GB29928-2013', '增稠剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (536, '乙酰化二淀粉磷酸酯', '### 乙酰化二淀粉磷酸酯
+
+乙酰化二淀粉磷酸酯是一种改性淀粉，用作食品添加剂，具有特定的功能性质。
+
+#### 介绍
+- **化学性质**：乙酰化二淀粉磷酸酯是通过将淀粉与乙酰酐和磷酸或其盐类反应而制得的改性淀粉。
+- **制备过程**：主要通过酯化反应，在酸性或碱性条件下处理原生淀粉，引入乙酰基和磷酸基团。
+- **外观**：一般为白色或淡黄色的粉末，无味或有轻微的化学味。
+
+#### 用途
+- **改善质地和稳定性**：可用于提升食品质感，增加稠度与凝胶强度，改善口感。
+- **乳化稳定剂**：在乳化产品中作为稳定剂，帮助油水混合物保持均匀状态。
+- **抗老化作用**：用于面条、面包等面制品，延长保质期，防止老化。
+- **增稠剂和结着剂**：在糕点、酱料和汤料中作为增稠剂和结着剂使用。
+
+#### 安全性说明
+- **批准使用**：在多数国家和地区，如欧盟和美国，乙酰化二淀粉磷酸酯作为食品添加剂的使用都已获得批准。
+- **摄取限制**：虽然被认为是安全的，但消费者仍然建议遵守每日摄取限制，避免过量。
+- **敏感性与过敏反应**：对于大部分人群来说，通常不会引发明显的敏感性或过敏反应。
+- **长期研究与监测**：尽管目前的研究支持其安全性，持续的科学研究和市场监测确保其长期使用的安全性。', 'GB29929-2013', '增稠剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (537, '羟丙基淀粉', '### 羟丙基淀粉
+
+#### 介绍
+- 羟丙基淀粉（Hydroxypropyl Starch，简称HPS）是一种经过化学改性的淀粉。
+- 它是通过在淀粉分子上引入羟丙基基团制备而成。
+- 此种改性使得淀粉在热稳定性和耐酸性等方面得到显著改善。
+
+#### 用途
+- **食品工业**：用作增稠剂、稳定剂和乳化剂，在制作糖果、罐头食品、乳制品等中广泛应用。
+- **面食制品**：提高面食的口感和保水性，使面食更加柔软。
+- **饮料**：提供良好的口感和均一性，用于果汁和乳制饮料等。
+
+#### 安全性说明
+- 国际食品法典（Codex Alimentarius）和许多国家认为羟丙基淀粉在适当使用量内是安全的。
+- 通常需要遵循特定国家的法律规定和食品加工准则来使用。
+- 长期及大量摄入羟丙基淀粉的健康影响仍需进一步研究，以确保消费者安全。', 'GB29930-2013', '增稠剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (538, '羟丙基二淀粉磷酸酯', '### 羟丙基二淀粉磷酸酯
+
+羟丙基二淀粉磷酸酯是一种改性淀粉，经过化学处理提高了其性能，使其在食品工业中的应用更为广泛和有效。
+
+#### 介绍
+- **成分**: 羟丙基二淀粉磷酸酯是通过将淀粉与丙烯酸酯和磷酸盐进行化学反应得到的产物。
+- **特性**: 此添加剂具有良好的溶解性和糊化特性，能在食品加工过程中提高质构和稳定性。
+- **来源**: 主要从天然淀粉如玉米、土豆或小麦淀粉中制得。
+
+#### 用途
+- **增稠剂**: 在各种饮料、汤品及糖果中用作增稠剂，提高食品的质感和口感。
+- **稳定剂**: 用来防止食品成分分离，维持产品的均一性。
+- **乳化剂**: 在乳化产品如酱类和沙拉酱中作为乳化剂，帮助油水相混合。
+- **改良剂**: 用于面包和糕点，改善面团的处理特性和成品的质量。
+
+#### 安全性说明
+- **食品安全级别**: 国际食品法典委员会(Codex Alimentarius)和其他国家食品安全机构认可其作为食品添加剂的安全性。
+- **摄取限制**: 推荐摄取量应根据国家规定的标准和指导进行，过量摄入可能影响消化系统。
+- **过敏信息**: 对特定体质的人群，如有过敏历史者，建议在医生指导下使用。
+- **经测试验证**: 经过多项科学研究和测试，证实其在规定的使用范围内是安全的。
+
+此信息可作为科普材料，在食品添加剂的相关教育和说明中使用，帮助公众理解并正确使用该添加剂。', 'GB29931-2013', '增稠剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (539, '乙酰化双淀粉己二酸酯', '### 乙酰化双淀粉己二酸酯
+
+乙酰化双淀粉己二酸酯是一种常用的食品添加剂，主要用于改良食品的质地和保质期。下面将具体介绍其作为食品添加剂时的应用和安全性。
+
+#### 介绍
+- **化学性质**：乙酰化双淀粉己二酸酯是通过将淀粉与乙酰基和己二酸基进行化学反应后的产物。
+- **生产过程**：通常采用特定的化学方法，把淀粉与乙酸酐和己二酸酐在催化剂存在下反应制得。
+- **外观**：通常为白色或淡黄色的粉末，无臭或有轻微的特异气味。
+
+#### 用途
+- **增稠剂**：在食品加工中，用以增加食品的粘度，改善口感。
+- **乳化剂**：帮助油水混合，增强食品的稳定性，防止分层。
+- **改良剂**：用于面包和糕点中，增加其体积和改善结构，使产品更加松软。
+- **保湿剂**：能够帮助食品保持水分，延长保质期。
+
+#### 安全性说明
+- **安全审评**：经过多国食品安全机构如美国FDA（食品与药物管理局）的审核和批准。
+- **消费指南**：在正常的食品处理和摄入量下，被认为是安全的。
+- **潜在风险**：过量摄入任何添加剂可能导致消化不良等健康问题，但在规定的使用范围内是安全的。
+- **敏感性问题**：少数具有特定健康问题（如特定碳水化合物不能代谢症状的人群）的消费者应咨询医生后使用。', 'GB29932-2013', '增稠剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (540, '氧化羟丙基淀粉', '### 氧化羟丙基淀粉
+
+#### 介绍
+- **名称**：氧化羟丙基淀粉（Oxidized Hydroxypropyl Starch）
+- **来源**：通常由天然淀粉通过化学改性获得，改性方法是通过氧化和羟丙基化反应。
+- **化学性质**：这种改性淀粉在分子结构上引入了羟丙基基团和氧化基团，改进了其在食品中的适用性和功能。
+
+#### 用途
+- **增稠剂**：在食品制造过程中，氧化羟丙基淀粉可用作增稠剂，提高食品的质感和稳定性，常见于汤品和酱料中。
+- **乳化稳定剂**：有助于稳定乳化体系，如在冷饮、奶昔中避免油水分离。
+- **填充剂**：在低脂食品制造中，可以作为脂肪的部分替代品，增加食品的体积感觉。
+- **载体或基底材料**：在特定的食品添加剂（如香料、着色剂）中，作为载体使用，保证添加剂更好地分布在食品中。
+- **改善口感和外观**：使食品具有更好的口感和更美观的外观。
+
+#### 安全性说明
+- **经过审批**：被多个国家和区域的食品安全机构批准用作食品添加剂。
+- **剂量控制**：按照规定剂量使用时，被认为是安全的。超量使用可能导致消化不良。
+- **过敏反应**：少数人可能对改性淀粉产生过敏反应，尤其是那些对原材料有过敏史的消费者。
+- **长期食用研究**：目前，关于长期大量消费氧化羟丙基淀粉的研究相对较少，但目前的数据显示其在正常食用量下是安全的。
+- **适宜人群**：除特殊体质（如对原材料过敏者）外，大多数人群适宜食用该添加剂。
+
+使用氧化羟丙基淀粉作为食品添加剂能提升产品的品质和感官属性，但使用时需要按照安全标准确保用量合理且适应特定产品的需求。', 'GB29933-2013', '增稠剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (541, '辛烯基琥珀酸铝淀粉', '### 辛烯基琥珀酸铝淀粉
+
+#### 介绍
+- **成分**: 辛烯基琥珀酸铝淀粉是一种化学改性的淀粉，主要通过辛烯基琥珀酸与铝的离子结合，改变了淀粉的原有性质。
+- **制备**: 该化合物通过将淀粉与辛烯基琥珀酸酐在特定条件下反应，并引入铝元素进行交联，从而获得。
+- **特性**: 结构稳定性好，耐热、耐酸碱，以及一定的抗微生物能力。
+
+#### 用途
+- **食品工业**: 主要用作稳定剂和增稠剂，可以在酸奶、果酱、调味品等产品中使用，以改善质地和稳定性。
+- **加工改进**: 用于提升食品在加工和储存过程中的稳定性，防止油水分离，延长保质期。
+- **口感调整**: 能够改善食品的口感，增加食品的丰满感和粘稠度。
+
+#### 安全性说明
+- **安全认证**: 通常经过食品安全机构如FDA（美国食品和药物管理局）或EFSA（欧洲食品安全局）的评估和认证，确保其在特定用量下的安全性。
+- **使用限量**: 在食品中使用时需遵循相关法规和标准，确保不超过规定的添加限量。
+- **过敏性**: 对于特定敏感人群，如有铝过敏的消费者，建议避免使用含此类成分的食品。
+- **长期摄入**: 尽管目前研究表明在常规使用量下安全，推荐消费者注意食品添加剂的总体摄入量，尤其是儿童和孕妇。', 'GB29934-2013', '乳化剂、增稠剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (542, '磷酸化二淀粉磷酸酯', '### 磷酸化二淀粉磷酸酯
+
+磷酸化二淀粉磷酸酯是一种经过化学改性的淀粉，其通常用作食品添加剂。这种物质能够提高食品的稳定性和保水性，从而改善食品的质感和延长保质期。
+
+#### 介绍
+- **化学性质**: 磷酸化二淀粉磷酸酯是由淀粉在加入磷酸盐后经过酯化反应制得的产品。
+- **制作过程**: 通常通过将淀粉与磷酸或其盐类在一定的条件下反应，引入磷酸基团到淀粉分子上。
+- **物理形态**: 通常为白色或淡黄色的粉末。
+
+#### 用途
+- **改善质地**: 可以提高食品的黏稠度和质感，使得食品更加细腻。
+- **增加稳定性**: 在冷冻和加热过程中减少物质的分解，增加食品的稳定性，尤其是在制作冷冻食品时。
+- **保水性**: 增强食品的保水能力，减少烹饪和加工过程中的水分损失。
+- **延长保质期**: 由于其稳定性能优良，可以延长食品的保质期。
+
+#### 安全性说明
+- **监管认证**: 在多数国家和地区，如欧盟和美国，都已被认证为安全的食品添加剂。
+- **使用限制**: 尽管被认为是安全的，但各国对其使用还是有一定限制和规定，需按照当地的食品添加剂使用标准进行。
+- **过敏信息**: 对于特定群体（比如与淀粉相关的过敏者），使用前应确保没有过敏反应。
+- **科学研究**: 目前的科学研究表明，在正常的使用限量下，磷酸化二淀粉磷酸酯不会对人体健康造成负面影响。', 'GB29935-2013', '增稠剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (543, '淀粉磷酸酯钠', '### 淀粉磷酸酯钠
+
+#### 介绍
+- 淀粉磷酸酯钠，常用作食品添加剂，化学式为Na(C6H5O5)n。
+- 它是由自然淀粉经改性和磷酸化处理后，再与钠结合形成的化合物。
+- 主要由玉米淀粉、土豆淀粉或其他植物源淀粉为原料。
+
+#### 用途
+- **改善食品质感**：作为抗结剂和增稠剂，改进食品的口感和质地。
+- **稳定剂**：在饮料和其他液态食品中，用来稳定悬浮颗粒，防止成分分离。
+- **乳化剂**：在油水混合的食品中起到乳化作用，帮助混合物保持均一。
+- **抗老化**：在一些糕点和面食产品中，防止老化，延长保质期。
+
+#### 安全性说明
+- **通常安全**：大多数国家和地区的食品安全机构认为淀粉磷酸酯钠在适量使用时是安全的。
+- **规定使用量**：不同的食品类型有不同的最大使用量限制，需按照当地的食品安全规范使用。
+- **过敏信息**：虽然不常见，但某些个体可能会对修改过的淀粉产生敏感反应。
+- **持续研究**：科学界持续监控和研究淀粉磷酸酯钠的长期食用安全性。', 'GB29936-2013', '增稠剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (544, '羧甲基淀粉钠', '### 羧甲基淀粉钠
+
+#### 介绍
+- 羧甲基淀粉钠 (Sodium Carboxymethyl Starch, CMS) 是以天然淀粉为原料，通过化学改性得到的一种白色到淡黄色的粉末。
+- 它是一种水溶性的聚合物，并且可以在多种pH值环境中稳定存在。
+- 由于其优良的增稠和稳定性质，广泛应用于食品工业中。
+
+#### 用途
+- **增稠剂和稳定剂**：在汤料、酱料和糊类食品中作为增稠剂和稳定剂使用。
+- **保水剂**: 在肉制品和面食类产品中，增加水分保持能力，改善口感和延长保质期。
+- **乳化剂**：在冰淇淋和乳制品中，提高乳化效果，防止脂肪分层。
+- **代替有害物质**：作为健康替代品替代某些可能有害的食品添加剂使用，如磷酸盐。
+
+#### 安全性说明
+- **广泛认可的安全性**：羧甲基淀粉钠在国际上被认为是安全的食品添加剂，已获得多国食品药品监管机构的批准。
+- **无重大不良反应**：在正常的食用量下，不会引起重大不良反应或健康问题。
+- **过敏信息**：对于淀粉类过敏体质的消费者，需注意可能引起的过敏反应。
+- **合理使用建议**：消费者在使用含有羧甲基淀粉钠的产品时，应遵循包装上的推荐摄入量，避免过量使用。
+
+通过这些信息，可以帮助消费者更好地了解羧甲型淀粉钠的特性和安全性，合理使用这一食品添加剂。', 'GB29937-2013', '增稠剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (545, '琥珀酸二钠', '### 琥珀酸二钠
+
+琥珀酸二钠是一种常用的食品添加剂，化学式为Na₂C₄H₄O₄。它是从琥珀酸（一种多基有机酸）衍生出的钠盐，广泛用于食品工业中，其主要作用是调节酸碱平衡、作为稳定剂和防腐剂。
+
+#### 介绍
+- **化学性质**: 琥珀酸二钠是一种白色的粉末状固体，遇水容易溶解。
+- **制备方法**: 通常通过将琥珀酸与碳酸钠或氢氧化钠反应产生。
+- **储存条件**: 储存于干燥、阴凉的环境，避免与有毒物质混存。
+
+#### 用途
+- **酸度调节剂**: 调整食品的酸碱值，保持食品的稳定性和口感。
+- **螯合剂**: 与金属离子形成稳定的复合物，防止食品变质和颜色变化。
+- **保湿剂和抗结剂**: 防止食品在加工和储存过程中结块。
+- **营养增强剂**: 在某些情况下，用来增加食品中的钠含量。
+
+#### 安全性说明
+- **一般安全性**: 琥珀酸二钠被认为是安全的食品添加剂，世界卫生组织（WHO）和食品农业组织（FAO）均将其列为通常认为安全（GRAS）的物质。
+- **摄入限制**: 尽管通常认为是安全的，但过量摄入任何添加剂都可能引起健康问题，比如肾脏负担加重。
+- **敏感人群**: 特定人群（如肾脏病患者）应避免摄入过多的琥珀酸二钠，因为它可能会增加钠的摄入量。
+- **法规管制**: 各国对食品添加剂的使用有严格的法律法规，使用琥珀酸二钠作为食品添加剂需要遵守相关法规和标准。', 'GB29939-2013', '调味剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (546, '柠檬酸亚锡二钠', '### 柠檬酸亚锡二钠
+
+柠檬酸亚锡二钠是一种由柠檬酸和亚锡二钠组成的化合物，常用作食品添加剂，具有多种功能。
+
+#### 介绍
+
+- **化学式**: SnNa2(C6H5O7)2
+- **性质**: 柠檬酸亚锡二钠是一种白色至淡黄色的粉末，溶于水，不溶于乙醇。
+- **生产方法**: 通常通过将亚锡盐和柠檬酸在适当比例下反应生成。
+
+#### 用途
+
+- **食品保存剂**: 用于延长食品的保质期，防止微生物的生长。
+- **抗氧化剂**: 防止食品因氧化而变质，保持食品的色泽和口感。
+- **稳定剂**: 在复合食品中用作稳定剂，保持食品成分的均匀分布。
+
+#### 安全性说明
+
+- **食品级标准**: 柠檬酸亚锡二钠在使用前需符合特定的食品安全标准和纯度要求。
+- **使用限制**: 某些国家和地区可能对其使用在食品中的种类和最大使用量有具体规定。
+- **毒理学数据**: 据研究，柠檬酸亚锡二钠在规定的使用条件下对人体是安全的，但过量使用可能会造成健康风险。
+- **敏感性**: 对于特定体质的人群，如有亚锡或柠檬酸盐过敏历史，应避免摄入。
+
+在使用柠檬酸亚锡二钠作为食品添加剂时，应遵循相应的法规和标准，以确保食品的安全性和品质。', 'GB29940-2013', '抗氧化剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (547, '脱乙酰甲壳素（壳聚糖）', '### 脱乙酰甲壳素（壳聚糖）
+
+#### 介绍
+- 脱乙酰甲壳素，又称壳聚糖，是从贝壳类海生甲壳动物中提取的天然多糖。
+- 它主要由葡萄糖胺单元组成，通过对甲壳素进行脱乙酰化处理获得。
+- 壳聚糖具有良好的生物相容性、生物可降解性以及非毒性的特性，使其在多个领域得到应用。
+
+#### 用途
+- **食品工业中的应用**: 作为增稠剂、稳定剂、乳化剂和保湿剂广泛使用于各类食品中，如饮料、冻品和糖果。
+- **保健功能**: 壳聚糖因其促进肠道健康的功能通常被添加到健康食品和饮料中。
+- **维持食品质量**: 它能够抑制食品中的油脂氧化和延长食品保质期，因此经常被用于肉制品和鱼制品中。
+- **调节胆固醇**: 还常被用于制作减肥食品，因为它能帮助降低血液中的胆固醇水平。
+
+#### 安全性说明
+- **广泛认可的安全性**: 壳聚糖作为一种食品添加剂在各国普遍被认为是安全的，如美国FDA和欧盟EFSA都将其列为安全食品成分。
+- **无毒副作用**: 在常规的食用量下，壳聚糖不具有毒性和副作用。
+- **过敏反应**: 尽管壳聚糖来自甲壳类动物，但过敏反应的案例极为罕见。不过，对甲壳类动物过敏的人群应避免使用。
+- **适宜人群**: 适合大多数人群消费，但孕妇和哺乳期女性应在医生指导下使用。
+
+这些信息有助于了解脱乙酰甲壳素（壳聚糖）作为食品添加剂的基本情况，其安全性及广泛的应用性都使得它在食品工业中扮演着重要角色。', 'GB29941-2013', '增稠剂、保鲜剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (548, '维生素E（dl-α-生育酚）', '### 维生素E（dl-α-生育酚）
+
+#### 介绍
+- 维生素E（dl-α-生育酚）是一种人造合成的抗氧化剂，广泛用于食品和化妆品中。
+- 它是天然维生素E（d-α-生育酚）的化学同构体，但生产成本更低。
+- dl-α-生育酚作为一种油溶性抗氧化剂，能有效延长产品的保质期，防止油脂类食品的氧化变质。
+
+#### 用途
+- **食品保鲜**：在各种油脂和含油食品中作为抗氧化剂使用，如烹饪油、炸薯条和零食食品。
+- **保护营养成分**：防止食品中如维生素A和不饱和脂肪酸等营养成分的氧化。
+- **美容与保健产品**：在一些保健品和化妆品中添加，如抗老化面霜，以其抗氧化属性帮助保护皮肤免受自由基损伤。
+- **药品工业**：作为药物制剂的稳定剂。
+
+#### 安全性说明
+- **广泛认可的安全性**：dl-α-生育酚作为食品添加剂已被多国食品药品监督管理局如FDA和欧盟EFSA认可。
+- **每日摄入限量**：过量摄入可能造成健康问题，因此各监管机构设有推荐的每日摄入上限。
+- **过敏性和副作用**：大多数情况下，该成分是安全的，但个别敏感人群可能会出现过敏反应。
+- **长期研究**：对其长期摄入的影响仍在研究中，建议消费者遵循标签指示和专业医疗意见。', 'GB29942-2013', '抗氧化剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (549, '棕榈酸视黄酯（棕榈酸维生素A）', '### 棕榈酸视黄酯（棕榈酸维生素A）
+
+棕榈酸视黄酯是一种合成的脂溶性维生素A形式，其化学结构使其在多种食品中更加稳定。维生素A是一种必需营养素，对于维护良好的视力、促进免疫功能以及支持皮肤和黏膜健康至关重要。
+
+#### 介绍
+- **化学性质**：棕榈酸视黄酯是维生素A的棕榈酸酯形式，具有更好的热稳定性和氧化稳定性。
+- **来源**：通常由合成方法生产，而非直接从自然来源中提取。
+- **形态**：通常以油溶性液体或粉末形式存在。
+
+#### 用途
+- **食品强化**：添加到低维生素A含量的食品中，如牛奶、奶酪和油脂，以预防维生素A缺乏症。
+- **食品保存**：其抗氧化性质有助于延长食品保质期。
+- **食品着色**：在某些产品中添加以提供淡黄色到橙色的色泽。
+
+#### 安全性说明
+- **审批状态**：在多个国家和地区，如美国（FDA批准）和欧盟（EFSA审查），棕榈酸视黄酯被认为是安全的食品添加剂。
+- **摄入限制**：尽管是安全的，过量摄入维生素A可以导致毒性，因此应遵守推荐的日摄入量。
+- **过敏性和反应**：一般认为棕榈酸视黄酯在正常使用条件下不会引起过敏反应。
+- **特殊人群建议**：孕妇和儿童使用含有棕榈酸视黄酯的产品时应更加小心，确保不超过建议的摄入量。
+
+使用棕榈酸视黄酯作为食品添加剂可以有效地提高食品的营养价值和稳定性，但仍需注意遵守适当的使用指南和摄入推荐量以避免潜在的副作用。', 'GB29943-2013', '营养强化剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (550, 'N-[N-(3,3-二甲基丁基)]-L-α-天门冬氨-L-苯丙氨酸1-甲酯（纽甜）', '### N-[N-(3,3-二甲基丁基)]-L-α-天门冬氨-L-苯丙氨酸1-甲酯（纽甜）
+
+#### 介绍
+- 纽甜是一种人工合成的甜味剂，其化学名称较为复杂，通常简称为纽甜。
+- 分子结构包含苯丙氨酸和天门冬氨酸的结合物，是一种肽类化合物。
+- 纽甜的甜度约为蔗糖的7000 - 13000倍，但热量极低。
+- 它是通过生化合成方法或化学合成方法生产的。
+
+#### 用途
+- **增甜剂**：由于其强烈的甜味和低热量特性，常用于饮料、糖果、果酱、冷食、甜点等食品中。
+- **食品加工**：在烘焙食品和低热量食品制作中，用以替代糖，以降低总热量。
+- **特殊饮食需求**：适用于糖尿病患者和减肥者的食品制备中，帮助控制血糖和总热量摄入。
+
+#### 安全性说明
+- **审批认证**：纽甜在多个国家和地区获得食品安全机构的认证，如美国FDA、欧盟EFSA等。
+- **使用限量**：各国家和地区对纽甜的使用有严格的限量标准，确保摄入量在安全范围内。
+- **研究支持**：广泛研究表明，适当摄入纽甜是安全的，但长期大量使用仍需谨慎。
+- **可能的副作用**：尽管对大多数人群来说不会引起显著不良反应，少数人可能对其敏感，表现为过敏反应等症状。', 'GB29944-2013', '甜味剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (551, '槐豆胶（刺槐豆胶）', '### 槐豆胶（刺槐豆胶）
+
+#### 介绍
+- **来源**：槐豆胶是从刺槐树（Acacia senegal）的树液中提取的天然胶体。
+- **组成**：主要成分为多糖和少量蛋白质。
+- **特性**：具有良好的增稠、乳化和稳定性能。
+
+#### 用途
+- **食品工业**：用作稳定剂和增稠剂，常见于糖果、冰淇淋、调味品和饮料中。
+- **烘焙产品**：改善面包和糕点的质地和保湿性。
+- **乳制品**：在冻酸奶和奶昔中作为乳化剂和稳定剂。
+
+#### 安全性说明
+- **认证**：槐豆胶被多个国家的食品安全机构批准使用，包括美国FDA和欧盟EFSA。
+- **过敏信息**：虽然不常见，但某些个体可能对槐豆胶有过敏反应。
+- **摄入建议**：推荐按照食品添加剂的标准量使用，避免过量。', 'GB29945-2013', '增稠剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (552, '纤维素', '### 纤维素
+
+#### 介绍
+- 纤维素是自然界中最丰富的有机高分子。
+- 主要从植物细胞壁中提取，如木材和棉花。
+- 在食品工业中，纤维素被改造为多种形式（如碳酸盐、醚和酯），用作食品添加剂。
+
+#### 用途
+- **增稠剂和稳定剂**：增加食品的黏度，改善质地和保持均匀状态。
+- **抗结剂**：预防食品成分（如粉末）结块。
+- **低热量替代品**：用于低热量食品中替代糖分或脂肪，提供口感而不增加热量。
+- **纤维素素补充剂**：改善食物中的膳食纤维含量，帮助肠道健康。
+- **乳化剂**：帮助油水混合物稳定，常见于奶昔和冰淇淋。
+
+#### 安全性说明
+- **广泛评估认证**：食品中的纤维素及其衍生物已被多个国际食品安全机构（如FDA和EFSA）评估和批准为安全食品添加剂。
+- **过敏反应较少**：纤维素是从广泛存在的植物中提取，人体通常不会对其产生过敏反应。
+- **适量使用**：虽然纤维素被认为是安全的，但推荐在食品中按照规定的使用量添加，避免过量。过量使用可能会导致消化不适，如腹胀或便秘。
+- **长期安全跟踪**：尽管目前的研究支持纤维素的安全性，相关食品安全机构仍在持续监测其在食品中的使用情况，确保长期使用的安全性。', 'GB1886.374-2024', '增稠剂、膳食纤维来源', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (553, '聚丙烯酸钠', '### 聚丙烯酸钠（Sodium Polyacrylate）
+
+#### 介绍
+- **化学性质**：聚丙烯酸钠是一种高分子聚合物，化学式为[CH2-CH(CO2Na)]n。
+- **外观特性**：通常呈现为白色粉末状或颗粒状。
+- **溶解性**：在水中易溶，能迅速吸水膨胀形成凝胶。
+
+#### 用途
+- **保水剂**：在食品中添加，能有效保持食物的湿润度，延长保质期。
+- **稳定剂**：防止食品成分分离，保持食品的稳定性和质感。
+- **增稠剂**：在冷饮、果酱和调味品中用来增加粘度和滑润感。
+
+#### 安全性说明
+- **安全性认可**：聚丙烯酸钠作为食品添加剂在多个国家得到认可，归类为一般被认为是安全的物质（GRAS）。
+- **摄入限制**：尽管被认为安全，但适量使用始终是推荐的做法。过量使用可能会影响食品的质感和口感。
+- **过敏风险**：少数情况下可能引起敏感，但这种情况非常罕见。
+- **环境因素**：聚丙烯酸钠在环境中的降解程度较低，可能会对水环境造成压力。建议合理使用并注意环境保护。
+
+以上信息旨在为大众提供关于聚丙烯酸钠作为食品添加剂的基本知识和安全指南。', 'GB29948-2013', '增稠剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (554, '阿拉伯胶', '### 阿拉伯胶
+
+#### 介绍
+- **来源**：阿拉伯胶是一种天然树脂，主要来源于非洲的阿拉伯树（学名：*Acacia senegal*）和*Acacia seyal*。
+- **提取**：它是通过切割树皮，然后收集流出的树脂得到的，之后会进行净化和干燥处理。
+- **组成**：主要由多糖和少量的蛋白质组成，具有很好的乳化和稳定特性。
+
+#### 用途
+- **食品工业**：用作乳化剂，帮助混合水和油，常用于含乳饮料、糖果和烘焙食品。
+- **调味品**：作为稳定剂，用于保持食品的质感和口感，如在果酱和果冻中使用。
+- **药品和化妆品**：由于其天然黏结特性，阿拉伯胶也用于医药产品的粘结剂以及化妆品的增稠剂。
+
+#### 安全性说明
+- **一般安全性**：阿拉伯胶作为食品添加剂被广泛承认为安全（GRAS）。
+- **过敏反应**：极少数情况下可能会引起过敏反应，但总体风险较低。
+- **摄取限制**：在正常的食用水平下，阿拉伯胶被视为无害。对于有特殊健康条件的人，建议在使用前咨询医生。', 'GB29949-2013', '增稠剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (555, '甘油', '### 甘油作为食品添加剂
+
+#### 介绍
+- 甘油是一种无色、无味、具有甜味的粘稠液体。
+- 它是三醇的一种，化学式为C3H8O3。
+- 在食品工业中，甘油主要是通过植物油或动物脂肪的水解得来。
+- 它广泛用于食品加工中，作为湿润剂、甜味剂、溶剂和软化剂。
+
+#### 用途
+- **湿润剂**：甘油可以吸收和保留水分，因此常用于糕点和面包中，以保持产品的湿润。
+- **软化剂**：在糖果制造中，甘油可以防止糖结晶，保持糖果的软性和鲜嫩。
+- **溶剂**：由于甘油具有良好的溶解性，它被用作食品色素和香料的载体。
+- **甜味剂**：甘油自带的甜味虽然不如蔗糖，但在某些低糖或无糖食品中可以作为天然甜味剂使用。
+- **保湿剂**：甘油用于肉制品和冷冻食品中，以防止产品干燥和改善口感。
+
+#### 安全性说明
+- 甘油被认为是安全的食品添加剂，在世界各地都被广泛接受和使用。
+- 美国食品和药物管理局(FDA)将甘油列为“一般公认为安全”(GRAS)物质。
+- 常规消费量下，甘油没有报道的严重副作用。
+- 过量食用甘油可能会导致头痛、口渴、恶心和高血糖等症状。
+- 对于有特定健康条件的个体，如糖尿病患者，建议在医生的指导下适量消费甘油含量的产品。', 'GB29950-2013', '保湿剂、溶剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (556, '柠檬酸脂肪酸甘油酯', '### 柠檬酸脂肪酸甘油酯
+
+柠檬酸脂肪酸甘油酯是一种常用的食品添加剂，其化学性质稳定，广泛用于食品工业中作为乳化剂和稳定剂。
+
+#### 介绍
+- **化学名称**：柠檬酸脂肪酸甘油酯，亦称作柠檬酸酯。
+- **来源**：通常由植物油（如大豆油或棕榈油），柠檬酸以及甘油通过化学合成的方式制得。
+- **组分**：主要包括脂肪酸和三羟基丙醇（甘油）的柠檬酸酯。
+
+#### 用途
+- **食品工业**：用作乳化剂，帮助乳化不相容的物质（如油和水），提高食品质构与稳定性。
+- **烘焙产品**：改善面团的质地和延长保质期。
+- **饮料**：用于防止成分分离，保持口味和外观的一致性。
+- **糖果和零食**：增加食品的抗氧化性，延长保存期限。
+
+#### 安全性说明
+- **合格证明**：经过多国食品安全机构（如美国FDA，欧盟EFSA）的审查和批准，确认其作为食品添加剂的安全性。
+- **摄入限制**：虽然被认为是安全的，但建议按照食品安全标准限制适量使用。
+- **过敏性**：对于大多数人来说不会引起过敏反应，但敏感人群应注意可能的过敏源。
+- **研究表明**：长期和广泛的研究支持其作为食品添加剂的安全性，没有明显的健康风险。
+
+这些信息可为消费者提供对柠檬酸脂肪酸甘油酯作为食品添加剂使用的深入了解。', 'GB29951-2013', '乳化剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (557, 'γ-辛内酯', '### γ-辛内酯 (Gamma-Octalactone)
+
+#### 介绍
+- **化学性质**: γ-辛内酯是一种内酯化合物，具有特殊的香味和化学结构，属于环状酯类。
+- **来源**: 主要通过生物发酵过程获得，也可以通过化学合成方式制备。
+- **物理状态**: 在室温下呈液态，具有淡淡的果仁香味。
+
+#### 用途
+- **食品调味**: 广泛用于食品工业中作为香味增强剂，尤其在烘焙食品、冰淇淋和饮料中添加以增加香草或坚果的风味。
+- **香料制备**: 在香料制造中作为原料之一，用于复合各种香水和个人护理产品。
+- **工业应用**: 在某些工业应用中用作溶剂或中间体，用于生产其他化学品。
+
+#### 安全性说明
+- **食品安全认证**: γ-辛内酯通常被认为是安全的食品添加剂，已获得多国食品安全机构的认证。
+- **摄入量建议**: 作为食品添加剂使用时，应控制在安全摄入量范围内，避免超过食品安全标准规定的最大使用剂量。
+- **过敏信息**: 少数人可能对此类化合物敏感，使用前应详细了解产品成分。
+- **存储条件**: 应在干燥、阴凉处密封保存，避免直接日光照射，以保持其稳定性和香味。
+
+此信息提供一般指导，使用具体食品添加剂时应参考相关国家和地区的具体法规和安全标准。', 'GB29952-2013', '食品用香料', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (558, 'δ-辛内酯', '### δ-辛内酯（Delta-Octalactone）
+
+#### 介绍
+- δ-辛内酯是一种饱和8碳环状酯，是通过脂肪酸氧化衍生的。
+- 它是一种无色或淡黄色的液体，具有典型的奶油和椰子的芳香。
+- 此化合物主要来源于发酵过程以及植物提取。
+
+#### 用途
+- **食品调味**: 作为食品添加剂，δ-辛内酯主要用于增添食物中的奶油和水果香味，常见于糖果、饮料和烘焙产品中。
+- **香料复合**: 在制作复合香料时，δ-辛内酯可以与其他香料相结合，增强产品的整体感官体验。
+- **乳制品**: 在乳制品中添加，可以增强产品的奶香，比如在冰淇淋和奶酪中。
+
+#### 安全性说明
+- **食品添加剂审查**: δ-辛内酯作为食品添加剂在许多国家和地区被认可和允许使用。通常需要符合特定的食品安全标准和法规。
+- **毒理学数据**: 根据现有研究，δ-辛内酯在推荐用量下对人体没有毒性影响，可以安全使用。
+- **过敏性**: 对于大多数消费者而言，δ-辛内酯不会引起过敏反应。然而，应注意个体差异，敏感人群应谨慎使用。
+- **使用限制**: 在使用时应按照规定的用量进行，过度使用可能会影响食品品质或安全。
+
+此类信息有助于消费者更好地了解食品添加剂的性质和用途，确保安全健康的食品消费体验。', 'GB29953-2013', '食品用香料', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (559, 'δ-壬内酯', '### δ-壬内酯（Delta-Nonalactone）
+
+#### 介绍
+- δ-壬内酯是一种有机化合物，属于内酯类，具有典型的桃子味。
+- 在自然界中常见于多种水果和其他植物中。
+- 在工业上，δ-壬内酯主要通过化学合成或生物转化法生产。
+
+#### 用途
+- **食品香料：** 主要用作食品添加剂，用于增添或增强食物的香味，尤其在糖果、烘焙食品和饮料中使用。
+- **香水制造：** 由于其甜美的果香特征，也常用于香水和个人护理产品的香精制备中。
+- **芳香疗法：** 在芳香疗法中可用作调香油，帮助放松和提升情绪。
+
+#### 安全性说明
+- **食品安全：** δ-壬内酯被国际重要食品安全组织如美国食品药品监督管理局（FDA）和国际食品法典委员会（Codex Alimentarius）认可为食品添加剂，使用安全。
+- **毒理学数据：** 现有的毒理学研究表明，δ-壬内酯在常用的剂量下对人体无害。
+- **敏感性问题：** 虽然δ-壬内酯通常安全且不易引起过敏反应，但敏感个体应先小量测试或咨询医生后使用。
+
+通过提供上述详细信息，能够帮助对食品添加剂感兴趣的读者更好地了解δ-壬内酯的性质和用途。', 'GB29954-2013', '食品用香料', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (560, 'δ-十一内酯', '### δ-十一内酯
+
+#### 介绍
+
+- δ-十一内酯（γ-undecalactone），也被称为桃酮、桃味酮
+- 是一种天然有机化合物，属于内酯类
+- 在自然界中主要存在于水果如桃子、杏和其他一些植物中
+- 以生物合成或化学合成的方式大量生产用于食品添加剂
+
+#### 用途
+
+- **食品香精**: 主要用于增添或增强食品中的果香，尤其是桃和杏的香气
+- **制作饮料**: 在各种饮料中添加以模拟或强化水果味
+- **烘焙产品**: 用于糕点、饼干和其他烘焙产品中，增添水果风味
+- **糖果制作**: 广泛用于糖果的生产，特别是果味糖果
+- **乳制品配料**: 可用于冰淇淋和乳酪等乳制品中，添加果香味
+
+#### 安全性说明
+
+- **食品安全级别**: δ-十一内酯作为食品添加剂，在多个国家和地区已被认证为安全
+- **摄入限制**: 根据食品法规，使用δ-十一内酯应遵循“遵循良好制造实践量不得超过限制”的原则
+- **过敏反应**: 正常使用情况下，δ-十一内酯极少报告有过敏反应
+- **长期研究**: 经过长期的安全性评估和研究，δ-十一内酯被认为是一种相对安全的食品添加剂
+- **监管认证**: 通过FDA（美国食品药品监督管理局）等国际权威机构的审核与认证，适合广泛地用于食品中
+
+通过了解δ-十一内酯的介绍、用途和安全性，可以更好地理解这种食品添加剂的特性及其在食品工业中的应用。对消费者而言，了解这些信息有助于对这类食品成分进行理性评价。', 'GB29955-2013', '食品用香料', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (561, 'δ-突厥酮', '### δ-突厥酮
+
+δ-突厥酮是一种化学物质，广泛用作食品添加剂，特别是在食品香料领域。
+
+#### 介绍
+- **化学性质**: δ-突厥酮是一种有机化合物，常见于香料和香精中。
+- **来源**: 它可以通过化学合成方法制备，或从自然来源中提取。
+- **常见形态**: 通常以液体形式出现。
+
+#### 用途
+- **食品香料**: 用于增强或改变食品的味道和香气。
+- **食品加工**: 作为食品加工过程中的香料成分，提升最终产品的口感和吸引力。
+- **多样化应用**: 广泛应用于糖果、烘焙食品、饮料和其他许多加工食品中。
+
+#### 安全性说明
+- **安全评审**: 通常需要经过相关食品安全机构如美国食品药品监督管理局（FDA）或欧洲食品安全局（EFSA）的评审和批准。
+- **使用指南**: 在使用时需遵守安全使用的标准和指南，以确保消费者健康。
+- **过敏信息**: 少数个体可能对此类化合物存在敏感反应，产品标签上需明确表示可能的过敏信息。
+- **环境影响**: 生产和使用δ-突厥酮应考虑其对环境的潜在影响，遵守相关环境保护法规。', 'GB29956-2013', '食品用香料', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (562, '二氢-β-紫罗兰酮', '### 二氢-β-紫罗兰酮
+
+#### 介绍
+- **化学名称**：二氢-β-紫罗兰酮，也被称为Dihydro-beta-ionone。
+- **化学式**：C13H22O
+- **属性**：该化合物属于羰基化合物，具有特殊的花果香气。
+- **来源**：可以通过化学合成得到，或从天然资源中提取。
+
+#### 用途
+- **食品香料**：用于添加到食品中以增强其香气，常见于糖果、饮料、烘焙食品等。
+- **香精制造**：在香精和日用化学品中，作为香气成分，增加产品的吸引力。
+- **研究用途**：在科学研究中，用于研究不同香气成分的感官影响及其它潜在效用。
+
+#### 安全性说明
+- **毒理性评估**：通常被认为是低毒的，不过仍需控制适当浓度以避免敏感反应。
+- **使用限制**：在食品中的使用需遵守各国的食品添加剂使用标准和法规，确保人体安全。
+- **敏感性注意**：可能引起特定人群的皮肤敏感或过敏反应，在使用前应进行相关安全评估。
+- **环境影响**：作为化学物质，制造和处理时需注意环境保护措施，避免对环境造成不利影响。
+
+使用二氢-β-紫罗兰酮作为食品添加剂时，确保严格按照相关安全标准操作，可以安全地增强食品的风味和香气。', 'GB29957-2013', '食品用香料', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (563, 'l-薄荷醇丙二醇碳酸酯', '### l-薄荷醇丙二醇碳酸酯
+
+#### 介绍
+- l-薄荷醇丙二醇碳酸酯是一种合成的食品添加剂，主要用于增加或改善食品的气味和风味。
+- 这种化合物通常是通过丙二醇与薄荷醇反应生成的碳酸酯。
+- 作为一种食用香精，它主要在食品工业中使用，特别是在需要薄荷香气的产品中。
+
+#### 用途
+- **食品香精**：作为一种香精添加剂，用于烘焙食品、糖果、口香糖等，以增强其薄荷味。
+- **口腔护理产品**：在牙膏、漱口水中添加，利用其清新的薄荷香气来改善口腔气味。
+- **饮料**：用于非酒精饮料和低酒精饮品中，提供清凉的口感和薄荷香味。
+
+#### 安全性说明
+- **食品级标准**：l-薄荷醇丙二醇碳酸酯在使用前需符合国际食品安全标准，在美国由FDA（美国食品药品监督管理局）进行审查和批准。
+- **限定用量**：在食品添加时，其使用量应严格按照相关食品安全标准进行控制，避免过量。
+- **过敏信息**：极少数个体可能对此类香精成分敏感，应注意可能出现的过敏反应。
+- **长期研究**：对于长期摄取的安全性，已进行了一系列动物实验和人体观察研究，以确保其在常规使用下的安全性。', 'GB29958-2013', '食品用香料', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (564, 'd,l-薄荷酮甘油缩酮', '### d,l-薄荷酮甘油缩酮
+
+                                                                                                                  #### 介绍
+- **化学性质**: d,l-薄荷酮甘油缩酮为化工合成产物，由柠檬烯和其他有机化合物经过特定工艺处理合成。
+- **物理形态**: 通常呈现为无色至淡黄色的液体。
+- **来源**: 该添加剂是通过合成途径获得，不是从自然食材中直接提取。
+
+#### 用途
+- **食品工业**: 主要用作香料，在糖果、饮料和烘焙食品中增加清新的薄荷味。
+- **日常调味**: 可用于口腔护理产品中，如牙膏和口水，加强清凉感和改善口感。
+- **保存性增强**: 可以在一些食品中作为防腐剂来延长保质期。
+
+#### 安全性说明
+- **法规审批**: 在多数国家和地区，d,l-薄荷酮甘油缩酮必须经过食品和药品监督管理机构的审查和批准。
+- **摄入限量**: 使用时需控制在安全限量范围内，过量使用可能导致不适。
+- **过敏信息**: 对某些体质的人可能会引起过敏反应，使用前应进行过敏原测试。
+- **环境影响**: 使用和处理过程中需要注意其对环境可能的影响，遵守相应的环境保护法规。', 'GB29959-2013', '食品用香料', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (565, '二烯丙基硫醚', '### 二烯丙基硫醚
+
+二烯丙基硫醚（Diallyl disulfide）是一种有机硫化物，主要从大蒜中提取。它具有特定的化学性质，使其在食品添加剂领域有着独特的应用。
+
+#### 介绍
+- **化学性质**：二烯丙基硫醚为无色至淡黄色液体，具有强烈的大蒜味。
+- **提取来源**：主要从大蒜等植物中通过蒸馏等化学过程提取。
+- **化学结构**：为含硫的有机化合物，分子式为 C6H10S2。
+
+#### 用途
+- **食品保鲜**：可以用作天然防腐剂，延长食品保质期。
+- **风味增强剂**：为食品提供特有的大蒜香味，增强食品的口感和味觉体验。
+- **抗氧化性**：具有一定的抗氧化作用，有助于阻止食品中的氧化反应。
+
+#### 安全性说明
+- **安全认证**：在多国被认可为安全的食品添加剂。
+- **使用剂量**：使用时需控制适宜的剂量，过量可能会引起不适。
+- **过敏信息**：对大蒜敏感的人可能需避免含此类添加剂的食品。
+- **储存条件**：需在阴凉干燥处储存，避免光照和高温。', 'GB29960-2013', '食品用香料', 0x5B322C332C375D, '', '2024-10-10 12:48:58', '2024-10-21 13:04:25');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (566, '4,5-二氢-3(2H)噻吩酮(四氢噻吩-3-酮)', '### 4,5-二氢-3(2H)噻吩酮(四氢噻吩-3-酮)
+
+#### 介绍
+- **化学性质**：4,5-二氢-3(2H)噻吩酮，常称为四氢噻吩-3-酮，是一种含硫杂环的化合物，具有典型的硫代酮结构。
+- **来源**：该化合物可以通过化学合成得到，通常不在自然界中独立存在。
+- **外观**：通常为无色至淡黄色的液体。
+
+#### 用途
+- **食品行业**：主要作为食品添加剂使用，用于增强或模拟某些食品的香味。
+- **香味改良**：在加工食品中添加极少量的四氢噻吩-3-酮可以显著改善食品的香味，特别是肉类产品的香味。
+- **应用范围**：广泛应用于制作烘焙食品、糖果、饮料和调味品等。
+
+#### 安全性说明
+- **安全级别**：在一定的使用浓度下，该物质被认为是安全的。通常按照食品法规和国际食品添加剂使用标准进行调控。
+- **毒理学研究**：根据现有的毒理学研究，小剂量的四氢噻吩-3-酮未显示出毒性或有害反应。
+- **监管审批**：在使用前需通过相关食品安全监管机构的审批，如美国食品药品监督管理局（FDA）或欧盟食品安全局（EFSA）。
+- **使用指导**：在食品添加时必须遵守使用指南和最大允许限量，以确保消费者的食品安全。
+
+通过了解4,5-二氢-3(2H)噻吩酮的基本信息、应用及安全性，可以更好地在食品添加剂选择上做出科学且安全的决策。', 'GB29961-2013', '食品用香料', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (567, '2-巯基-3-丁醇', '### 2-巯基-3-丁醇（食品添加剂）
+
+#### 介绍
+- **化学性质**：2-巯基-3-丁醇是一种含有硫的有机化合物，具有特定的分子结构和独特的化学性质。
+- **制备方式**：该化合物可以通过有机合成方法制备，通常涉及碳链的构建和硫原子的引入。
+- **外观**：它通常为无色至淡黄色的液体，具有一定的挥发性。
+
+#### 用途
+- **食品工业**：作为食品添加剂，2-巯基-3-丁醇主要用于作为风味增强剂或抗氧化剂，以保持食品的风味和延长保质期。
+- **风味改善**：该物质可以用来调整和增强某些食品（如肉类和烘焙食品）的风味，增加食品的口感和吸引力。
+- **抗氧化作用**：通过抑制食品中的氧化反应，减少食品变质和色泽变化，保持食品的新鲜度和营养价值。
+
+#### 安全性说明
+- **使用标准**：在使用2-巯基-3-丁醇作为食品添加剂时，需要遵循相关食品安全标准和规定，控制在安全用量范围内。
+- **毒理学信息**：科研数据显示2-巯基-3-丁醇在推荐剂量内是安全的，但高剂量可能对人体健康造成不良影响。需避免长时间大量接触。
+- **敏感性与过敏反应**：对于特定体质的人群，如有过敏历史者，应谨慎使用或在医生指导下使用，可能会引发轻微的过敏反应。
+- **法规遵循**：制造商和使用者必须确保产品符合各国食品安全法规的要求，确保消费者的食品安全。
+
+以上信息可为食品生产者和消费者提供关于2-巯基-3-丁醇作为食品添加剂使用的基础科普知识。', 'GB29962-2013', '食品用香料', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (568, '3-巯基-2-丁酮(3-巯基-丁-2-酮)', '### 3-巯基-2-丁酮（3-巯基-丁-2-酮）
+
+#### 介绍
+- **化学性质**：3-巯基-2-丁酮是一种含有硫的有机化合物，其特征是含有巯基(-SH)和酮基(>C=O)。
+- **物理形态**：通常为无色至淡黄色液体，具有较强的特异性气味。
+- **可溶性**：该化合物在水中的溶解性良好，也可以溶解于大多数常用的有机溶剂。
+
+#### 用途
+- **食品加工**：作为食品添加剂，可用于调制某些特殊口味的食品，增加风味层次。
+- **香料工业**：在香料合成中，可用作中间体，增强或模拟特定的食品风味。
+- **抗氧化剂**：由于其结构中的巯基，该化合物可作为抗氧化剂使用，帮助延长食品的保质期。
+
+#### 安全性说明
+- **毒性评估**：在使用前需评估其毒性，尽管作为食品添加剂的用量通常较低，但高剂量可能对健康有害。
+- **使用限制**：在食品添加剂中使用时，需遵循相关食品安全标准和法规，控制在安全的添加量范围内。
+- **敏感性问题**：对于某些人群可能存在过敏反应，使用时需提供明确的标签警示。
+- **处理建议**：在处理和施用过程中需采取适当的安全措施，以防吸入或皮肤接触造成不良反应。', 'GB29963-2013', '食品用香料', 0x5B322C332C352C372C31335D, '', '2024-10-10 12:48:58', '2024-10-21 13:04:26');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (569, '二甲基二硫醚', '### 二甲基二硫醚作为食品添加剂
+
+#### 介绍
+- **化学名称**：二甲基二硫醚（DMD）
+- **分子式**：C2H6S2
+- **外观与性状**：无色液体，具有强烈的大蒜臭味
+- **来源**：通常由甲硫醚与硫磺反应生成，也可以在某些天然加工食品中通过生物途径产生
+
+#### 用途
+- **食品调味**：二甲基二硫醚可用于增添或强化某些食品（如肉类，海产品）的天然香味。
+- **食品保质**：由于其抗菌特性，可以用作食品防腐剂，帮助延长食品的保质期。
+- **食品加工**：在食品加工过程中作为味道调节剂使用，特别是在配制某些调味品和香料中发挥作用。
+
+#### 安全性说明
+- **食品级别**：需要按照世界卫生组织（WHO）和食品农业组织（FAO）的标准来评估和确保其安全性适用于食品添加剂。
+- **限制使用**：使用时需严格遵守推荐的添加量，避免过量，以确保食品的安全与卫生。
+- **健康影响**：过量摄入可能导致不良健康影响，如呼吸问题或过敏反应，因此需在专业人士的指导下使用。
+- **法规遵守**：在使用之前需要了解并遵守相关地区或国家对食品添加剂的法律法规，确保合法合规地使用。
+
+以上信息为标准用法和安全建议，在特定环境下使用二甲基二硫醚作为食品添加剂时，建议进行详细咨询和风险评估。', 'GB29964-2013', '食品用香料', 0x5B322C372C385D, '', '2024-10-10 12:48:58', '2024-10-21 13:04:25');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (570, '二丙基二硫醚', '### 二丙基二硫醚
+
+二丙基二硫醚是一种有机硫化合物，化学式为(CH3CH2CH2)2S2。在食品工业中，这种化合物可能被用作食品添加剂，尽管它并不是最常见的添加剂类型。以下是关于二丙基二硫醚作为食品添加剂的基本信息：
+
+#### 介绍
+- **化学属性**：二丙基二硫醚为无色至淡黄色液体，具有强烈的蒜臭味。
+- **获取方式**：通常通过有机硫化合物的合成反应获得。
+- **在食品添加剂中的角色**：可能用于某些特定类型的风味调整或作为抗氧化剂。
+
+#### 用途
+- **风味增强**：在特定食品中添加极少量以增加或改变风味特性。
+- **防腐剂**：可能因其抗氧化特性而被用作防止食品氧化的防腐剂。
+- **抗氧化剂**：助于延长食品的保质期，通过抑制食品中的化学反应。
+
+#### 安全性说明
+- **使用限制**：由于其强烈的气味和潜在的生物活性，通常仅在严格的安全限制下以极低浓度使用。
+- **卫生标准**：在使用前需确保符合国家食品安全标凧。
+- **潜在风险**：长期或大量接触可能对健康不利，使用时需广泛评估其安全性。
+
+在使用二丙基二硫醚作为食品添加剂时，需谨慎考量其影响并遵循适当的法规和安全指南。', 'GB29965-2013', '食品用香料', 0x5B322C385D, '', '2024-10-10 12:48:58', '2024-10-21 13:04:26');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (571, '烯丙基二硫醚', '### 烯丙基二硫醚
+
+#### 介绍
+- **化学性质**：烯丙基二硫醚是一种含硫的有机化合物，化学式为C6H10S2，通常存在于大蒜和其他植物中。
+- **来源**：主要从大蒜中提取，大蒜在切割或压碎时释放烯丙基二硫醚。
+- **提取过程**：通过蒸馏或采用溶剂提取法从大蒜中分离得到。
+
+#### 用途
+- **食品保鲜**：用于延长食品的保质期，通过其抗菌性质抑制食品中的微生物生长。
+- **风味增强剂**：在食品中添加以提升类似大蒜的风味，增加食品的吸引力和口感。
+- **健康促进**：由于其潜在的抗氧化和抗炎作用，也被添加到健康产品中。
+
+#### 安全性说明
+- **普遍认为安全**：在合理的剂量下，烯丙基二硫醚被认为是安全的食品添加剂。
+- **剂量限制**：需要控制在一定的用量范围内，避免过量。
+- **过敏信息**：虽然大多数人可以安全使用，但对大蒜或其他相关物质过敏的人群应避免使用含此成分的食品。
+- **法规遵循**：生产和使用需遵守当地食品安全法规和标准，保证消费者的健康和利益。', 'GB29966-2013', '食品用香料', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:01:50');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (572, '柠檬酸三乙酯', '### 柠檬酸三乙酯
+
+柠檬酸三乙酯是一种常见的食品添加剂，它广泛用于食品及饮料工业中，主要起到增稠、乳化和防腐的作用。
+
+#### 介绍
+- **化学名称**：柠檬酸三乙酯
+- **外观**：无色透明液体
+- **制造过程**：通过柠檬酸与乙醇在酸性或酶催化下进行酯化反应制得
+- **溶解性**：易溶于乙醇和大部分有机溶剂，难溶于水
+
+#### 用途
+- **食品工业**：作为食品添加剂，用于提升食品质感和口感
+- **饮料**：用于各种功能饮料中，增加饮料的稳定性和保存性
+- **糖果和甜点**：增加糖果和甜点的保湿性能，延长产品的保质期
+- **香精和香料**：作为溶剂和固定剂，用于调配食品香精
+
+#### 安全性说明
+- **食品安全**：已被多个国家和地区的食品药品监督管理机构认可并允许在食品中使用
+- **毒理学测试**：经过广泛的毒理学测试，被认为是安全的食品添加剂
+- **使用限量**：在使用时应遵循相关法规的使用限量和条件
+- **过敏性**：普遍认为不具有过敏性，适合大部分人群使用
+
+这些信息可以帮助公众更好地了解柠檬酸三乙酯作为食品添加剂的功能及其安全性。', 'GB29967-2013', '食品用香料', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (573, '肉桂酸苄酯', '### 肉桂酸苄酯
+
+肉桂酸苄酯，化学名为Phenylmethyl 2-phenylacetate，是一种广泛应用于食品和其他行业的化学添加剂。其甜美的香气使其成为食品调味和香料的常见选择。
+
+#### 介绍
+- **化学性质**：肉桂酸苄酯是肉桂酸和苄醇的酯类化合物。
+- **外观**：通常为无色至淡黄色液体。
+- **气味**：具有类似肉桂的甜美香气。
+
+#### 用途
+- **食品香料**：用于调配食品香料，赋予食品如面包、糕点、糖果等甜味和香气。
+- **香精成分**：在各种香精中使用，增强食品和饮料的香味体验。
+- **食品加工**：可以用作食品加工中的味道改善剂。
+
+#### 安全性说明
+- **一般安全性**：在正常的使用浓度下，肉桂酸苄酯被认为是安全的食品添加剂。
+- **监管批准**：已被多个国家的食品安全机构（如美国食品药品监督管理局FDA）批准为食品用香料。
+- **过敏反应**：少数人可能对肉桂酸苄酯产生过敏性反应，使用时需注意。
+- **使用建议**：应按照食品安全规定和标准使用，避免过量。
+
+以上信息旨在提供一个关于肉桂酸苄酯在作为食品添加剂方面的基本了解，以帮助消费者和食品工业从业者更好地了解其用途和安全性。', 'GB29968-2013', '食品用香料', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (574, '肉桂酸肉桂酯', '### 肉桂酸肉桂酯
+
+肉桂酸肉桂酯，作为一种常见的食品添加剂，具有特定的用途、介绍和安全性信息。以下是关于肉桂酸肉桂酯的详细介绍：
+
+#### 介绍
+- **化学名称**：肉桂酸肉桂酯通常是通过肉桂酸与乙醇的酯化反应生成。
+- **物理性状**：通常以液体形态存在，具有肉桂的香气。
+
+#### 用途
+- **食品香精**：作为食品添加剂，主要用于增加或改善食品的香味。
+- **调味品**：在烘焙食品、糖果和一些饮料中添加以增强风味体验。
+- **制剂成分**：在某些食品添加剂的复合配方中，可作为香味增强剂。
+
+#### 安全性说明
+- **安全评估**：按照食品添加剂的标准进行评估和使用时认为是安全的。
+- **消费建议**：应按照食品安全标准和使用建议进行消费，避免过量使用。
+- **敏感提示**：少数人可能对肉桂酸肉桂酯有敏感反应，如遇不适，建议停止使用并咨询医生。
+
+这些信息可以帮助消费者更好地了解肉桂酸肉桂酯在食品中的应用及其安全性，从而做出明智的食品选择。', 'GB29969-2013', '食品用香料', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (575, '2,5-二甲基吡嗪', '### 2,5-二甲基吡嗪
+
+                                                                                                                  #### 介绍
+- **化学名称**：2,5-二甲基吡嗪
+                                                                                                                  - **化学式**：C6H8N2
+- **外观**：通常呈现为无色至黄色的液体或固体
+- **来源**：2,5-二甲基吡嗪可以通过化学合成的方式获得，具体方法包括有机合成中的各种途径，比如从己烷出发，经过氮化反应制得。
+
+#### 用途
+- **食品行业**：在食品行业中，2,5-二甲基吡嗪主要被用作食品配料或风味增强剂。
+- **调味料**：它可以被添加到各种食品中以增加或改善其风味，尤其是在模拟烧烤或烟熏类食品的味道时。
+- **食品研发**：在新产品的开发过程中，2,5-二甲基吡嗪可以用来探索新的味道组合或改善现有产品的风味表现。
+
+                                                                                                                  #### 安全性说明
+- **食品安全评估**：在用作食品添加剂之前，2,5-二甲基吡嗪须经过严格的食品安全评估，以确保其在预定用途下的安全性。
+- **用量限制**：根据相关食品安全标准和规定，2,5-二甲基吡嗪在不同食品中的使用浓度和总量是严格限定的。
+- **健康影响**：长期和过量摄入未经充分安全评估的食品添加剂可能对健康造成风险;因此，使用时必须严格遵守规定的用量。
+- **监管审查**：在不同国家和地区，食品添加剂的使用须符合当地食品药品监督管理部门的规定和标准。', 'GB29970-2013', '食品用香料', 0x5B322C345D, '', '2024-10-10 12:48:58', '2024-10-21 13:04:26');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (576, '苯甲醛丙二醇缩醛', '### 苯甲醛丙二醇缩醛
+
+苯甲醛丙二醇缩醛是一种化合物，经常在食品工业中作为添加剂使用。以下是关于这种化合物的详细科普信息：
+
+#### 介绍
+- **化学名称**：苯甲醛丙二醇缩醛
+- **分子结构**：通常包含苯甲醛与丙二醇通过缩合反应形成的结构。
+- **生产方式**：通常通过有机合成，将苯甲醛和丙二醇在一定的条件下反应制得。
+
+#### 用途
+- **食品香料**：作为一种香料，用于提升或改进食品的味道和香气。
+- **防腐剂**：在某些情况下，可用作防腐剂，以延长食品的保质期。
+- **抗氧化剂**：可能具有抗氧化的性质，帮助防止食品的氧化变质。
+
+#### 安全性说明
+- **食品级别的安全评估**：在使用前应通过相关食品安全机构的评估，确定其安全性。
+- **剂量控制**：需要严格按照推荐的使用剂量添加，避免过量。
+- **过敏性反应**：虽然不常见，但某些人可能对此化合物敏感，应注意可能的过敏反应。
+- **法规遵守**：在各国和地区的使用必须遵守当地的食品添加剂法规和标准。
+
+在使用任何食品添加剂前，建议研究和遵守具体地区的法律规定，并确保产品安全符合食品级要求。', 'GB29971-2013', '食品用香料', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:01:50');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (577, '乙醛二乙缩醛', '### 乙醛二乙缩醛
+
+#### 介绍
+- **化学名称**：乙醛二乙缩醛（Acetaldehyde diethyl acetal），也称作1,1-二乙氧基乙烷。
+- **分子式**：C6H14O2。
+- **特性**：常温下为无色透明的液体，具有果香气味。
+- **溶解性**：与乙醇和乙醚等有机溶剂可以互溶，不易溶于水。
+
+#### 用途
+- **食品香精**：在食品工业中可用作香精的成分，添加到糕点、饮料和糖果中，增加食品的香气。
+- **保鲜剂**：尽管不是主要用途，也可以通过其抑制微生物活性的特性来延长食品保质期。
+- **溶剂**：在食品加工过程中，可用作其他添加剂的载体或溶解助剂。
+
+#### 安全性说明
+- **毒性**：一般认为低毒，但高浓度吸入或摄入仍可能对人体健康造成损害。
+- **使用建议**：在使用时应严格控制浓度，避免长时间暴露。
+- **法规遵从**：使用前需查证所在国家或地区关于食品添加剂的相关法规，确保合法合规使用。
+- **警告标签**：产品应配备全面的标签和安全数据表，以供使用者了解其潜在危害。
+- **存储建议**：应储存于阴凉、通风、干燥的地方，并确保储存容器密闭。', 'GB29972-2013', '食品用香料', 0x5B325D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (578, '2-异丙基-4-甲基噻唑', '### 2-异丙基-4-甲基噻唑
+
+#### 介绍
+- **化学性质**: 2-异丙基-4-甲基噻唑是一种含有噻唑环的有机化合物，结构中含有异丙基和甲基作为取代基。
+- **制备方法**: 通常通过有机合成的方法，如环化反应，将相应的前体物质转化成噻唑结构。
+
+#### 用途
+- **食品行业**: 主要用作食品添加剂，具体可以用于增加或改善食品的香味。
+- **香料**: 在制造人造香料的过程中，此化合物可用于模拟或增强特定的味道。
+
+#### 安全性说明
+- **毒理学评价**: 需要进行详细的毒理学和生物学评估，以确保其在食品添加剂使用中的安全性。
+- **使用限制**: 根据地区的食品安全规章，使用此化合物作为食品添加剂时可能会有严格的使用限制和标准。
+- **安全证书**: 一般需要经过安全认证和风险评估，如FDA（美国食品药品监督管理局）的GRAS（公认为安全）认证或欧盟相应的安全评估。', 'GB29973-2013', '食品用香料', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (579, '糠基硫醇(咖啡醛)', '### 糠基硫醇（咖啡醛）
+
+#### 介绍
+- **化学名称**：糠基硫醇，通常称为咖啡醛。
+- **化学结构**：具有特定的硫醇基团，属于有机硫化合物。
+- **来源**：可以通过自然来源提取，也可以通过化学合成方法制得。
+- **性状**：一般为无色至浅黄色液体，具有强烈的咖啡香气。
+
+#### 用途
+- **食品香料**：作为食品添加剂，用于增强或模仿咖啡及其它焙烤食品的香气。
+- **食品工业**：在烘焙食品、糖果、饮料等产品中使用，提供特定的风味体验。
+- **研究用途**：在食品科学和化学研究中，作为研究工具来探讨食品中硫化合物的作用和特性。
+
+#### 安全性说明
+- **食品级别**：作为食品添加剂使用时，应确保其纯度和安全性符合相关食品安全标准。
+- **摄入量限制**：在使用时需严格按照规定的使用剂量和条件进行，避免过量使用。
+- **安全认证**：在不同国家和地区，糠基硫醇的使用需获得当地食品安全机构的批准和认证。
+- **过敏性和毒性**：虽然一般认为是安全的，但对于特定人群，如有过敏历史者，应在专业人士指导下使用。', 'GB29974-2013', '食品用香料', 0x5B322C375D, '', '2024-10-10 12:48:58', '2024-10-21 13:04:26');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (580, '二糠基二硫醚', '### 二糠基二硫醚
+
+#### 介绍
+- 二糠基二硫醚(Diallyl disulfide, DADS)是一种含硫的有机化合物，分子式为 C6H10S2。
+- 此化合物存在于大蒜及其他葱属植物中，是大蒜油的主要成分之一。
+- 拥有独特的蒜味，由于其强烈的气味和抗氧化性质，常被用于食品添加剂及调味品的制造。
+
+#### 用途
+- **食品防腐**：其抗菌特性能有效延长食品的保质期，通过抑制食品中的细菌和真菌生长。
+- **风味增强剂**：用于增强或改善食品口味，尤其是在肉类和酱料产品中。
+- **抗氧化剂**：可以用作天然抗氧化剂来防止食品氧化，保持食品颜色和口感的稳定。
+- **保健食品**：在一些保健食品中添加，以利用其抗炎、抗癌等潜在的健康益处。
+
+#### 安全性说明
+- **食品安全等级**：在正常的使用浓度下，二糠基二硫醚被认为是安全的食品添加剂。
+- **过敏性**：虽然一般认为是安全的，但个别人可能对大蒜及其萃取物敏感，可能会引发过敏反应。
+- **摄取限制**：应按照食品添加剂的推荐用量使用，过量使用可能导致不适。
+- **认证与规范**：在添加到食品中之前，应确保符合当地和国际食品安全标准和规定。', 'GB29975-2013', '食品用香料', 0x5B325D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (581, '1-辛烯-3-醇', '### 1-辛烯-3-醇
+
+#### 介绍
+- **化学性质**：1-辛烯-3-醇是一种有机化合物，属于醇类，具有辛烯基和羟基。
+- **源头**：它可以通过化学合成得到，也可能从天然源中提取。
+- **外观与性状**：常为无色到淡黄色的液体，具有轻微的特殊气味。
+
+#### 用途
+- **食品香料**：作为香料成分用于增强或改善食品的气味和口感。
+- **食品加工**：用于某些特定食品加工过程中，如在制作糖果、烘焙食品中作为香气添加剂。
+- **食品保鲜**：因具有抗菌特性，可用于延长食品保质期。
+
+#### 安全性说明
+- **安全评估**：1-辛烯-3-醇已通过特定食品安全机构进行评估，确认其在一定的使用条件下是安全的。
+- **使用限制**：根据地区的食品安全法规，1-辛烯-3-醇在食品中的使用有严格的剂量限制。
+- **过敏性与副作用**：在常规应用量下，通常认为是无害无过敏性的，但对于特定人群（如对特定醇类敏感的人），可能需要咨询医生或专家。
+- **环境影响**：在生产和废弃处理过程中，需要注意其对环境的潜在影响，遵守环保规定。', 'GB29976-2013', '食品用香料', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (582, '2-乙酰基吡咯', '### 2-乙酰基吡咯
+
+#### 介绍
+- 2-乙酰基吡咯（化学式：C6H7NO）是一种含氮杂环有机化合物。
+- 这种化合物在自然界中广泛存在，并可通过化学合成方法制备。
+- 它具有独特的香味，因此常用于食品香精的制备。
+
+#### 用途
+- **食品香精**：主要用于增加或改善食品的香味，尤其在烘焙食品、肉制品和一些饮料中。
+- **食品加工**：作为一种风味增强剂，可用于各种食品的生产过程中，帮助改善食品整体味道。
+- **研究用途**：在食品科学研究中，用于研究不同食品香味的组成和改进。
+
+#### 安全性说明
+- **评估认证**：作为食品添加剂使用时，2-乙酰基吡咯已被多个国家和地区的食品安全机构批准，如美国FDA和欧盟EFSA。
+- **剂量控制**：根据安全使用指南，2-乙酰基吡咯需要严格控制在安全用量范围内，以避免过量消费。
+- **过敏性和毒性**：目前没有广泛报告显示2-乙酰基吡咯具有明显的过敏性或毒性，但消费者在使用中仍需按照产品说明和相关法规指导进行。
+- **持续监测**：食品安全机构会持续监测和评估2-乙酰基吡咯的使用情况，并根据科学研究更新其安全信息和使用标准。', 'GB29977-2013', '食品用香料', 0x5B325D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (583, '2-己烯醛(叶醛)', '### 2-己烯醛（叶醛）
+
+#### 介绍
+- **化学名称**：2-己烯醛，也被称为叶醛。
+- **分子式**：C6H10O。
+- **来源**：天然存在于多种香料与水果中，如茶叶和柠檬等。
+- **合成**：也可以通过化学合成方式在实验室中制备。
+
+#### 用途
+- **食品香精**：作为食品添加剂，2-己烯醛常用于增加或改善食品的香气，如烘培食品、糖果和饮料。
+- **调香**：在食品工业中，常用于模拟柑橘、茶叶等天然香味。
+- **研究用途**：在食品科学和新产品开发中，作为研究工具来探索和开发新的香味组合。
+
+#### 安全性说明
+- **批准使用**：在多个国家和地区，2-己烯醛作为食品添加剂已获得官方批准，适用于特定用途和限定的最大使用量。
+- **毒理学测试**：已进行多项测试评估其毒理学效应，通常认为在当前使用水平下对人体安全。
+- **使用限制**：尽管被认为是安全的，使用2-己烯醛时仍需遵守相关法规和标准，避免过量使用。
+- **敏感性和过敏**：个别情况下，部分人可能对此类香精展现敏感性或过敏反应，建议消费者在了解自身条件的基础上进行选择。
+
+以上信息有助于了解2-己烯醛（叶醛）作为食品添加剂的相关知识，以供科普和教育目的。在实际食品加工和消费中应注意遵守相关规定，确保用量适宜和食用安全。', 'GB29978-2013', '食品用香料', 0x5B322C335D, '', '2024-10-10 12:48:58', '2024-10-21 13:04:26');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (584, '氧化芳樟醇', '### 氧化芳樟醇
+
+氧化芳樟醇是一种在食品添加剂中常见的化合物，主要用来作为香料成分。下面是关于氧化芳樟醇作为食品添加剂的介绍、用途及其安全性的详细信息。
+
+#### 介绍
+- **化学名称**：氧化芳樟醇（linalool oxide）
+- **来源**：氧化芳樟醇常由芳樟醇经过氧化反应得到，芳樟醇存在于多种植物精油中，如薰衣草、柑橘等。
+- **性质**：常呈无色至淡黄色的液体，具有类似香草与木质的淡香气。
+
+#### 用途
+- **增香剂**：在各种食品中添加以提升或模拟香草、水果等自然香气。
+- **口味改良剂**：用于调整或增强糖果、烘焙食品和饮料的味道。
+- **风味复合**：与其他香料配合使用，创造复杂的风味层次。
+
+#### 安全性说明
+- **监管机构审批**：氧化芳樟醇已被国际香料协会（IFRA）和美国食品与药物管理局（FDA）认为是安全的食品添加剂。
+- **副作用**：普遍认为在常规使用浓度下不会对人体健康造成显著风险。
+- **敏感性注意**：极少数个体可能对此类香料成分呈现过敏反应，使用时需注意过敏史。
+
+此介绍可为食品制造者和消费者提供基本的科普信息，安全使用并享受带有氧化芳樟醇的食品带来的风味体验。', 'GB29979-2013', '食品用香料', 0x5B335D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (585, '异硫氰酸烯丙酯', '### 异硫氰酸烯丙酯
+
+#### 介绍
+- **化学名称**：异硫氰酸烯丙酯
+- **化学式**：C4H5NOS
+- **外观**：无色至淡黄色液体
+- **溶解性**：易溶于水和多数有机溶剂
+
+#### 用途
+- **抗微生物剂**：用作食品的防腐剂，能有效抑制细菌和真菌的生长。
+- **抗氧化剂**：帮助防止食品中的油脂氧化，延长食品的保质期。
+- **风味增强剂**：在某些情况下，用于增强食品的味道及香气。
+- **制药工业**：作为制药过程中的中间体，用于合成其他化学物质。
+
+#### 安全性说明
+- **毒性级别**：虽然异硫氰酸烯丙酯具有一定的抗菌能力，但其毒性相对较低，适量使用通常是安全的。
+- **使用限制**：在食品中的使用需遵守具体国家或地区的食品添加剂法规和标准。
+- **风险管理**：食品生产过程中应严格控制其使用浓度，避免过量。
+- **过敏信息**：极少数人可能对此化合物敏感，使用前应确保食品的最终消费者没有相关过敏史。
+
+此化合物作为食品添加剂使用时，制造商和处理人员需确保其使用在安全可控的范围内，并符合所有相关法律和健康标准。', 'GB29980-2013', '食品用香料', 0x5B322C352C31332C31345D, '', '2024-10-10 12:48:58', '2024-10-21 13:04:26');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (586, 'N-乙基-2-异丙基-5-甲基-环己烷甲酰胺', '### N-乙基-2-异丙基-5-甲基-环己烷甲酰胺
+
+#### 介绍
+- **化学性质**: N-乙基-2-异丙基-5-甲基-环己烷甲酰胺是一种有机化合物，属于环己烷的衍生物，其分子结构中包含乙基、异丙基和甲基。
+- **来源**: 该化合物通常通过有机合成的方法制备，涉及特定的催化剂和原料。
+
+#### 用途
+- **食品工业应用**: 在食品工业中，该化合物可能被用作风味增强剂或处理剂，用以改善食品的口感和保质期。
+- **其他潜在用途**: 除了在食品工业中的应用，该化合物还可能在香料制造、药品生产和其他工业领域中发挥作用。
+
+#### 安全性说明
+- **毒理学研究**: 关于N-乙基-2-异丙基-5-甲基-环己烷甲酰胺的毒理学数据应当充分，以证明其在特定用量下的安全性。
+- **监管审批**: 任何用作食品添加剂的化学物质都需要经过国家或国际食品安全机构的审批，并确保符合所有相关的安全标准。
+- **使用指南**: 根据食品安全机构的推荐，应遵循安全使用指南，包括合理的添加剂剂量和正确的处理方式，以保证消费者安全。
+
+> **注意**: 上述信息仅为示例，具体化合物在用作食品添加剂前需要详细的科学研究和监管机构审核确认。', 'GB29981-2013', '食品用香料', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (587, 'δ-己内酯', '### δ-己内酯
+
+#### 介绍
+- δ-己内酯（Delta-Hexalactone），也被称为己内酯，是一种有机化合物，属于内酯类。
+- 它在自然界中广泛存在，尤其是在水果和发酵产品中。
+- 此化合物通常以无色液体的形式存在，具有弱的甜味和奶油味。
+
+#### 用途
+- **食品香精**: δ-己内酯因其奶油和椰子的香气，常被用于食品工业作为香精添加，增加或改善食品的香味。
+- **食品生产**: 在一些烘焙食品、甜点和饮料中添加以提升风味。
+- **乳制品**: 常用于冰淇淋和其他乳制品中，为产品增添奶油和水果的香味。
+
+#### 安全性说明
+- **食品级标准**: δ-己内酯作为食品添加剂时，通常需要满足特定的食品安全标准和规定。
+- **毒理学评估**: 在规定范围和使用量内被认为是安全的，且多数国家的食品药品监督管理机构已批准其作为食品添加剂的使用。
+- **过敏性**: 小部分敏感人群可能对δ-己内酯出现轻微过敏反应，但这种情况极为罕见。
+- **长期与大量使用**: 对于长期大量使用的安全性还需进行更多研究和监控。', 'GB29982-2013', '食品用香料', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (588, 'δ-十四内酯', '### δ-十四内酯
+
+#### 介绍
+- δ-十四内酯（Gamma-decalactone）是一种饱和十四碳环状酯，以其强烈的水果味而闻名。
+- 它主要从植物来源提取，也可以通过化学或生物工程方法合成。
+- 在食品工业中，这种化合物主要用作香料，给产品添加桃和其他水果的味道。
+
+#### 用途
+- **食品香料**：用于糖果、饮料、烘焙食品以及乳制品中增添桃、杏和其他水果的天然香味。
+- **香精制造**：作为香精的组成部分，用于调制食品和饮料的香气。
+- **调味产品**：在加工食品中作为味道增强剂使用，提升产品的风味层次。
+
+#### 安全性说明
+- **食品级别安全**：δ-十四内酯通常被认为是安全的食品添加剂，在许多国家都被批准使用。
+- **剂量控制**：尽管它被认为是安全的，但任何添加剂都应在专家的建议下合理使用，以避免过量。
+- **过敏反应**：部分人群可能对δ-十四内酯或其源材料敏感，应注意个体差异和可能的过敏情况。', 'GB29983-2013', '食品用香料', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (589, '四氢芳樟醇', '### 四氢芳樟醇
+
+#### 介绍
+- **化学名称**：四氢芳樟醇，也称作四氢樟脑醇
+- **化学式**：C10H20O
+- **性质**：无色透明液体，带有淡淡的木质香气
+- **来源**：可以通过天然提取或化学合成的方式获得
+
+#### 用途
+- **食品香料**：用于调配内饮料、糖果、烘焙食品等的香精
+- **香精稳定剂**：加入食品中有助于保持或增强食品的原有香气
+- **口感改善**：在某些食品中添加，可改善口感，增加食品的丰富度和层次感
+
+#### 安全性说明
+- **食品添加剂标准**：按照国际食品法典（Codex Alimentarius）或地方食品安全标准使用
+- **用量要求**：使用时应控制在安全允许的范围内，过量使用可能影响健康
+- **过敏信息**：极少数人可能对此类化合物敏感，使用前应进行风险评估
+- **环境影响**：生产和使用应执行适当的环境保护措施，减少对环境的影响
+
+四氢芳樟醇在作为食品添加剂使用时，其主要作用是增强食品的香气和改善口感。确保在安全的使用量和条件下利用，可以显着提升食品的吸引力和风味。', 'GB29984-2013', '食品用香料', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (590, '叶醇(顺式-3-己烯-1-醇)', '### 叶醇（顺式-3-己烯-1-醇）
+
+#### 介绍
+- 叶醇，也称为顺式-3-己烯-1-醇，是一种存在于多种植物中的天然有机化合物。
+- 它是一种无色液体，以其独特的花香和柑橘香气而被广泛用于香精和食品添加剂。
+- 叶醇主要通过提取自天然植物或化学合成的方式生产。
+
+#### 用途
+- **食品香精**：叶醇因其清新的绿叶和柑橘香气，在食品工业中被用作香精添加剂，增添或强化食品的香味。
+- **饮料**：在饮料中添加少量叶醇可以提升饮品的风味，使其更加清爽可口。
+- **糖果和烘焙产品**：用于糖果和烘焙产品中，以增添柑橘类水果的香味。
+
+#### 安全性说明
+- **普遍认为安全（GRAS）**：在美国，叶醇被美国食品药品监督管理局（FDA）认定为普遍认为安全的物质（GRAS），可以安全用于食品中。
+- **毒理学测试**：叶醇已通过多种毒理学测试，证实在常用浓度下对人体无害。
+- **使用限制**：虽然被认为是安全的，但在使用时仍需遵循相关食品添加剂使用标准和限制，以避免过量使用。', 'GB29985-2013', '食品用香料', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (591, '6-甲基-5-庚烯-2-酮', '### 6-甲基-5-庚烯-2-酮
+
+#### 介绍
+- 6-甲基-5-庚烯-2-酮是一种有机化合物，属于酮类。
+- 在食品工业中，常作为香料使用，为食品提供独特的香气。
+
+#### 用途
+- **食品香料**: 主要用于增加或改善食品的香味，广泛应用于烘焙食品、糖果、饮料等。
+- **调味剂**: 在烹饪过程中用于增强食物的风味，特别是在模拟烤肉或烟熏风味的产品中。
+
+#### 安全性说明
+- **合规性**: 该化合物在多个国家和地区的食品添加剂使用中需符合特定的安全标准和规定。
+- **毒理学评估**: 在使用前应进行充分的毒理安全评估，以确定其在食品中的安全使用水平。
+- **使用限量**: 根据相关食品安全指导原则，使用6-甲基-5-庚烯-2-酮作为食品添加剂时必须控制在安全限量以内，避免过量使用。
+- **过敏性**: 对于部分人群，应注意是否有可能引起过敏反应，虽然这种情况较为罕见。
+
+以上信息是基于目前的科学研究和安全评估，用于在食品中作为添加剂的安全使用指导。', 'GB29986-2013', '食品用香料', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (592, '胶基及其配料', '### 胶基及其配料
+
+胶基是食品产业中常见的添加剂，主要用于增加食品的稠度、凝胶性和口感。胶基及其配料可以来源于多种天然和合成物质。
+
+#### 介绍
+- **源自天然或合成材料**：胶基可以从多种天然来源如植物、动物提取，或是通过化学合成方式制得。
+- **主要成分**：包括但不限于明胶、果胶、阿拉伯胶、卡拉胶和黄原胶等。
+- **形态**：通常为粉末或者液体形态，便于在食品加工过程中使用。
+
+#### 用途
+- **增稠和凝胶**：用于提升食品如果冻、糖果、酸奶等的凝结度和稠度。
+- **稳定剂**：帮助食品保持均匀的质地，防止成分分离。
+- **乳化剂**：在油水混合的食品中使用，帮助形成稳定的乳化体系。
+- **改善口感**：使食品质地更加细腻，口感更佳。
+
+#### 安全性说明
+- **广泛认可**：大多数胶基及其配料在国际上被广泛认可为安全食品添加剂，如通过FAO/WHO等组织评估。
+- **依据使用量原则**：胶基及其配料应按推荐量使用，超量使用可能影响健康。
+- **极少数过敏反应**：部分敏感人群可能对某些胶基成分（如明胶）产生过敏反应。
+- **法律法规遵守**：在应用胶基及其配料前，应确认所在地区的法律法规允许其作为食品添加剂使用。
+
+通过了解胶基及其配料的这些基本信息，消费者和食品生产者能更安全、合理地使用这类食品添加剂。', 'GB1886.359-2022', '胶基糖果中基础剂物质', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (593, '海藻酸钾（褐藻酸钾）', '### 海藻酸钾（褐藻酸钾）
+
+#### 介绍
+- 海藻酸钾是一种从特定种类的褐藻中提取的天然多糖。
+- 化学式为K（C6H7O6）n。
+- 它主要用作凝胶形成剂、稳定剂和增稠剂。
+- 作为食品添加剂，常见的是E编号E401。
+
+#### 用途
+- **食品工业**：用作果冻、冰淇淋、饮料、低糖食品、罐头产品的稳定剂和增稠剂。
+- **医药行业**：用于制作药丸和牙膏等不同形态的制品。
+- **化妆品行业**：应用在面膜，护肤品中作为黏着剂和湿润剂。
+- **生物技术**：用于细胞培养基，作为软凝胶的一个成分，有助于维持细胞结构和生态。
+
+#### 安全性说明
+- 海藻酸钾被认为是安全的食品添加剂，几乎适用于所有人群。
+- 国际食品添加剂委员会（JECFA）和美国食品药品监督管理局（FDA）都已确认其安全性。
+- 然而，极少数人可能对海藻酸钾产生过敏反应。
+- 应该按照建议的用量使用，过度摄入可能会导致消化不良。
+- 持续监控与研究确保其长期使用的安全性。', 'GB29988-2013', '增稠剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (594, '对羟基苯甲酸甲酯钠', '### 对羟基苯甲酸甲酯钠
+
+对羟基苯甲酸甲酯钠（Sodium Methylparaben）是对羟基苯甲酸甲酯的钠盐形式。这种化学物质主要用作防腐剂，并在多种食品、化妆品以及个人护理产品中广泛使用。
+
+#### 介绍
+- **化学性质：** 对羟基苯甲酸甲酯钠是白色粉末或颗粒，易溶于水。
+- **生产方式：** 通常通过对羟基苯甲酸甲酯与碳酸钠或氢氧化钠反应制得。
+- **化学式：** C8H7NaO3
+
+#### 用途
+- **食品添加剂：** 用作防腐剂，延长食品保质期，防止细菌和霉菌生长。
+- **化妆品行业：** 在护肤品和化妆品中用来防止微生物生长，保持产品的稳定性和安全性。
+- **药品应用：** 在某些药物中也作为防腐剂，特别是在那些容易被微生物污染的产品中。
+
+#### 安全性说明
+- **一般认为安全：** 在规定的使用限量内，被认为是安全的添加剂。
+- **过敏反应：** 罕见情况下，可能会引起皮肤过敏或敏感性反应，特别是对某些敏感群体。
+- **监管标准：** 在多数国家和地区，其使用量和使用范围都受到严格的监管。
+- **科学研究：** 持续的科学研究和评估确保其在食品和化妆品中的安全性得到持续监测。
+
+通过这些点，您可以更全面地了解对羟基苯甲酸甲酯钠作为食品添加剂的相关信息。', 'GB30601-2014', '防腐剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:01:50');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (595, '对羟基苯甲酸乙酯钠', '### 对羟基苯甲酸乙酯钠
+
+对羟基苯甲酸乙酯钠，也称作苯甲酸钠，是一种广泛使用在食品、化妆品以及药品行业的化学添加剂。以下是对其作为食品添加剂的介绍、用途和安全性的详细说明。
+
+#### 介绍
+- **化学性质**: 对羟基苯甲酸乙酯钠是苯甲酸衍生物，可溶于水，形成无色至淡黄色溶液。
+- **生产工艺**: 通常通过对羟基苯甲酸和氢氧化钠反应合成。
+- **物理形态**: 通常以白色粉末或颗粒形式出现。
+
+#### 用途
+- **食品防腐剂**: 有效抑制酵母、霉菌和某些细菌的生长，延长食品保质期。
+- **抗氧化剂**: 防止食品中的油脂类成分氧化变质。
+- **稳定剂**: 增强食品的质感与持久性，保持产品的稳定状态。
+
+#### 安全性说明
+- **食品安全标准**: 在多数国家和地区，对羟基苯甲酸乙酯钠的使用都有严格的食品安全标准和限制。
+- **毒理学数据**: 长期和广泛的科学研究表明，适量使用对人体健康无害。
+- **敏感性问题**: 少部分人可能对该化学物质存在敏感性，可能引发过敏反应。
+
+这些信息可以帮助公众更好地了解作为食品添加剂的对羟基苯甲酸乙酯钠的相应应用和安全性。在日常生活中，理解食品添加剂的作用及其科学背景是非常重要的。', 'GB30602-2014', '防腐剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (596, '乙酸钠', '### 乙酸钠
+
+#### 介绍
+- **化学式**：NaC2H3O2
+- **性质**：白色粉末或颗粒，具有轻微的醋酸味。
+- **溶解性**：易溶于水，也可溶于乙醇。
+- **制备**：通常通过中和反应，即将醋酸和碳酸钠反应生成乙酸钠。
+
+#### 用途
+- **食品保鲜**：作为防腐剂，延长食品保质期。
+- **味道调节**：提高食品的风味，增加酸味。
+- **pH值调节剂**：调整或稳定食品的pH值。
+- **促进乳化**：在加工食品中作为乳化助剂使用，帮助油水混合物稳定。
+- **用于糖果和果冻的制造**：作为凝固剂的一部分。
+
+#### 安全性说明
+- **一般认为安全**（Generally Recognized As Safe, GRAS）：在美国，乙酸钠被FDA认定为一般认为安全的物质。
+- **摄入限制**：虽然被认为安全，但任何添加剂的使用都应在食用限量和推荐摄入量内。
+- **过敏反应**：极少数个案报告中可能出现敏感或过敏反应，但这种情况非常罕见。
+- **长期摄入研究**：长期大量摄入的安全性研究相对较少，但目前使用量在食品中通常远低于可能引起健康问题的水平。', 'GB30603-2014', '酸度调节剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (597, '甘氨酸钙', '### 甘氨酸钙
+
+甘氨酸钙是一种常用的食品添加剂，主要用于增强食品的营养价值以及改善食品质感和稳定性。以下是关于甘氨酸钙作为食品添加剂的介绍、用途和安全性说明。
+
+#### 介绍
+- **化学性质**：甘氨酸钙是由甘氨酸和钙离子结合形成的化合物。甘氨酸是一种非必需氨基酸，而钙是人体必需的矿物质。
+- **外观与性质**：通常呈现为白色粉末状，易溶于水，有时也可见到颗粒形态。
+- **生产方法**：甘氨酸钙的生产主要通过将甘氨酸与钙源（如氯化钙）在适当的条件下反应生成。
+
+#### 用途
+- **营养补充剂**：用于增加食品中的钙含量，尤其是在婴儿配方粉、乳制品及饮料中。
+- **酸度调节剂和缓冲剂**：帮助调整和稳定食品的pH值。
+- **增味剂**：改善或增强食品的口感和风味。
+- **稳定剂**：用于提高食品的质感和保持食品的稳定状态，防止成份分离。
+
+#### 安全性说明
+- **食品安全认证**：甘氨酸钙已被多个国家和地区的食品安全机构认证为安全的食品添加剂。
+- **摄入限制**：虽然甘氨酸钙被认为是安全的，但应遵循适当的使用标准和每日摄入量建议，避免过量。
+- **潜在过敏性**：对于大多数人来说，甘氨酸钙不具有过敏性。但特定体质的人在未知情况下应首先小量尝试。
+- **适用人群**：它适用于大部分人群，包括孕妇和哺乳期妇女，但建议在专业人士指导下使用。
+
+使用甘氨酸钙作为食品添加剂可以提高食品的营养价值，并改善口感和保存性，但如同所有食品添加剂一样，需要在安全的使用范围内使用。', 'GB30605-2014', '营养强化剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (598, '甘氨酸亚铁', '### 甘氨酸亚铁
+
+#### 介绍
+- 甘氨酸亚铁是一种铁的营养补充剂，它是通过铁与甘氨酸配合形成的螯合物。
+- 它具有较好的溶解性和生物利用度，常见于用于预防和治疗铁缺乏性贫血。
+- 作为食品添加剂，甘氨酸亚铁可以增加食品中的铁含量，提高营养价值。
+
+#### 用途
+- **强化食品**：用于面包、饼干等谷物产品中，增加铁的摄入量。
+- **婴幼儿配方奶粉**：在婴幼儿配方奶粉中添加，帮助婴幼儿补充足够的铁元素，支持正常的发育。
+- **膳食补充品**：作为膳食补充品的成分，适用于需要额外铁摄入的人群，如孕妇、贫血患者等。
+- **营养饮料和运动产品**：在营养饮料和运动补充品中添加，以满足运动员和活跃人士的铁质需求。
+
+#### 安全性说明
+- **广泛认可的安全性**：甘氨酸亚铁作为食品添加剂在多个国家和地区被认可使用，且通过了世界卫生组织（WHO）和食品农业组织（FAO）的安全评估。
+- **剂量控制**：在使用甘氨酸亚铁时需要严格按照推荐剂量使用，过量可能会导致胃肠道不适或其他健康问题。
+- **过敏性低**：甘氨酸亚铁普遍被认为过敏反应低，适合大部分人群使用。但个别体质敏感者应先咨询医生。
+- **长期使用安全性**：长时间大剂量服用任何补铁产品都可能导致铁过载，建议在医疗专业人士的指导下使用。
+
+通过以上的介绍，可以看出甘氨酸亚铁是一种效果显著且相对安全的食品添加剂，适用于多种食品中以增强铁的含量和生物可利用度。', 'GB30606-2014', '营养强化剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (599, '酶解大豆磷脂', '### 酶解大豆磷脂
+
+#### 介绍
+- 酶解大豆磷脂是通过特定酶作用于大豆磷脂而得到的产品。
+- 它富含磷脂酰胆碱和其他必需磷脂，具有较好的乳化和稳定性能。
+- 这种处理方式能改善磷脂的水溶性和功能性，使其在食品加工中的应用更为广泛。
+
+#### 用途
+- **食品工业**：作为天然乳化剂，广泛用于烘焙食品、糖果、冰淇淋和饮料中。
+- **保健食品**：用于制造脂肪酸补充剂，尤其是对大脑健康有益的磷脂酰胆碱补充剂。
+- **化妆品工业**：作为一种有效的乳化剂和湿润剂，用于皮肤护理和美发产品。
+- **药品制造**：用作药物的载体，提高药品的生物可用性。
+
+#### 安全性说明
+- **已被认定为安全**：酶解大豆磷脂作为食品添加剂，在许多国家和地区已被认定为安全，可用于食品中。
+- **过敏原信息**：由于源自大豆，对大豆蛋白过敏的消费者应避免使用含此成分的产品。
+- **长期使用和剂量**：建议按照食品安全规范和产品标签指示使用，过量摄入任何添加剂都可能不利于健康。
+- **监管标准**：在使用前应确认产品符合当地的食品安全和添加剂使用标准。
+
+这些信息可以帮助消费者更好地理解酶解大豆磷脂作为食品添加剂的性质、用途以及安全性。', 'GB30607-2014', '乳化剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (600, 'DL-苹果酸钠', '### DL-苹果酸钠
+
+DL-苹果酸钠是一种在食品加工中常用的添加剂，主要用于调节食品的酸度，增加其稳定性和改善口感。
+
+#### 介绍
+- **化学名称**：DL-苹果酸钠是DL-苹果酸的钠盐形式，化学式为C4H5NaO5。
+- **性状**：通常为白色粉末或结晶体，具有良好的溶解性。
+- **制备过程**：可以通过中和苹果酸与碳酸钠或氢氧化钠的方式制得。
+
+#### 用途
+- **酸度调节剂**：在食品制造中用来调整或控制产品的pH值。
+- **风味增强剂**：可以增强食品中的自然风味，改善整体口感。
+- **防腐剂**：有助于延长食品的保质期，防止微生物的生长。
+- **缓冲剂**：用于维持食品中的稳定酸碱值。
+- **营养强化剂**：在一些食品中添加以补充钠的摄入。
+
+#### 安全性说明
+- **食品级材料**：DL-苹果酸钠被广泛认为是安全的食品添加剂，适用于多种食品。
+- **使用限制**：在使用时需遵守当地的食品安全标准与规定，控制在安全的摄入量范围内。
+- **过敏性**：对于大多数人来说是非过敏性的，但敏感体质的人应先行测试。
+- **毒理学信息**：长期大量摄入可能对健康造成影响，正常食用量通常认为是安全的。
+- **认证信息**：有多个国家食品安全机构对DL-苹果酸钠的使用进行了评估和批准。
+
+使用DL-苹果酸钠作为食品添加剂时，这些信息有助于理解其特性、用途及安全性，提供给消费者在选择食品时的参考。', 'GB30608-2014', '酸度调节剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (601, '聚氧乙烯聚氧丙烯季戊四醇醚', '### 聚氧乙烯聚氧丙烯季戊四醇醚
+
+#### 介绍
+- **化学性质**: 聚氧乙烯聚氧丙烯季戊四醇醚是一种由聚氧乙烯、聚氧丙烯和季戊四醇反应制得的化合物，属于非离子表面活性剂。
+- **生产过程**: 该物质通常通过控制反应条件和原料配比进行合成，以达到所需的分子量和性能。
+- **外观**: 通常为黏稠的液体，颜色从无色到淡黄色不等。
+
+#### 用途
+- **食品工业**: 在食品行业中，可以用作乳化剂、稳定剂，帮助混合油水不相容的成分。
+- **改善口感**: 在冰淇淋、奶昔等产品中添加可改善口感和延长保质期。
+- **增加亮度**: 在糖果和烘焙产品中使用，能增强产品的外观亮度和吸引力。
+
+#### 安全性说明
+- **监管评估**: 此类添加剂在多数国家都经过了食品与药品监督管理局的严格评估，确认其安全性。
+- **用量限制**: 使用时需严格按照食品安全标准进行控制，确保在安全的添加范围内。
+- **过敏反应**: 尽管普遍安全，但极个别情况下可能会引发敏感性体质的人过敏反应。
+- **长期研究**: 还需进一步的长期研究来确保其长期摄入的安全性。
+
+这些科普信息有助于推广正确的知识，让消费者了解食品添加剂背后的科学与安全措施。', 'GB30609-2014', '乳化剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (603, '异丙醇', '### 异丙醇
+
+#### 介绍
+- 异丙醇（Isopropanol 或 Isopropyl Alcohol，简称IPA）是一种无色、易燃的液体，化学式为C3H8O。
+- 在工业和实验室中广泛使用，也作为溶剂和清洁剂。
+- 作为食品添加剂，通常用于提取和处理食品原料中的天然成分。
+
+#### 用途
+- **提取剂**: 用于提取和浓缩食品中的天然风味素。
+- **清洗剂**: 在食品加工过程中用于设备和容器的消毒和清洁。
+- **防腐剂**: 有时添加到某些食品中，以帮助延长保质期。
+
+#### 安全性说明
+- **限制使用量**: 在食品添加剂中使用时，其浓度需严格按照食品安全标准规定，避免过量。
+- **避免直接摄入**: 尽管用作食品添加剂，但必须确保在最终产品中的异丙醇残留量极低，以避免健康风险。
+- **储存和处理需谨慎**: 存储异丙醇需在阴凉、通风良好的地方，避免与强氧化剂接触。
+- **有害健康**: 吸入高浓度的异丙醇蒸气或直接摄入都可能对健康造成严重危害。
+
+> 注意：使用异丙醇作为食品添加剂时应严格遵守相关法规和食品安全标准，以确保消费者健康和安全。', 'GB30611-2014', '加工助剂', 0x5B325D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (604, '聚二甲基硅氧烷及其乳液', '### 聚二甲基硅氧烷及其乳液
+
+#### 介绍
+- **化学性质**: 聚二甲基硅氧烷是一种由硅和氧原子交替形成的聚合体，通常含有甲基或其他有机基团。
+- **形态**: 以液体形式存在，可加工成乳液状，便于在各种产品中使用。
+- **应用**: 在食品工业中，因其抗泡性和润滑性而被用作添加剂。
+
+#### 用途
+- **消泡剂**: 广泛用于烹饪油和加工食品中，以减少加工过程中的泡沫。
+- **润滑剂**: 在食品加工设备上作为润滑油使用，防止食品粘附，保持机器长时间运转。
+- **食品质地改良剂**: 有时用于改善食品的质地和稳定性，如酱料和冷冻食品。
+
+#### 安全性说明
+- **FDA审批**: 在美国，聚二甲基硅氧烷被美国食品药品监督管理局(FDA)认可为安全的食品添加剂。
+- **用量限制**: 应遵守所在国家关于食品添加剂的最大使用限量规定。
+- **全球认可**: 其安全性已被多个国家的食品安全机构确认，允许在食品加工中使用。
+
+通过以上介绍，我们可以看出聚二甲基硅氧烷及其乳液作为食品添加剂在食品工业中的重要性和应用广泛性，同时它也是经过相关食品安全机构验证的安全产品。', 'GB30612-2014', '消泡剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (605, '氧化钙', '### 氧化钙作为食品添加剂
+
+#### 介绍
+- 氧化钙，化学式为CaO，俗称生石灰。
+- 在食品加工中，氧化钙主要用作酸度调节剂和抗结剂。
+- 它可以通过加热天然石灰石（主要成分是碳酸钙）到高温制备而得。
+
+#### 用途
+- **酸度调节剂**：氧化钙能够调节食品的pH值，用于提高食品的稳定性和防腐。
+- **抗结剂**：用于防止粉末状食品如面粉、糖和盐等结块。
+- **强化剂**：在某些情况下，可用作营养强化剂，增加食品中的钙含量。
+- **固化助剂**：在腌制过程中，氧化钙有助于食品的固化，保持果蔬的脆性和口感。
+
+#### 安全性说明
+- 氧化钙被世界卫生组织（WHO）和食品农业组织（FAO）的食品添加剂联合专家委员会（JECFA）评为一般认为安全（GRAS）。
+- 正确使用时一般无害，但需避免吸入氧化钙粉尘，因其强烈的腐蚀性可能引起呼吸道刺激。
+- 使用氧化钙需严格按照食品安全标准和推荐用量，过量可能对人体健康造成不良影响。
+- 在食品加工中应使用食品级氧化钙确保安全和纯度。
+
+这些科普信息针对氧化钙的食品添加剂用途及安全信息进行了详细说明，旨在提供给消费者和食品生产者参考和指导。', 'GB30614-2014', '加工助剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:25');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (606, '竹叶抗氧化物', '### 竹叶抗氧化物
+
+#### 介绍
+- 竹叶抗氧化物是从竹叶中提取的天然抗氧化剂，主要包含黄酮类，酚酸类以及其他活性成分。
+- 此种抗氧化物利用了竹叶中的生物活性成分，经过科学方法提炼而成。
+- 由于其来源自然，因而被广泛认为是一种安全且有效的添加剂。
+
+#### 用途
+- **食品保鲜**：提高食品保质期，防止食品氧化，维持食品新鲜度和营养价值。
+- **色泽保护**：帮助维持食品的自然颜色，防止色泽变化。
+- **提升口感**：改善食品口感和风味，抑制不良味道的生成。
+- **健康益处**：增加食品中的抗氧化成分，有助于提升消费者的健康水平。
+
+#### 安全性说明
+- **经认证安全级别**：竹叶抗氧化物的使用已经通过多个国家和地区的食品安全认证，包括FDA和欧盟EFSA的相关测试。
+- **低过敏性质**：竹叶作为一种比较少见的过敏来源，其提取物用作食品添加剂的过敏反应风险较低。
+- **无重金属污染**：在生产过程中严格控制，确保不含有害的重金属及其他潜在有害物质。
+- **剂量控制**：使用时应遵守相关安全标准和建议剂量，避免过量使用。', 'GB30615-2014', '抗氧化剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (607, '决明胶', '### 决明胶
+
+#### 介绍
+- **来源**: 决明胶主要来源于决明子，这是一种在亚洲广泛使用的传统草药，其学名为*Cassia obtusifolia*或*Cassia tora*。
+- **制作过程**: 决明子经过破碎、提取、净化和干燥等一系列工序后，制成决明胶。
+- **性质**: 决明胶为植物性胶体，外观通常为黄色到棕色的细粉。
+
+#### 用途
+- **增稠剂**: 在食品工业中，决明胶常用作天然增稠剂，增加食品的质感和粘稠度。
+- **稳定剂**: 可用于冷饮、乳制品等防止分层、改善口感。
+- **净化剂**: 在饮料如果汁和茶饮料中，帮助悬浮和去除杂质，提升清澈度。
+
+#### 安全性说明
+- **安全门槛**: 经多国食品安全机构如FDA（美国食品药品监督管理局）评估，决明胶被认为是安全的食品添加剂。
+- **副作用**: 正常食用量下无明显副作用，过量食用可能导致消化系统不适。
+- **敏感提示**: 少数人可能对决明胶存在敏感性，建议敏感人群谨慎使用。
+
+以上就是关于作为食品添加剂使用的决明胶的基本信息。在合理的使用条件下，决明胶是一种安全有效的食品添加剂。', 'GB31619-2014', '增稠剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (608, 'β-阿朴-8´-胡萝卜素醛', '### β-阿朴-8´-胡萝卜素醛
+
+#### 介绍
+- β-阿朴-8´-胡萝卜素醛是一种天然存在的类胡萝卜素化合物，由植物中的胡萝卜素在代谢过程中产生。
+- 其化学式为 C40H56O，是由纯碳氢基团和一个氧原子组成的有机分子。
+- 在自然界中，它主要存在于某些水果和蔬菜中，如胡萝卜、番茄等。
+
+#### 用途
+- **食品颜色添加剂**：由于其鲜艳的橙红色，常被用于增强或恢复食品的颜色，使其看起来更加诱人和新鲜。
+- **抗氧化剂**：β-阿朴-8´-胡萝卜素醛具有抗氧化性能，可以添加到食品中以延长保质期，防止食品氧化。
+- **营养强化剂**：作为类胡萝卜素的一员，β-阿朴-8´-胡萝卜素醛可以作为营养补充剂，在某些食品中强化营养价值。
+
+#### 安全性说明
+- **通常被认为是安全的**：作为一种天然食品成分，β-阿朴-8´-胡萝卜素醛通常被认为是安全的。
+- **已经被多个国家和地区的食品安全机构评估**：例如美国食品药品管理局（FDA）和欧洲食品安全局（EFSA）等都对其进行了安全性评估。
+- **适量使用**：尽管其被认为是安全的，但依然建议按照食品标准来使用，避免过量。
+- **过敏性反应**：极少数个案中可能会导致过敏反应，特别是对于那些对类胡萝卜素敏感的人群。如出现不适应立即停止使用并寻求专业帮助。', 'GB31620-2014', '着色剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:01:50');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (609, '杨梅红', '### 杨梅红
+
+#### 介绍
+- 杨梅红，亦称作红曲红，是一种天然色素，由红曲霉（**Monascus purpureus**）发酵米或其他谷物后产生。
+- 这种天然食用色素因其鲜艳的红色被广泛应用在食品工业中。
+- 杨梅红不仅给食品提供颜色，还能增加食品的口感与香气。
+
+#### 用途
+- **提色效果：** 主要用于食品的颜色增良，如肉制品、海鲜、调味料以及饮料等。
+- **增味与保健效果：** 杨梅红在一定程度上可提升食品的风味，并具有一定的健康功效，例如抗氧化和促进血液循环。
+- **美食呈现：** 在烘焙食品中，如蛋糕、点心和糖果中添加，可以使产品外观更加吸引消费者。
+
+#### 安全性说明
+- **监管批准：** 杨梅红作为食品添加剂在多个国家和地区得到了合法批准使用。
+- **摄入限制：** 建议消费者遵守各国关于日摄入量的规定，避免超量使用。
+- **过敏情况：** 尽管不常见，但部分敏感人群可能对杨梅红的某些成分存在过敏反应。
+- **长期研究：** 针对其安全性的长期研究仍在进行中，推荐消费者关注最新的研究结果和食品安全通告。
+
+通过以上总结，我们可见杨梅红作为一种食品添加剂，其安全性和功能性都受到了广泛认可，适用于多种食品加工领域。在使用时确保遵守相关法规和摄入建议，可以安全地享用含有杨梅红的食品。', 'GB31622-2014', '着色剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (610, '硬脂酸钾', '### 硬脂酸钾
+
+#### 介绍
+- 硬脂酸钾，也称为钾硬脂酸盐，化学式为K(C18H35O2)。
+- 这种物质通常是白色粉末状或颗粒状，溶于水。
+- 主要通过硬脂酸与氢氧化钾反应制备得到。
+
+#### 用途
+- 作为乳化剂，帮助混合水和油脂，改善食品的质感和延长保质期。
+- 在糖果和烘焙产品中作为分散剂，帮助均匀分布各种成分。
+- 可用于调节食品的pH值，保持食品的稳定性和品质。
+- 在冷冻食品中起到防结冰作用，改善食品的口感和结构。
+
+#### 安全性说明
+- 硬脂酸钾已被多个国家和地区（如美国食品药品监督管理局（FDA）和欧盟）批准用作食品添加剂。
+- 在推荐的使用剂量下，硬脂酸钾被认为是安全的。
+- 虽然在高剂量下可能会引起胃肠不适，但在食品中所用剂量一般远远低于导致不良反应的水平。
+- 建议消费者在享受含有硬脂酸钾的食品时遵循正常的饮食习惯，不要过量摄入。', 'GB31623-2014', '乳化剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (611, '天然胡萝卜素', '### 天然胡萝卜素
+
+#### 介绍
+- **来源**：天然胡萝卜素主要来源于胡萝卜、番木瓜、芒果等红黄色果蔬。
+- **提取**：通过有机溶剂提取或超临界CO2提取等方法从植物材料中获得。
+- **成分**：主要成分为β-胡萝卜素，此外还含有α-胡萝卜素、γ-胡萝卜素等。
+
+#### 用途
+- **色素**：作为天然色素广泛应用于食品工业中，提供鲜艳的橙红色。
+- **抗氧化剂**：具有抗氧化功能，可用于防止食品氧化。
+- **营养补充**：富含维生素A，用于强化食品和饮料的营养价值。
+
+#### 安全性说明
+- **FDA认可**：美国食品药品监督管理局（FDA）认为天然胡萝卜素作为食品添加剂是安全的。
+- **EFSA评估**：欧洲食品安全局（EFSA）也支持天然胡萝卜素的安全性，并且规定了日摄入上限。
+- **适宜人群**：一般人群都可以安全食用，除非对胡萝卜素有特殊过敏反应。
+- **长期用量**：虽然安全，但建议遵循标签指示或专业建议，避免过量消费。
+
+使用天然胡萝卜素作为食品添加剂，可以提高食品的营养价值及美观程度，而且是自然来源较为安全的选择。', 'GB31624-2014', '着色剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (612, '二氢茉莉酮酸甲酯', '### 二氢茉莉酮酸甲酯
+
+#### 介绍
+- 二氢茉莉酮酸甲酯（Methyl dihydrojasmonate）是一种合成的香料。
+- 它被广泛应用于食品、化妆品及香水行业。
+- 此化学物质的结构与天然存在的茉莉花香成分类似，能够产生类似的香气。
+
+#### 用途
+- **食品行业**: 主要用于增添或强化食品的香味，如糖果、饮料和烘焙食品等。
+- **香氛**: 在制造香水和个人护理产品中，用于模拟茉莉和其他花香。
+- **芳香疗法**: 可能被用于芳香疗法产品，以利用其放松和提振的潜在效益。
+
+#### 安全性说明
+- **化学的稳定性**: 二氢茉莉酮酸甲酯在一般的使用和储存条件下是稳定的。
+- **毒性**: 低毒性，按照现有的食品安全指导原则和使用标准，被认为是安全的。
+- **监管批准**: 在多个国家和地区已被认可为食品添加剂使用。
+- **过敏反应**: 对于大多数人来说是无害的，但少数人可能对此化合物有过敏反应。', 'GB31625-2014', '食品用香料', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (613, '水杨酸苄酯（柳酸苄酯）', '### 水杨酸苄酯（柳酸苄酯）
+
+#### 介绍
+- **化学名称**: 水杨酸苄酯，也被称为柳酸苄酯。
+- **化学式**: C13H10O3
+- **性状**: 通常存在为白色至淡黄色的结晶或粉末，具有轻微的芳香味。
+- **溶解性**: 在乙醇和乙醚中易溶，在水中溶解度较低。
+
+#### 用途
+- **防腐剂**: 主要用作食品添加剂，用于延长食品的保质期。
+- **抗菌特性**: 由于其抗菌性，常用于防止食品中的细菌生长。
+- **香精成分**: 在食品工业中，也可作为香精成分使用来增加食品的香气。
+
+#### 安全性说明
+- **FDA审批**: 在美国，FDA允许在特定条件下作为食品添加剂使用。
+- **摄入量限制**: 使用时应控制在安全摄入量范围内，避免过量。
+- **过敏反应**: 极少数人可能对此化合物产生过敏反应，使用前应仔细检查。
+- **长期安全性数据**: 相关的长期摄入安全性数据相对较少，消费者在使用含此类化合物的产品时应适当注意。', 'GB31626-2014', '食品用香料', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (614, '香芹酚', '### 香芹酚
+
+#### 介绍
+- **化学性质**: 香芹酚，又称作对甲氧基苯甲醚，是一种由苯环与甲氧基及羟基组成的化合物。
+- **来源**: 它主要从香芹籽中提取，也可以通过合成方法制备。
+- **外观**: 常见为无色至淡黄色晶体或粉末状物质。
+
+#### 用途
+- **食品香料**: 因其独特的香气，广泛用于调制食品的香味，尤其在糕点和饮料中应用。
+- **防腐剂**: 有一定的抗菌作用，可用于提高食品的保存期限。
+- **抗氧化剂**: 可用于防止食品氧化，维持食品的颜色和味道。
+
+#### 安全性说明
+- **安全级别**: 在适宜的使用量下，被认为是非毒性和安全的。
+- **监管批准**: 在多个国家和地区，香芹酚作为食品添加剂已获得正式批准。
+- **敏感性问题**: 少数人可能对香芹酚有轻微敏感反应，使用前应检查过敏历史。
+- **使用建议**: 应遵守各国有关食品添加剂的使用法规和标准，不超过推荐的添加量。', 'GB31627-2014', '食品用香料', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (615, '高岭土', '### 高岭土作为食品添加剂
+
+高岭土（Kaolin），化学成分主要为氢氧化铝硅酸盐，是一种广泛用于工业、医药和食品行业的矿物。作为食品添加剂时，主要利用其良好的吸附性能和安全性。
+
+#### 介绍
+- 高岭土是一种白色或近白色的粘土矿物，主要成分为铝硅酸盐。
+- 在食品工业中，高岭土经过精制处理，以符合安全标准。
+- 用作食品添加剂的高岭土通常表现为无味，无臭的粉末。
+
+#### 用途
+- **吸附剂**：用于吸附食品中的杂质和有害物质，如重金属和霉菌毒素。
+- **防结剂**：防止粉末类食品如奶粉、糖粉发生结块。
+- **澄清剂**：用于饮料如果汁、葡萄酒的澄清处理，可以吸附并去除浑浊的颗粒。
+- **稳定剂和载体**：用作其他食品添加剂的载体，如香精和营养补充剂，也用于增加某些液体食品的稳定性。
+
+#### 安全性说明
+- 国际食品法典委员会(Codex)和美国食品药品监督管理局(FDA)认为高岭土作为食品添加剂是安全的。
+- 需要确保其来源的纯净与无污染，以符合食品级的安全标処。
+- 常规的摄取量下，高岭土无毒性和不引起过敏反应的记录。
+- 适量使用，依据相关食品安全标准和指南进行。
+
+使用高岭土作为食品添加剂时应遵循相应的食品安全规则和标准，确保安全性和效果。', 'GB31628-2014', '填充剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (616, '聚丙烯酰胺', '### 聚丙烯酰胺
+
+#### 介绍
+- **化学性质**：聚丙烯酰胺是一种由丙烯酰胺单体聚合而成的高分子化合物。
+- **物理形态**：通常为白色粉末或颗粒状，易溶于水。
+- **生产过程**：通过丙烯酰胺的聚合反应在催化剂的作用下合成。
+
+#### 用途
+- **食品工业**：用作澄清剂和絮凝剂，帮助去除食品加工过程中的杂质。
+- **提高效率**：在食品加工过程中，可以提高固液分离的效率，减少生产成本。
+- **质量控制**：有助于改善食品的外观和质量。
+
+#### 安全性说明
+- **严格监管**：虽然原料丙烯酰胺本身具有神经毒性，但聚丙烯酰胺本身并不具有神经毒性。
+- **使用限制**：在食品工业中使用聚丙烯酰胺需要遵循严格的安全标准与用量限制。
+- **健康风险**：未经适当处理的聚丙烯酰胺可能包含未反应完全的丙烯酰胺，这种物质被认为是潜在的致癌物。
+- **国际认证**：聚丙烯酰胺用于食品加工必须符合相应的国际食品安全标准，如FDA（美国食品药品监督管理局）及欧盟的准许使用标准。', 'GB31629-2014', '增稠剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (617, '聚乙烯醇', '### 聚乙烯醇作为食品添加剂
+
+#### 介绍
+- **化学性质**: 聚乙烯醇（PVA）是一种水溶性的合成聚合物。
+- **制备方法**: 通常通过聚乙烯醇的部分或完全醇解来制得。
+- **物理形态**: 通常以白色粉末或颗粒形式存在。
+
+#### 用途
+- **稳定剂**: 增强食品的结构稳定性，防止成分分离。
+- **增稠剂**: 在一些酱料和冷冻食品中用以增加粘稠度。
+- **乳化剂**: 帮助不同的液体成分均匀混合，如在奶昔和冰淇淋中。
+- **保湿剂**: 在糕点和面包中使用，以保持水分，延长保质期。
+
+#### 安全性说明
+- **已评估安全性**: 食品和药品管理局（FDA）批准在特定条件下作为食品添加剂使用。
+- **限定用量**: 需按照具体的食品类别和用途限定使用量，过量使用可能引起消化不良或其他健康问题。
+- **过敏性**: 对于绝大多数人群来说是安全的，但部分敏感人群应避免使用含有聚乙烯醇的产品。
+- **长期使用效果**: 在现有的科学数据支持下，聚乙烯醇作为食品添加剂的长期消费被认为是安全的。', 'GB31630-2014', '食品用助剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (618, '氯化铵', '### 氯化铵作为食品添加剂
+
+#### 介绍
+- **化学式**：NH4Cl
+- **性质**：氯化铵是一种无色或白色的晶体，易溶于水，味咸涩。
+- **来源**：在工业上通常通过氨和盐酸反应制备。
+
+#### 用途
+- **面制品处理**：作为面团调理剂，可以改善面团的质地和弹性。
+- **糖果制作**：用于制作某些类型的糖果，如荷兰的硷柳糖(Liqorice)中。
+- **调味品**：氯化铵可以用作某些亚洲菜肴的风味增强剂。
+
+#### 安全性说明
+- **认证与许可**：氯化铵作为食品添加剂在多个国家和地区得到了认证与许可使用。
+- **使用限量**：需按照当地法规和标准使用，过量可能对健康造成影响。
+- **潜在影响**：高剂量的氯化铵摄入可能会导致电解质失衡和胃部不适。
+- **敏感人群**：极少数人群可能对氯化铵敏感，应避免或减少摄入。
+
+在使用任何食品添加剂时，建议严格遵守相关安全指引和标准用量，以确保食品安全和健康。', 'GB31631-2014', '调味剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (619, '镍', '### 镍作为食品添加剂
+
+#### 介绍
+- 镍是一种存在于地壳中的金属元素，化学符号为Ni。
+- 在食品加工中，镍可能作为杂质存在，而非故意添加。
+- 镍能通过多种途径进入食品链，例如通过食品接触材料（如不锈钢厨具）。
+
+#### 用途
+- 镍本身通常不直接作为食品添加剂使用。
+- 由于其抗腐蚀性强，镍常用于食品加工设备或包装材料中，间接影响食品安全。
+
+#### 安全性说明
+- 镍虽然是人体必需微量元素之一，但摄入过量可能导致健康问题。
+- 某些人可能对镍过敏，食用含有镍的食物后可能出现皮肤疹或其他过敏反应。
+- 欧洲食品安全局（EFSA）及其他健康监管机构对食品中镍的含量进行了严格的限制，以避免公众健康风险。
+- 建议消费者注意使用镍铬合金（如不锈钢）制品时的食品安全情况，特别是在处理酸性较强的食物时。', 'GB31632-2014', '食品添加剂', 0x5B335D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (620, '氢气', '### 氢气作为食品添加剂
+
+#### 介绍
+- 氢气（H₂）是一种无色、无味、无臭的气体。
+- 在食品工业中，氢气主要用于将植物油硬化转化为固体形式，即氢化处理。
+- 氢气被广泛应用在食品加工中，特别是在生产人造黄油和其他加工食品中。
+
+#### 用途
+- **氢化作用**：氢气可以添加到不饱和脂肪中，改变其化学结构，从而提高油脂的稳定性和储存期限。
+- **风味改良**：通过改变食物中脂肪的性质，氢气有助于改善食品的口感和风味。
+- **提高抗氧化性能**：氢化可减少或消除油脂中的双键，从而降低其被氧化的机率。
+
+#### 安全性说明
+- **食用安全级别**：氢气作为食品添加剂的使用在多个国家和地区得到了法规的认可。
+- **严格控制**：尽管被广泛使用，氢气的使用量和氢化程度都受到严格的食品安全标准和监管控制。
+- **可能的健康影响**：过度的氢化可能产生反式脂肪，这种脂肪与心血管疾病等健康问题有关。因此，食品生产中的氢化程度需要严格控制。', 'GB31633-2014', '加工助剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:01:50');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (621, '珍珠岩', '### 珍珠岩作为食品添加剂
+
+#### 介绍
+- **成分**: 珍珠岩是一种天然火山玻璃矿物，经过高温加工膨胀后形成。
+- **形态**: 在食品工业中使用时，珍珠岩常常呈膨胀状，具有轻质、多孔的特性。
+- **加工**: 制备时通常通过预热和瞬间高温处理使其体积迅速膨胀，增大其内部空间。
+
+#### 用途
+- **填充剂**: 在一些低密度或轻质食品产品中，作为填充剂使用，帮助增加体积，减少重量。
+- **载体材料**: 可用作营养添加剂或食品配料的载体，确保均匀分布，提高食品质感。
+- **保水剂**: 由于其多孔结构，珍珠岩可用作保湿剂，增加食品中水分的保持。
+
+#### 安全性说明
+- **食品级材料**: 仅限使用符合食品安全标准的食品级珍珠岩。
+- **无毒性**: 珍珠岩为非有机材料，经过适当处理后不含有害化学物质。
+- **接受度**: 在许多国家和地区，经过食品安全认证的珍珠岩已被认可为食品添加剂。
+- **注意事项**: 使用前应确保珍珠岩的来源和加工过程符合当地的食品安全法规。
+
+这些信息可以帮助你了解珍珠岩作为食品添加剂的基本属性和安全性。在食品加工过程中，正确的使用和符合规定的质量控制是确保食品安全的关键。', 'GB31634-2014', '填充剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (622, '聚苯乙烯', '### 聚苯乙烯作为食品添加剂
+
+聚苯乙烯（Polystyrene）是一种合成的塑料材料，广泛用于制造各种产品，包括食品包装材料。在食品添加剂的使用中，它主要用于制作容器和包装，而非直接添加到食品中。
+
+#### 介绍
+- **化学性质**：聚苯乙烯是一种由苯乙烯单体聚合而成的塑料，具有良好的透明性和防水性。
+- **制造过程**：通过聚合反应，苯乙烯在催化剂的作用下形成聚苯乙烯。
+- **外观**：通常为透明或半透明的固体物质，可根据需要加入色素制成不同颜色。
+
+#### 用途
+- **食品包装**：用于制造各种食品包装盒、杯子、容器等，尤其在快餐业中常见。
+- **保温材料**：由于其良好的绝热性能，用于制作用于保温食品的容器。
+- **一次性餐具**：制造刀、叉、勺等一次性餐具，使用便捷。
+
+#### 安全性说明
+- **化学稳定性**：聚苯乙烯在正常的存储和使用条件下化学性质稳定，不会分解。
+- **不含毒素**：正规生产的聚苯乙烯食品包装材料不含有害物质，可以安全接触食品。
+- **限度使用**：应避免将聚苯乙烯容器用于高温环境，如微波炉或沸水中，高温可能导致材料结构改变，增加有害物质释放的风险。
+- **回收与处理**：聚苯乙烯可以回收再利用，减少环境影响，但需要正确分类丢弃。
+
+使用聚苯乙烯作为食品添加剂时，主要是通过其制成的包装材料与食品接触。因此，其使用的安全性极大地依赖于制品的质量控制和消费者的正确使用方式。', 'GB31635-2014', '食品用塑料', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (623, 'γ-环状糊精', '### γ-环状糊精
+
+#### 介绍
+- γ-环状糊精（γ-cyclodextrin, γ-CD）是一种环状多糖，由八个葡萄糖单元通过α-1,4糖苷键形成一个环状结构。
+- 它是环状糊精家族中的一员，这个家族还包括α-环状糊精和β-环状糊精，区别在于环中葡萄糖单元的数量不同。
+- γ-环状糊精因其较大的分子内腔径而独特，这使它能够封装比其他两种环状糊精更大的分子。
+
+#### 用途
+- **食品工业**: γ-环状糊精可用作稳定剂和增稠剂，尤其在油脂含量高的产品中，如沙拉酱和奶油制品，以延长产品的保质期并改善口感。
+- **包装处理**: 它能形成包含复杂食品添加剂（如香料、维生素和防腐剂）的包合体，有助于保持这些成分的稳定性和提高其水溶性。
+- **健康食品**: 在健康产品中，如减肥食品和膳食纤维补充剂，γ-环状糊精有助于改善营养成分的传递和吸收。
+
+#### 安全性说明
+- γ-环状糊精是由天然来源的淀粉通过酶处理获得，被广泛认为是安全的食品添加剂。
+- 欧盟食品安全局（EFSA）和美国食品药品监督管理局（FDA）均认定γ-环状糊精在常规的食品添加剂使用量下是安全的。
+- 广泛的科学研究和市场监测显示，它不会引起严重的过敏反应或其他健康问题。
+- 尽管如此，消费者在使用任何食品添加剂时仍应注意适量，尤其是对于特定健康条件的人群，建议在专业人士的指导下使用。', 'GB1886.353-2021', '食品添加剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (624, '3-[(4-氨基-2,2-二氧-1H-2,1,3-苯并噻二嗪-5-基)氧]-2,2-二甲基-N-丙基丙酰胺', '### 3-[(4-氨基-2,2-二氧-1H-2,1,3-苯并噻二嗪-5-基)氧]-2,2-二甲基-N-丙基丙酰胺作为食品添加剂
+
+#### 介绍
+- **化学成分**：3-[(4-氨基-2,2-二氧-1H-2,1,3-苯并噻二嗪-5-基)氧]-2,2-二甲基-N-丙基丙酰胺是一种合成化合物，通常用于食品添加剂的生产。
+- **功能类别**：主要用作防腐剂或抗氧化剂，有助于延长食品的保质期和改善食品的稳定性。
+- **产地信息**：这种化合物主要由化学制药公司在严格控制的实验室环境下合成，确保其纯度和质量。
+
+#### 用途
+- **防止食品变质**：用于抑制微生物的生长，延长食品的保质期。
+- **改善食品外观与质感**：有助于保持食品的颜色和口感，防止因氧化而导致的色泽变化和味道退化。
+- **增强食品安全性**：通过减少有害微生物的存活，提高食品的安全性，减少食物中毒的风险。
+
+#### 安全性说明
+- **合规性**：此化合物的使用需要符合相关国际和国家的食品安全标准，如美国食品药品监督管理局(FDA)和欧盟食品安全局(EFSA)的规定。
+- **毒理学测试**：经过严格的毒理学评估和测试，确认其在推荐使用量下对人体无害。
+- **使用建议**：建议按照食品制造商和相关食品安全法规的推荐剂量使用，避免过量添加。
+- **敏感性信息**：对于特定人群（如对特定化合物敏感的人），建议在使用前咨询专业人士的意见。
+
+通过合理使用和严格遵守相关安全标准，3-[(4-氨基-2,2-二氧-1H-2,1,3-苯并噻二嗪-5-基)氧]-2,2-二甲基-N-丙基丙酰胺可以作为一种有效的食品添加剂，提高食品的品质和保质期。', 'GB1886.354-2021', '食品添加剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:01:50');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (625, 'β-环状糊精', '### β-环状糊精 (Beta-Cyclodextrin)
+
+β-环状糊精是一种由糖分子组成的环形结构，这些糖分子来源于淀粉的降解过程。由于其独特的分子结构，β-环状糊精在食品工业中作为添加剂有着广泛的应用。
+
+#### 介绍
+- β-环状糊精是由七个葡萄糖单元组成的环状结构。
+- 它的主要特性是能够在其分子结构中形成一个疏水性的内腔。
+- 这种结构使得β-环状糊精能够包封其他分子，特别是不易溶于水的分子。
+- 通常通过酶促反应从淀粉中制得β-环状糊精。
+
+#### 用途
+- **食品工业**: 增强食品的稳定性，改善口感，延长保质期。
+- **口味掩蔽**: 包裹苦味或刺激性食品成分，减少其在口感上的不适。
+- **增香剂**: 保护食品中的香气成分，延长香味的释放时间。
+- **溶解性改进剂**: 提高某些成分的溶解性，使得产品更易于加工和消费。
+
+#### 安全性说明
+- β-环状糊精在全球范围内被多个食品安全机构认为是安全的食品添加剂。
+- 常见的副作用极少，且通常与消耗大量的产品时相关。
+- 经过严格的科学评估，确认不会对人体健康造成长期负面影响。
+- 在使用时应注意遵守推荐的添加剂用量，以避免可能的过敏反应或不适。
+
+使用β-环状糊精作为食品添加剂时，可以有效改善食品的质感和口味，同时确保食品的安全和质量。', 'GB1886.352-2021', '食品添加剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (626, 'α-环状糊精', '### α-环状糊精（Alpha-Cyclodextrin）
+
+#### 介绍
+- **化学结构**：α-环状糊精是由六个葡萄糖单位通过α-1,4糖苷键连接形成的环状结构。
+- **性质**：具有独特的分子笼状结构，能够形成包合物，将某些分子包裹在自己的内腔中。
+- **生产工艺**：通常通过淀粉的酶解反应来生产，使用特定的酶制剂将淀粉转化成α-环状糊精。
+
+#### 用途
+- **食品工业**：作为稳定剂、乳化剂和保湿剂使用，可以改善食品的质构和延长保质期。
+- **营养增强**：用作食品纤维的来源，有助于提高食品的营养价值。
+- **味道掩蔽**：帮助掩蔽食品中的异味和苦味，改善食品的整体口感。
+- **药物释放系统**：虽然主要用于食品，也可用于包裹药物，从而控制药物的释放速度。
+
+#### 安全性说明
+- **批准使用**：在多个国家和地区（如美国、欧盟等）被认为是安全的食品添加剂。
+- **审查研究**：众多科学研究和审查表明，α-环状糊精在推荐的摄入量下对人体是安全的。
+- **无毒性**：在常规的使用浓度下，α-环状糊精不具有毒性和副作用。
+- **耐受性**：通常对大多数人群具有很好的耐受性，不易引起过敏反应。', 'GB1886.351-2021', '食品添加剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (627, '五碳双缩醛（又名戊二醛）', '### 五碳双缩醛（戊二醛）
+
+#### 介绍
+- **化学名称**: 戊二醛
+- **化学式**: C5H8O2
+- **性质**: 五碳双缩醛是一种具有两个醛基的饱和五碳二醛，通常为无色至黄色液体，在自然界中不常见，但可以通过化学合成方式制备。
+- **来源**: 主要通过工业合成获得，非从自然食材中提取。
+
+#### 用途
+- **保鲜剂**: 用于延长食品保质期，防止食品变质。
+- **抗微生物剂**: 对抗食品中的微生物生长，如细菌和霉菌。
+- **风味增强剂**: 在特定食品中添加以增加风味层次感。
+
+#### 安全性说明
+- **毒性评价**: 戊二醛被认为具有潜在的毒性和刺激性，长期暴露可能对健康造成风险。
+- **使用限制**: 在食品添加剂中的使用受到严格的国际和国内法规限制。
+- **安全措施**: 在处理和使用过程中需要采取适当的防护措施，避免直接接触和吸入。
+- **研究与监管**: 需持续进行安全性评估和更新，以确保其在食品应用中的安全性。
+
+这些内容旨在科普用途，请在专业指导下安全使用食品添加剂。', 'GB1886.349-2021', '食品添加剂', 0x5B322C342C375D, '', '2024-10-10 12:48:58', '2024-10-21 13:04:26');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (628, '氧化亚氮', '### 氧化亚氮（N₂O）作为食品添加剂
+
+#### 介绍
+- **化学性质**：氧化亚氮，又称笑气，是一种无色的气体，具有轻微的甜味和令人愉快的气味。
+- **获取方式**：氧化亚氮可以通过加热硝酸铵来生产，这个过程会释放出纯净的气体。
+- **历史背景**：氧化亚氮最初由英国化学家约瑟夫·普利斯特利在18世纪发现。后来在多个行业中被广泛使用，其中包括食品工业。
+
+#### 用途
+- **推进剂**：在食品工业中，氧化亚氮主要作为气体推进剂使用，尤其是在制作奶油和其他泡沫食品时。
+- **保鲜剂和包装气体**：氧化亚氮在某些包装技术中被用作气体保鲜剂，帮助延长食品的保质期。
+- **调味**：尽管氧化亚氮本身味道不强，但它可以用来增加食品的整体风味体验，通过其轻微的甜味和愉悦的感觉。
+
+#### 安全性说明
+- **普遍认为安全**：在食品添加剂的使用中，氧化亚氮被普遍认为是安全的，遵守适当的使用标准和剂量指引。
+- **干净纯净**：工业生产的氧化亚氮必须经过严格的净化过程，以确保其在食品应用中的安全性和无杂质。
+- **注意事项**：应避免吸入纯氧化亚氮气体，直接吸入大量笑气可能导致健康问题如氧气供应不足导致的窒息。
+- **监管与管理**：不同国家和地区可能对氧化亚氮作为食品添加剂的使用有不同的法规和指导标准，生产和使用都需要遵守这些规定来确保食品安全。', 'GB1886.350-2021', '食品添加剂', 0x5B395D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (629, '5-甲基-2-呋喃甲硫醇', '### 5-甲基-2-呋喃甲硫醇
+
+#### 介绍
+- **化学性质**：5-甲基-2-呋喃甲硫醇是一种含硫有机化合物，该化合物在食品中可以作为风味增强剂。
+- **来源**：它可以通过化学合成获取，也可能在天然加工食品中由于热处理和发酵而生成。
+
+#### 用途
+- **风味增强**：用作食品添加剂，增加或改善食品的味道。特别是在肉类和便利食品中，可以增添独特的烟熏味或烤肉味。
+- **食品工业**：在制造调味料和酱料过程中，用以模拟和强化特定的风味。
+
+#### 安全性说明
+- **安全评估**：在使用前，需经过安全性评估，包括毒理学测试和风险评估，以确保其在食品中的安全使用水平。
+- **使用限制**：根据当地食品安全规定，该化合物在食品中的使用应严格控制在安全限量内。
+- **过敏信息**：使用前应考虑潜在的过敏反应，虽然5-甲基-2-呋喃甲硫醇并非普遍的过敏源，但敏感个体应特别注意。
+- **长期摄取问题**：目前关于其长期摄入的安全性数据较少，消费者应注意不超出推荐的日摄入量。
+
+以上信息供食品科普用途，有关具体的使用量和方法，建议咨询专业人士并参阅相关食品安全准则。', 'GB1886.365-2023', '食品香料', 0x5B322C332C375D, '', '2024-10-10 12:48:58', '2024-10-21 13:04:25');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (630, '6-甲基辛醛', '### 6-甲基辛醛作为食品添加剂
+
+#### 介绍
+- **化学名称**: 6-甲基辛醛
+- **化学式**: C9H18O
+- **外观**: 常温下为无色液体
+- **气味**: 温和的芳香，带有柑橘和薄荷的香气
+- **来源**: 人造合成或天然提取
+
+#### 用途
+- **食品香料**: 用于添加或增强食品的香气和味道，常用于烘焙食品、糖果、饮料和零食中
+- **口感改善**: 可以帮助掩盖或减少食品中的不愉快味道
+- **食品加工**: 在食品加工过程中用作味道调节剂，从而增强最终产品的接受度
+
+#### 安全性说明
+- **食品添加剂标准**: 符合国际食品法典标准及美国食品药品监督管理局（FDA）和欧洲食品安全局（EFSA）的规定
+- **毒理学评估**: 通常认为是安全的，未发现对人体有显著的毒性或副作用，但建议控制在安全用量范围内使用
+- **过敏性**: 对某些人可能存在过敏反应，若有不适应立即停用并咨询医生
+- **使用指南**: 应遵循食品添加剂的使用规范，不得超过规定的最大日摄入量
+
+以上信息为6-甲基辛醛在食品添加剂用途的科普介绍，旨在提供基本的理解和安全使用指南。', 'GB1886.367-2023', '食品香料', 0x5B325D, '', '2024-10-10 12:48:58', '2024-10-21 13:01:50');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (631, '(2S,5R)-N-[4-(2-氨基-2-氧代乙基)苯基]-5-甲基-2-(丙基-2-)环己烷甲酰胺', '### (2S,5R)-N-[4-(2-氨基-2-氧代乙基)苯基]-5-甲基-2-(丙基-2-)环己烷甲酰胺
+
+#### 介绍
+- 此化合物是一种合成的有机分子，具有特定的立体化学配置。
+- 结构中含有苯环、氨基乙酯基团和环己烷甲酰胺单位。
+- 通常在实验室条件下通过有机合成方法来制备。
+
+#### 用途
+- 可作为食品工业中的抗氧化剂，帮助防止食品变质。
+- 可能用于增强食品的口感及保持食品色泽。
+- 在特殊情况下，可能用作食品的香精或香料成分提高食品的接受度和口感。
+
+#### 安全性说明
+- 必须进行全面的毒理学评估，以确保其在食品添加剂用途中的安全性。
+- 应遵循相关食品安全标准和规定，如FAO/WHO的编码实践。
+- 在使用前需要获得相应的食品添加剂使用许可和认证。
+- 安全使用建议包括限定使用范围、浓度和食品种类。', 'GB1886.368-2023', '食品添加剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (632, '蓝锭果红', '### 蓝锭果红
+
+蓝锭果红是一种源于蓝锭果（也称为巴西莓或巴西橄榄果）的天然色素。以下为蓝锭果红作为食品添加剂的介绍、用途和安全性说明：
+
+#### 介绍
+- 蓝锭果红是从蓝锭果（Acai berry）中提取的天然色素。
+- 该色素具有深紫红色，主要由花青素类化合物组成。
+- 通常以粉末或液体形式出现在市场上。
+
+#### 用途
+- **食品着色**：用于给糖果、冰淇淋、果汁等食品添加颜色。
+- **饮料**：常用于非酒精饮料和健康饮品以增强其外观吸引力。
+- **健康补充品**：由于其高抗氧化性，常见于抗氧化补充品和能量棒中。
+
+#### 安全性说明
+- **安全性高**：作为一种天然来源的食品色素，蓝锭果红被认为相对安全。
+- **监管批准**：在许多国家中，蓝锭果红已获得相关食品安全机构的批准使用。
+- **适量使用**：尽管被认为是安全的，消费者仍应注意按推荐份量使用，避免过量。
+- **过敏反应**：少数个体可能对蓝锭果或其成分敏感，出现过敏反应。如有不适，应停止使用并咨询医生。
+
+这些信息将帮助读者更好地了解蓝锭果红作为食品添加剂的特性和考量。', 'GB1886.369-2023', '着色剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (633, 'ε-聚赖氨酸盐酸盐', '### ε-聚赖氨酸盐酸盐
+
+ε-聚赖氨酸盐酸盐，也称为ε-聚赖氨酸盐（ε-Polylysine），是一种由赖氨酸单元组成的天然发酵产品。在食品工业中常以盐酸盐形式出现，用作保鲜剂和抗菌添加剂。
+
+#### 介绍
+- **来源**：ε-聚赖氨酸盐酸盐是通过特定微生物发酵赖氨酸得到的聚合物。
+- **性质**：该化合物是一种水溶性的白色粉末，易溶于水。
+- **安全性**：作为一种由食品级微生物发酵产生的天然产品，ε-聚赖氨酸具有较高的安全性。
+- **批准情况**：在多个国家和地区（如日本、美国、欧盟等）被认可为食品添加剂。
+
+#### 用途
+- **抗菌保鲜**：在食品加工中，ε-聚赖氨酸盐酸盐可以有效抑制多种细菌和真菌的生长，延长食品保质期。
+- **食品类型**：适用于包括肉制品、海鲜、乳制品、罐装食品、面包和糕点等多种类型的食品。
+- **生产加工辅助**：有时也用于食品加工过程中，以防止食品因微生物污染而变质。
+
+#### 安全性说明
+- **无毒性**：多项研究表明，ε-聚赖氨酸盐酸盐对人体无毒，长期食用安全。
+- **过敏性低**：作为一种天然产生的食品添加剂，其过敏性极低。
+- **摄入限制**：尽管安全性高，但消费者仍需按照食品添加剂的摄入限制和推荐用量使用。
+- **监管批准**：在使用前已经过严格的食品安全监管部门的评估和批准。
+
+通过上述介绍，ε-聚赖氨酸盐酸盐作为食品添加剂的作用和安全性得到了全面展示，供消费者和食品生产者在食品加工和保鲜过程中参考使用。', 'GB1886.371-2023', '防腐剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (634, 'L-蛋氨酰基甘氨酸盐酸盐', '### L-蛋氨酰基甘氨酸盐酸盐 (N-Acetylglycine Hydrochloride)
+
+#### 介绍
+- **化学性质**：L-蛋氨酰基甘氨酸盐酸盐是一种N-乙酰基衍生物的甘氨酸，通常表现为白色粉末形态。
+- **制备方法**：通过将甘氨酸和乙酰化试剂（如乙酰氯）反应，并通过后续的处理与纯化来生成盐酸盐。
+- **溶解性**：在水中具有较好的溶解性，适合作为食品添加剂使用。
+
+#### 用途
+- **风味增强剂**：作为食品添加剂，可用于增强食品的味道，提升口感。
+- **防腐剂**：具有一定的防腐效果，有助于延长食品的保存期限。
+- **营养补充剂**：可以作为特定营养素的来源，用于强化食品和饮料。
+
+#### 安全性说明
+- **毒理学研究**：目前的研究表明，L-蛋氨酰基甘氨酸盐酸盐在常用剂量下对人体无明显毒性。
+- **使用限量**：在食品添加剂中的使用应遵守相关法规和标准的限量要求。
+- **过敏性**：虽然普遍认为是安全的，但对于特定体质可能存在过敏反应，使用时应注意。
+- **法规遵循**：在使用前确保其符合当地食品安全法规和标准。
+
+此类食品添加剂的使用和安全性还应遵循科学研究和监管机构的最新发现和指导。此介绍仅为基本信息，具体使用前请咨询相关专业人士或机构。', 'GB1886.372-2023', '营养强化剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (635, '甲醇钠', '### 甲醇钠
+
+#### 介绍
+- **化学式**：Na(OCH3)
+- **性状**：甲醇钠是一种无色至黄色的液体或固体，具有强烈的碱性。
+- **制备**：通常通过将氢氧化钠溶解在甲醇中制备而成。
+
+#### 用途
+- **催化剂**：在有机合成中，作为甲氧基化反应的催化剂。
+- **中和剂**：在食品加工中用作酸度调节剂，可以中和食品中的酸性物质。
+- **食品处理**：用于某些特殊加工食品的生产过程中，以稳定食品属性和延长保质期。
+
+#### 安全性说明
+- **毒性**：甲醇钠具有一定的毒性，需避免直接摄入。
+- **使用限制**：在食品添加剂使用中，必须严格遵守国家关于食品添加剂用量与使用范围的规定。
+- **操作注意**：处理时需穿戴合适的防护装备，避免与皮肤和眼睛接触。
+
+#### 特别提醒
+- **不推荐用途**：值得注意的是，甲醇钠通常不被推荐用作食品添加剂，因为它的安全性档案相对较差，存在健康风险。在食品工业中，更常用的是其他类型的食品级化合物来确保安全与效能。', 'GB1886.373-2023', '食品添加剂', 0x5B322C375D, '', '2024-10-10 12:48:58', '2024-10-21 13:04:26');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (636, '花生四烯酸油脂（发酵法）', '### 花生四烯酸油脂（发酵法）
+
+#### 介绍
+- **来源与制备**：花生四烯酸油脂是通过发酵工艺从花生油中提取的一种高度不饱和脂肪酸。发酵法通常涉及使用微生物菌种来转化花生油中的脂肪酸，从而提高特定脂肪酸的产量，比如四烯酸。
+- **成分特性**：该产品富含多种不饱和脂肪酸，主要是花生四烯酸，这种脂肪酸是一种稀有的长链多不饱和脂肪酸。
+
+#### 用途
+- **食品工业应用**：作为食品添加剂，主要用于提高食品的营养价值，尤其是在增强食品的抗氧化性和延长保质期方面具有应用潜力。
+- **健康益处**：花生四烯酸油脂在食品中添加后，可以帮助提升体内抗炎和免疫功能，支持心脏健康，并可能有助于调节血脂。
+- **技术领域的创新**：也用于食品科技领域，如用于研发新型的功能食品或作为某些特定类型加工食品的关键成分。
+
+#### 安全性说明
+- **经过严格测试**：花生四烯酸油脂的安全性在投放市场前已经通过了包括毒理学评估和临床试验在内的多种安全性测试。
+- **权威机构认证**：多个国家和国际食品安全机构对其进行了评估，并确认其作为食品添加剂的安全性。
+- **注意事项**：尽管被认为是安全的，消费者在使用含有花生四烯酸油脂的产品时仍需按照产品说明书进行，并注意是否有特殊体质或过敏反应的可能。
+
+该信息用于帮助大众了解花生四烯酸油脂作为食品添加剂的相关知识。在使用任何食品添加剂时，建议详细了解其来源、用途及安全性信息。', 'GB1903.65-2024', '营养强化剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');
+INSERT INTO health.additive (id, name, `desc`, gb, category, tags, image_url, created_at, updated_at) VALUES (637, '二十二碳六烯酸油脂（发酵法）', '### 二十二碳六烯酸油脂（发酵法）
+
+二十二碳六烯酸油脂，常称为DHA（Docosahexaenoic Acid），是一种多不饱和脂肪酸，属于Omega-3脂肪酸的一种。其在食品添加剂中的应用主要通过发酵法生产。
+
+#### 介绍
+
+- **来源与制备**：通过微藻类的发酵过程，特别是那些能高效生产DHA的藻类，来商业化生产DHA油脂。
+- **化学特性**：DHA为二十二碳骨架的多不饱和脂肪酸，具有六个双键，是细胞膜中的重要成分。
+- **形态特征**：通常以油脂形式存在，可溶于常用的有机溶剂中。
+
+#### 用途
+
+- **改善食品营养**：作为营养增强剂加入到婴儿配方奶粉、饼干、乳制品等食品中。
+- **促进健康**：DHA是大脑、神经系统和视网膜的重要成分，适量摄入有助于促进大脑发育和眼睛健康。
+- **防止疾病**：研究表明，适量的DHA摄入与降低心血管疾病风险、改善认知功能等健康益处相关。
+
+#### 安全性说明
+
+- **广泛研究验证**：DHA作为食品添加剂的安全性已通过多项研究证实，适用于各年龄群体。
+- **建议剂量**：尽管DHA对人体有益，但应在一定的推荐摄入量范围内消费。过量可能导致抗凝血作用过强等问题。
+- **敏感性与过敏反应**：极少数个体可能对某些来源的DHA（如某些藻类）产生过敏反应，使用前应咨询医疗专业人士。
+- **监管批准**：在多个国家和地区，包括美国FDA和欧盟EFSA，DHA作为食品添加剂的使用都有明确的规范和指导。
+
+以上信息对于科普目的的使用应提供给消费者明确、科学的认识，帮助他们更好地了解食品添加剂中的DHA其来源、用途和安全性。', 'GB1903.66-2024', '营养强化剂', 0x5B5D, '', '2024-10-10 12:48:58', '2024-10-21 13:00:24');

@@ -1,12 +1,16 @@
-CREATE TABLE health.additive
+create table health.additive
 (
-    id         BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-    name       VARCHAR(100) NOT NULL UNIQUE,
-    `desc`       VARCHAR(511) DEFAULT '',
-    gb         VARCHAR(50)  DEFAULT '',
-    category   VARCHAR(100)  DEFAULT '',
-    tags       BLOB         DEFAULT NULL,
-    image_url  VARCHAR(255) DEFAULT '',
-    created_at TIMESTAMP    DEFAULT CURRENT_TIMESTAMP,
-    updated_at TIMESTAMP    DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+    id         bigint unsigned auto_increment
+        primary key,
+    name       varchar(100)                            not null,
+    `desc`     varchar(1000) default ''                null,
+    gb         varchar(50)   default ''                null,
+    category   varchar(100)  default ''                null,
+    tags       blob                                    null,
+    image_url  varchar(255)  default ''                null,
+    created_at timestamp     default CURRENT_TIMESTAMP null,
+    updated_at timestamp     default CURRENT_TIMESTAMP null on update CURRENT_TIMESTAMP,
+    constraint name
+        unique (name)
 );
+

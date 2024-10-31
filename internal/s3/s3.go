@@ -9,6 +9,8 @@ import (
 	"health-server/config"
 	"health-server/internal/kit"
 	"health-server/internal/logger"
+	"net/url"
+	"strings"
 	"sync"
 	"time"
 )
@@ -42,7 +44,7 @@ func InitInstance(config config.S3Config) *S3Client {
 	return instance
 }
 
-func GetInstance()*S3Client  {
+func GetInstance() *S3Client {
 	return instance
 }
 
@@ -76,5 +78,22 @@ func (m *S3Client) GeneratePresignURL(bucketName, objectName string, expiry time
 		return "", fmt.Errorf("failed to sign request: %w", err)
 	}
 
-	return presignURL, nil
+	// 解析预签名 URL
+	urlParsed, err := url.Parse(presignURL)
+	if err != nil {
+		return "", fmt.Errorf("failed to parse presigned URL: %w", err)
+	}
+
+	// 解析 AssetsUri 获取主机名、端口和路径
+	assetsUri, err := url.Parse(config.Get().S3.AssetsUri)
+	if err != nil {
+		return "", fmt.Errorf("failed to parse AssetsUri: %w", err)
+	}
+
+	// 设置主机名、协议和路径
+	urlParsed.Host = assetsUri.Host
+	urlParsed.Scheme = assetsUri.Scheme
+	urlParsed.Path = strings.TrimRight(assetsUri.Path, "/") + "/" + strings.TrimLeft(urlParsed.Path, "/")
+
+	return urlParsed.String(), nil
 }

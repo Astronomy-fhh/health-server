@@ -28,6 +28,7 @@ type S3Config struct {
 	AccessKey       string `yaml:"access_key"`
 	SecretKey       string `yaml:"secret_key"`
 	Region          string `yaml:"region"`
+	AssetsUri       string `yaml:"assets_uri"`
 	ProductImageUri string `yaml:"product_image_uri"`
 	UserAvatarUri   string `yaml:"user_avatar_uri"`
 }
