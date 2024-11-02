@@ -10,10 +10,10 @@ db:
   max_open_conns: 128
   max_idle_conns: 16
 s3:
-  endpoint: http://192.168.1.3:9000
+  endpoint: http://192.168.1.2:9000
   access_key: VYIpMxUIhutPXM0fKYA6
   secret_key: bUVYie61ikq55McJVGnuWxtglyPvQwmeKRn3bdf9
   region: us-east-1
-  assets_uri: http://192.168.1.3:9000
-  product_image_uri: http://192.168.1.3:9000/health-img/
-  user_avatar_uri: http://192.168.1.3:9000/health-avatar/
+  assets_uri: http://192.168.1.2:9000
+  product_image_uri: http://192.168.1.2:9000/health-img/
+  user_avatar_uri: http://192.168.1.2:9000/health-avatar/
